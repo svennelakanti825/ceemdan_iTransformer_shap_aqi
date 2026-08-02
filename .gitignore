@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Trained model artifacts / large binaries (provided separately)
+*.pt
+*.pth
+*.h5
+*.keras
+*.pkl
+*.joblib
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

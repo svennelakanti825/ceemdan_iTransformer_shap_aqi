@@ -1,0 +1,17 @@
+# Core scientific stack
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+
+# Models
+torch                 # iTransformer, LSTM, DLinear, NLinear
+xgboost               # gradient-boosted baseline
+tensorflow            # Keras LSTM baseline (notebook 01)
+
+# CEEMDAN decomposition
+EMD-signal            # provides PyEMD.CEEMDAN
+
+# Interpretability
+shap                  # KernelSHAP attribution

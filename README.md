@@ -1,7 +1,6 @@
 # Interpretable AQI forecasting with CEEMDAN + iTransformer + KernelSHAP
 
-Supporting implementation for the paper *"Interpretable temporal attribution for
-city-specific air-quality forecasting."* The framework decomposes each city's daily Air
+Supporting implementation for the paper *"Timescale decomposition of air-quality predictions identifies operational horizons for urban intervention"* The framework decomposes each city's daily Air
 Quality Index (AQI) into intrinsic temporal modes with **CEEMDAN**, forecasts with a single
 city-conditioned **iTransformer** over an 18-channel input (12 pollutants + 6 energy-ranked
 IMFs), and attributes each forecast jointly across pollutants and temporal modes with

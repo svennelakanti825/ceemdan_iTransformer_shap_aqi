@@ -8,8 +8,7 @@ IMFs), and attributes each forecast jointly across pollutants and temporal modes
 **KernelSHAP**. It is evaluated on five and a half years of daily observations from 20 Indian
 CPCB cities.
 
-This repository is provided as a **reference for peer reviewers**. The two notebooks are
-self-contained and reproduce every number, table, and figure in the paper.
+The two notebooks are self-contained and reproduce every number, table, and figure in the paper.
 
 ## Repository layout
 

@@ -1,0 +1,4 @@
+city,imf_share_pm25_pct,top3_pm25,imf_share_aqi_pct,top3_aqi
+Delhi,97.3,"IMF5+ (slow), IMF4, IMF2",11.0,"PM2.5, PM10, IMF5+ (slow)"
+Mumbai,88.7,"IMF5+ (slow), IMF4, PM10",9.3,"PM2.5, PM10, O3"
+Bengaluru,86.2,"IMF5+ (slow), PM10, IMF4",6.2,"PM2.5, PM10, O3"

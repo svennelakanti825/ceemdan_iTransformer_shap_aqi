@@ -1,0 +1,9 @@
+city,IMF_share_%,top3
+Delhi,24.0,"PM2.5(0.029), IMF5+ (slow)(0.012), PM10(0.011)"
+Mumbai,17.7,"PM2.5(0.012), PM10(0.007), IMF5+ (slow)(0.005)"
+Bengaluru,14.5,"PM2.5(0.007), IMF5+ (slow)(0.001), PM10(0.001)"
+Patna,20.0,"PM2.5(0.040), IMF5+ (slow)(0.010), PM10(0.001)"
+Gurugram,26.2,"PM2.5(0.037), IMF5+ (slow)(0.014), PM10(0.006)"
+Lucknow,22.5,"PM2.5(0.039), IMF5+ (slow)(0.010), IMF4(0.001)"
+Kolkata,26.6,"PM2.5(0.043), IMF5+ (slow)(0.022), PM10(0.012)"
+Jaipur,24.4,"PM2.5(0.009), IMF5+ (slow)(0.004), PM10(0.003)"

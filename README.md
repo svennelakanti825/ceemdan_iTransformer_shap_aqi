@@ -164,6 +164,9 @@ R1.2-4, R1.9-4) is a sub-item of that comment.
 
 ## Data
 
-CPCB India air-quality data (`city_day.csv`), the public "Air Quality Data in India" dataset (Kaggle), included under
-`data/`. Target: next-day `AQI`. Inputs: 12 pollutant concentrations (PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3,
+Source: the public "Air Quality Data in India" dataset on Kaggle, file `city_day.csv` (daily city-level pollutant
+concentrations and AQI from the Central Pollution Control Board (CPCB), India):
+https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india?select=city_day.csv
+
+The file used by all notebooks is included under `data/` so the notebooks run without a download. Target: next-day `AQI`. Inputs: 12 pollutant concentrations (PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3,
 Benzene, Toluene, Xylene).

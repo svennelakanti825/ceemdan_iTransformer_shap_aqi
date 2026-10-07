@@ -1,13 +1,12 @@
-# Interpretable AQI forecasting with causal CEEMDAN, iTransformer and KernelSHAP (Revision 1)
+# Interpretable AQI forecasting with causal CEEMDAN, iTransformer and KernelSHAP
 
-<!-- TODO before release: the revised manuscript title. -->
-Supporting implementation for the revised manuscript. The framework decomposes each city's daily Air Quality Index
+Implementation of the study. The framework decomposes each city's daily Air Quality Index
 (AQI) history into temporal channels with a **causal CEEMDAN** (each day decomposed from past data only), forecasts
 next-day AQI with one city-conditioned **iTransformer** over 17 inputs (12 pollutant concentrations and 5
 decomposition channels), and attributes each forecast across pollutants and decomposition channels with
 **KernelSHAP**. It is evaluated on daily CPCB data from 18 Indian cities with a common calendar split.
 
-The notebooks contain all code and all printed outputs of the runs that produced the revised results. The
+The notebooks contain all code and all printed outputs of the runs that produced the reported results. The
 `results/` folder holds every file those runs wrote, apart from trained models.
 
 ## Repository layout
@@ -54,11 +53,11 @@ Notebook 02 computes up to four of them (AQI, PM2.5 target, observed days only, 
 14 minutes per city at lookback 7 on a T4.
 
 **Comments in the notebooks.** Code comments, docstrings and markdown were edited for this repository (internal
-document references removed, descriptions updated to the revised pipeline). Code and outputs are exactly as run.
-Notebook 02 _r1's header explains how its Sections 18 and 19 were run. The decision tags in comments and printed
-output are explained below.
+document references removed). Code and outputs are exactly as run.
+Notebook 02 _r1's header explains how its Sections 18 and 19 were run. The tags in comments and printed output are
+explained below.
 
-## Pipeline (Revision 1)
+## Pipeline
 
 - **Data and windows.** Each city's series is placed on a continuous daily calendar. Input gaps of at most 3 days
   are filled from the last observed day, pollutant gaps from the city's own past readings only (no backward fill,
@@ -79,8 +78,8 @@ output are explained below.
 - **Model.** An inverted Transformer (one token per input channel) with one learned bias per city. The main lookback
   is chosen by validation R² only (7 days in both pipelines), and the city conditioning under a validation rule fixed
   in advance. The network settings (`d_model` 256, `ff_dim` 1024, 6 layers, 8 heads, dropout 0.1, at most 200 epochs,
-  patience 20, set in one cell of notebook 02 before training) were carried over unchanged from the original
-  configuration of the study and were not re-tuned on the revised split. The same settings are used for every seed,
+  patience 20, set in one cell of notebook 02 before training) were taken from an earlier configuration of
+  the study and were not tuned on this split. The same settings are used for every seed,
   lookback and both decomposition pipelines.
 - **Attribution.** KernelSHAP with one value per channel (all lookback days of a channel replaced together), 100 test
   windows and 50 background windows per city, seeded per city.
@@ -125,12 +124,13 @@ therefore depends on the CEEMDAN realisation.
   the cached per-window SHAP values in `shap/shap_cache_r1/`) and the `plots/` folder of each run.
 - `results/03_bg_check/`: the background-check caches and `bg_check_summary_lb7.csv`.
 
-## Decision tags in comments and output
+## Tags in comments and output
 
-Reviewer comments are numbered in the order of the review: R1.1 to R1.4 are Reviewer 1's numbered points and R1.5 to
-R1.18 the points of Reviewer 1's list (for example R1.9 calendar periods, R1.10 COVID-19 restrictions, R1.13
-attribution lookback, R1.15 all cities, R1.16 city bias). R3.1 to R3.6 are Reviewer 3's points. A suffix (R1.1-7,
-R1.2-4, R1.9-4) is a sub-item of that comment.
+Comments and printed output carry short tags that link each part of the code to the design question or check it
+addresses. Tags R1.1 to R1.18 and R3.1 to R3.6 name these questions, for example R1.1 causal decomposition, R1.2
+channel comparability across cities, R1.3 attribution robustness, R1.9 calendar periods, R1.10 COVID-19 restrictions,
+R1.13 attribution lookback, R1.15 all cities, R1.16 city bias, R3.3 window construction and R3.6 PM2.5 target. A
+suffix (R1.1-7, R1.2-4, R1.9-4) is a sub-item.
 
 | Tag | Meaning |
 |---|---|
@@ -159,7 +159,7 @@ R1.2-4, R1.9-4) is a sub-item of that comment.
 | I-14 | Boundary extension of the decomposition and its adoption rule |
 | I-15 | The main pipeline on the boundary-extended decomposition (notebook 02 _r1_ext) |
 | I-16 | SHAP background-sample check (notebook 03) |
-| step 6c to 6k | Implementation steps of the revision |
+| step 6c to 6k | Implementation steps |
 | run of record | The run of notebook 02 _r1 |
 
 ## Data
@@ -168,5 +168,5 @@ Source: the public "Air Quality Data in India" dataset on Kaggle, file `city_day
 concentrations and AQI from the Central Pollution Control Board (CPCB), India):
 https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india?select=city_day.csv
 
-The file used by all notebooks is included under `data/` so the notebooks run without a download. Target: next-day `AQI`. Inputs: 12 pollutant concentrations (PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3,
-Benzene, Toluene, Xylene).
+The file used by all notebooks is included under `data/` so the notebooks run without a download. Target: next-day
+`AQI`. Inputs: 12 pollutant concentrations (PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3, Benzene, Toluene, Xylene).

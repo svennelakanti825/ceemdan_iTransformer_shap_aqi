@@ -1,0 +1,4 @@
+city,spearman_rho,p_value,proposed_top5,ablation_top5
+Delhi,0.972,1.2868115751495013e-07,"PM2.5, PM10, NOx, NO, O3","PM2.5, PM10, O3, NOx, NO"
+Mumbai,0.972,1.3093296947121138e-07,"PM2.5, PM10, NOx, O3, NO","PM2.5, PM10, NOx, O3, CO"
+Bengaluru,0.972,1.2868115751495013e-07,"PM2.5, PM10, O3, NOx, CO","PM2.5, PM10, O3, CO, NO2"

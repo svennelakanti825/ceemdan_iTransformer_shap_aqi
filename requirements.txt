@@ -1,17 +1,21 @@
+# The notebooks were run on Google Colab (GPU runtime, torch 2.11.0+cu130). Colab provides the scientific stack,
+# torch and tensorflow. The notebooks install the two packages pinned below.
+
 # Core scientific stack
 numpy
 pandas
 scipy
 scikit-learn
 matplotlib
+seaborn
 
 # Models
 torch                 # iTransformer, LSTM, DLinear, NLinear
-xgboost               # gradient-boosted baseline
+xgboost               # gradient-boosted baseline (notebook 01)
 tensorflow            # Keras LSTM baseline (notebook 01)
 
 # CEEMDAN decomposition
-EMD-signal            # provides PyEMD.CEEMDAN
+EMD-signal==1.9.0     # provides PyEMD.CEEMDAN
 
 # Interpretability
-shap                  # KernelSHAP attribution
+shap==0.51.0          # KernelSHAP attribution

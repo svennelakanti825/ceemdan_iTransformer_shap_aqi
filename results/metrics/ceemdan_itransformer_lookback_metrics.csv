@@ -1,5 +1,0 @@
-model,lookback,n_cities,train_time_s,r2,rmse,mae,mape
-CEEMDAN+iTransformer-v2,7,20,723.4,0.828293,47.0558,29.66,27.9232
-CEEMDAN+iTransformer-v2,14,20,1160.12,0.864626,41.8276,26.5004,25.9503
-CEEMDAN+iTransformer-v2,21,20,757.22,0.821103,48.0271,28.9544,27.1205
-CEEMDAN+iTransformer-v2,30,20,955.66,0.869599,40.9887,23.9209,20.2759

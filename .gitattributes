@@ -1,0 +1,4 @@
+# Files whose SHA-256 is recorded over their exact bytes: keep them byte for byte on every operating system.
+analyses/e1_verification/c2_colab_run.ipynb -text
+analyses/e1_verification/outputs/era5_daily.csv -text
+analyses/e1_verification/outputs/era5_daily_pool.csv -text

@@ -1,0 +1,32 @@
+h1 2019: MAE RAW 26.14 RAW+MA 25.95 RAW+MA+OSC 26.23 DEC 26.95 RAW+MAL 26.19 RAW+MAL+OSC 26.14 | OSC share DEC 30.7%, RAW+MAL+OSC 12.8%
+h1 2020: MAE RAW 21.33 RAW+MA 21.15 RAW+MA+OSC 20.90 DEC 21.58 RAW+MAL 21.46 RAW+MAL+OSC 21.05 | OSC share DEC 27.6%, RAW+MAL+OSC 13.0%
+h1 2021: MAE RAW 21.90 RAW+MA 21.33 RAW+MA+OSC 21.18 DEC 21.68 RAW+MAL 21.24 RAW+MAL+OSC 21.01 | OSC share DEC 28.5%, RAW+MAL+OSC 12.2%
+h1 2022: MAE RAW 21.47 RAW+MA 21.15 RAW+MA+OSC 21.03 DEC 21.43 RAW+MAL 20.90 RAW+MAL+OSC 20.82 | OSC share DEC 33.3%, RAW+MAL+OSC 15.3%
+h1 2023: MAE RAW 20.61 RAW+MA 20.47 RAW+MA+OSC 20.70 DEC 21.04 RAW+MAL 20.31 RAW+MAL+OSC 20.36 | OSC share DEC 33.3%, RAW+MAL+OSC 15.2%
+h1 2024: MAE RAW 19.12 RAW+MA 19.14 RAW+MA+OSC 19.01 DEC 19.25 RAW+MAL 18.99 RAW+MAL+OSC 18.93 | OSC share DEC 30.7%, RAW+MAL+OSC 11.9%
+h1 2025: MAE RAW 19.03 RAW+MA 18.80 RAW+MA+OSC 18.89 DEC 19.19 RAW+MAL 18.62 RAW+MAL+OSC 18.85 | OSC share DEC 30.8%, RAW+MAL+OSC 9.4%
+h1 2023: OSC gain long history -0.23 vs short (3 y) 0.16 (thr 0.28)
+h1 2024: OSC gain long history 0.13 vs short (3 y) -0.34 (thr 0.28)
+h1 2025: OSC gain long history -0.09 vs short (3 y) 0.10 (thr 0.24)
+h1: per-city OSC gain % (all windows): Thiruvananthapuram -2.6, Visakhapatnam -2.4, Hyderabad -2.3, Jaipur -1.4, Amaravati -1.2, Amritsar -1.1, Delhi -0.2, Mumbai 0.1, Gurugram 0.7, Patna 0.9, Bengaluru 1.0, Kolkata 1.2, Lucknow 1.2, Chennai 3.2
+h1: per-city OSC gain % (gap-free): Patna -2.0, Visakhapatnam -1.8, Amaravati -1.3, Delhi -0.3, Amritsar -0.1, Kolkata 0.0, Gurugram 0.1, Jaipur 0.5, Lucknow 0.6, Hyderabad 0.8, Thiruvananthapuram 1.5, Bengaluru 1.7, Chennai 2.3, Mumbai 2.4
+h1: P1 False 0/7 [2019 -0.27/0.54, 2020 +0.25/0.35, 2021 +0.15/0.22, 2022 +0.12/0.25, 2023 -0.23/0.19, 2024 +0.13/0.28, 2025 -0.09/0.24]
+h1: P1b (beyond 365-d memory) False 0/7 [2019 +0.04/0.49, 2020 +0.40/0.58, 2021 +0.24/0.35, 2022 +0.08/0.23, 2023 -0.04/0.23, 2024 +0.05/0.09, 2025 -0.23/0.18]
+h1: P2 False (halves rho 0.51 (p 0.064, n 14), ICC 0.07) | P3 False (1/3)
+h1: gap-free P1 False 2/7 [2019 -0.41/0.45, 2020 +0.44/0.32, 2021 +0.62/0.32, 2022 -0.13/0.36, 2023 -0.02/0.14, 2024 +0.10/0.11, 2025 +0.11/0.17] | gap-free P2 False (halves rho 0.34 (p 0.233, n 14), ICC -0.06)
+h7 2019: MAE RAW 39.05 RAW+MA 38.22 RAW+MA+OSC 38.48 DEC 38.86 RAW+MAL 38.47 RAW+MAL+OSC 38.53 | OSC share DEC 29.5%, RAW+MAL+OSC 19.1%
+h7 2020: MAE RAW 32.04 RAW+MA 31.17 RAW+MA+OSC 31.76 DEC 31.68 RAW+MAL 31.26 RAW+MAL+OSC 31.64 | OSC share DEC 17.1%, RAW+MAL+OSC 11.1%
+h7 2021: MAE RAW 34.14 RAW+MA 33.24 RAW+MA+OSC 33.63 DEC 33.90 RAW+MAL 32.89 RAW+MAL+OSC 33.08 | OSC share DEC 22.8%, RAW+MAL+OSC 18.2%
+h7 2022: MAE RAW 33.06 RAW+MA 32.49 RAW+MA+OSC 32.96 DEC 32.98 RAW+MAL 32.01 RAW+MAL+OSC 32.81 | OSC share DEC 27.5%, RAW+MAL+OSC 18.5%
+h7 2023: MAE RAW 33.33 RAW+MA 32.74 RAW+MA+OSC 32.91 DEC 33.32 RAW+MAL 31.83 RAW+MAL+OSC 32.18 | OSC share DEC 22.9%, RAW+MAL+OSC 14.0%
+h7 2024: MAE RAW 28.58 RAW+MA 28.02 RAW+MA+OSC 28.02 DEC 28.20 RAW+MAL 27.08 RAW+MAL+OSC 27.15 | OSC share DEC 16.7%, RAW+MAL+OSC 13.9%
+h7 2025: MAE RAW 30.22 RAW+MA 29.35 RAW+MA+OSC 29.07 DEC 29.23 RAW+MAL 27.81 RAW+MAL+OSC 28.22 | OSC share DEC 18.4%, RAW+MAL+OSC 11.0%
+h7 2023: OSC gain long history -0.18 vs short (3 y) -0.14 (thr 0.14)
+h7 2024: OSC gain long history 0.00 vs short (3 y) -0.32 (thr 0.28)
+h7 2025: OSC gain long history 0.28 vs short (3 y) -0.10 (thr 0.25)
+h7: per-city OSC gain % (all windows): Thiruvananthapuram -5.0, Amaravati -3.5, Visakhapatnam -1.8, Gurugram -1.6, Amritsar -1.5, Jaipur -1.2, Kolkata -1.2, Lucknow -0.6, Mumbai -0.1, Bengaluru 0.4, Patna 1.0, Chennai 1.2, Delhi 1.6, Hyderabad 1.6
+h7: per-city OSC gain % (gap-free): Amritsar -3.5, Amaravati -3.2, Jaipur -1.1, Mumbai -0.9, Kolkata 0.7, Gurugram 0.8, Lucknow 1.0, Delhi 1.6, Hyderabad 1.7, Thiruvananthapuram 1.8, Bengaluru 1.9, Chennai 2.7, Visakhapatnam 2.9, Patna 3.7
+h7: P1 False 0/7 [2019 -0.27/0.56, 2020 -0.59/0.51, 2021 -0.40/0.58, 2022 -0.47/0.42, 2023 -0.18/0.18, 2024 +0.00/0.46, 2025 +0.28/0.32]
+h7: P1b (beyond 365-d memory) False 0/7 [2019 -0.06/0.76, 2020 -0.39/1.21, 2021 -0.19/0.17, 2022 -0.80/0.84, 2023 -0.34/0.26, 2024 -0.08/0.17, 2025 -0.41/0.32]
+h7: P2 False (halves rho 0.47 (p 0.091, n 14), ICC 0.17) | P3 True (2/3)
+h7: gap-free P1 False 2/7 [2019 +0.63/0.46, 2020 +1.18/1.13, 2021 -0.23/0.27, 2022 -0.24/0.19, 2023 -0.00/0.47, 2024 +0.03/0.57, 2025 +0.23/0.23] | gap-free P2 False (halves rho 0.41 (p 0.149, n 14), ICC 0.08)

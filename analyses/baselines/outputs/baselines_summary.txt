@@ -1,0 +1,22 @@
+design SHA-256 a288f6fd0782d5d0780c6ba0796fb9da210812c1513c4e2a1189c82b368f5489
+windows: 6171 test windows rebuilt and identical to the stored predictions (max |y| gap 5.49e-05)
+origin days filled from the past: 59; climatology fallbacks to the city mean: 138
+[all] n=6171
+  Persistence  R2 0.7898  RMSE 51.616  MAE 23.857  MAPE 16.967
+  Climatology  R2 0.2121  RMSE 99.938  MAE 64.924  MAPE 60.563
+  Main model   R2 0.8210 ± 0.0139  RMSE 47.6012 ± 1.8675  MAE 28.7070 ± 2.6213  MAPE 27.3850 ± 4.2445
+  MAE skill against Persistence: -0.2033 ± 0.1099 (seeds -0.3087 to -0.0281)
+  MAE skill against Climatology: 0.5578 ± 0.0404 (seeds 0.5191 to 0.6222)
+[pre-lockdown] n=4502
+  Persistence  R2 0.7823  RMSE 58.718  MAE 27.889  MAPE 18.130
+  Climatology  R2 0.3561  RMSE 100.981  MAE 63.576  MAPE 52.673
+  Main model   R2 0.8461 ± 0.0075  RMSE 49.3514 ± 1.2132  MAE 29.2227 ± 2.1131  MAPE 24.7417 ± 3.3626
+  MAE skill against Persistence: -0.0478 ± 0.0758 (seeds -0.1209 to 0.0668)
+  MAE skill against Climatology: 0.5404 ± 0.0332 (seeds 0.5083 to 0.5906)
+[lockdown/Unlock] n=1669
+  Persistence  R2 0.6509  RMSE 23.467  MAE 12.983  MAPE 13.830
+  Climatology  R2 -4.9737  RMSE 97.070  MAE 68.560  MAPE 81.846
+  Main model   R2 -0.1509 ± 0.2588  RMSE 42.3752 ± 4.9549  MAE 27.3158 ± 4.0710  MAPE 34.5150 ± 6.7013
+  MAE skill against Persistence: -1.1040 ± 0.3136 (seeds -1.3972 to -0.5781)
+  MAE skill against Climatology: 0.6016 ± 0.0594 (seeds 0.5461 to 0.7012)
+cities where the main model (seed-mean MAE) beats persistence: 1 of 18; climatology: 18 of 18

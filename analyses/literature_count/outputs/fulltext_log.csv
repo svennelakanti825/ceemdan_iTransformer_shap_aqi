@@ -1,0 +1,162 @@
+rank,rid,route,chars,note
+2,R0442,html https://www.ncbi.nlm.nih.gov/pmc/articles/10264166,60554,"https://pmc.ncbi.nlm.nih.gov/articles/PMC10264166/pdf/main.pdf: html text 82 chars, no full text"
+4,R0004,html https://www.ncbi.nlm.nih.gov/pmc/articles/9778395,47351,https://www.mdpi.com/1099-4300/24/12/1803/pdf?version=1671161497: 403; https://doi.org/10.3390/e24121803: 403
+10,R0045,pdf https://drpress.org/ojs/index.php/jid/article/download/30646/30026,29444,
+12,R0227,pdf http://scientiairanica.sharif.edu/article_21538_c65efd89bd3fe7fc8ceb9b9cf639599a.pdf,47049,
+18,R0151,html https://www.ncbi.nlm.nih.gov/pmc/articles/11372107,68446,"https://www.nature.com/articles/s41598-024-67626-1.pdf: html text 310 chars, no full text; https://pmc.ncbi.nlm.nih.gov/articles/PMC11372107/pdf/41598_2024_Article_67626.pdf: html text 82 chars, no full text; https://doi.org/10.1038/s41598-024-67626-1: html text 310 chars, no full text"
+22,R0030,html https://www.ncbi.nlm.nih.gov/pmc/articles/11144699,38624,"https://pmc.ncbi.nlm.nih.gov/articles/PMC11144699/pdf/41598_2024_Article_63620.pdf: html text 82 chars, no full text; https://doi.org/10.1038/s41598-024-63620-9: html text 310 chars, no full text"
+27,R0034,html https://www.ncbi.nlm.nih.gov/pmc/articles/6164777,50490,https://doi.org/10.3390/ijerph15091941: 403
+29,R0010,pdf https://ieeexplore.ieee.org/ielx7/5971803/10225032/10225280.pdf,49311,
+30,R0221,html https://www.ncbi.nlm.nih.gov/pmc/articles/7545461,50718,https://downloads.hindawi.com/journals/cin/2020/8834699.pdf: 403; https://doi.org/10.1155/2020/8834699: 403
+31,R0028,pdf http://www.pjoes.com/pdf-172756-96936?filename=Hybrid Climate.pdf,60614,
+35,R0426,pdf https://pure.ulster.ac.uk/ws/files/135470300/Features_Inspired_PM2_5_Prediction_A_Belfast_City_Case_Study_Paper.pdf,20619,
+41,R0234,html https://doi.org/10.1371/journal.pone.0299603,43931,"https://pmc.ncbi.nlm.nih.gov/articles/PMC11086834/pdf/pone.0299603.pdf: html text 82 chars, no full text"
+42,R0042,pdf https://researchmgt.monash.edu/ws/files/435353999/411578284_oa.pdf,54062,"https://www.nature.com/articles/s41598-022-21769-1.pdf: html text 310 chars, no full text"
+45,R0294,pdf https://www.frontiersin.org/articles/10.3389/fenvs.2022.941405/pdf,47435,
+46,R0311,html https://www.ncbi.nlm.nih.gov/pmc/articles/9398715,47810,https://downloads.hindawi.com/journals/cin/2022/7207477.pdf: 403; https://doi.org/10.1155/2022/7207477: 403
+47,R0336,pdf https://pure.ulster.ac.uk/ws/files/127649800/journal.pone.0277589.pdf,79375,
+48,R0340,pdf http://journals.uran.ua/eejet/article/download/259323/256787,43315,
+50,R0465,pdf https://arxiv.org/pdf/2211.15095,38305,
+52,R0021,pdf https://ieeexplore.ieee.org/ielx7/6287639/8600701/08853331.pdf,39088,
+55,R0079,europepmc PMC5551202,55177,"https://www.mdpi.com/1660-4601/14/7/764/pdf?version=1500357429: 403; https://doi.org/10.3390/ijerph14070764: 403; https://www.ncbi.nlm.nih.gov/pmc/articles/5551202: html text 166 chars, no full text"
+61,R0087,html https://www.ncbi.nlm.nih.gov/pmc/articles/10202073,46474,"https://link.springer.com/content/pdf/10.1007/s11356-023-27630-w.pdf: html text 310 chars, no full text; https://pmc.ncbi.nlm.nih.gov/articles/PMC10202073/pdf/11356_2023_Article_27630.pdf: html text 82 chars, no full text; https://doi.org/10.1007/s11356-023-27630-w: html text 310 chars, no full text"
+62,R0011,pdf https://www.researchsquare.com/article/rs-357905/latest.pdf,59006,
+65,R0484,pdf https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0254179&type=printable,49856,
+66,R0270,html https://www.ncbi.nlm.nih.gov/pmc/articles/12144194,68967,"https://www.nature.com/articles/s41598-025-03780-4.pdf: html text 310 chars, no full text; https://doi.org/10.1038/s41598-025-03780-4: html text 310 chars, no full text"
+68,R0335,pdf https://pure.ulster.ac.uk/ws/files/212255344/Two-Stage_Feature_Engineering_to_Predict_Air_Pollutants_in_Urban_Areas.pdf,65933,
+70,R0078,pdf https://arxiv.org/pdf/2404.05482,26671,
+72,R0037,html https://www.ncbi.nlm.nih.gov/pmc/articles/7908400,51601,https://www.mdpi.com/1660-4601/18/3/1024/pdf?version=1611647730: 403; https://doi.org/10.3390/ijerph18031024: 403
+73,R0175,pdf https://ieeexplore.ieee.org/ielx7/6287639/6514899/10296919.pdf,72989,
+74,R0051,html https://www.ncbi.nlm.nih.gov/pmc/articles/10291940,49301,"https://pmc.ncbi.nlm.nih.gov/articles/PMC10291940/pdf/CJAS_50_2064976.pdf: html text 82 chars, no full text"
+76,R0290,pdf https://www.physicsjournal.in/archives/2023/vol5issue1/PartA/4-1-20-847.pdf,19946,
+85,R0466,html https://www.ncbi.nlm.nih.gov/pmc/articles/8956459,77250,"https://link.springer.com/content/pdf/10.1007/s00477-022-02202-5.pdf: html text 310 chars, no full text; https://doi.org/10.1007/s00477-022-02202-5: html text 310 chars, no full text"
+87,R0016,europepmc PMC9522547,44851,"https://link.springer.com/content/pdf/10.1007/s11869-022-01252-6.pdf: html text 310 chars, no full text; https://doi.org/10.1007/s11869-022-01252-6: html text 310 chars, no full text; https://www.ncbi.nlm.nih.gov/pmc/articles/9522547: html text 166 chars, no full text"
+89,R0119,pdf https://www.pjoes.com/pdf-187607-115598?filename=Meta_heuristics time.pdf,50060,
+93,R0235,europepmc PMC9402967,59174,"https://www.nature.com/articles/s41598-022-17754-3.pdf: html text 310 chars, no full text; https://doi.org/10.1038/s41598-022-17754-3: html text 310 chars, no full text; https://www.ncbi.nlm.nih.gov/pmc/articles/9402967: html text 166 chars, no full text; https://doaj.org/article/bb781862066442fba72e01cc569c06d0: 403"
+95,R0107,pdf http://www.ijmlc.org/vol10/997-T1056.pdf,27504,
+96,R0313,pdf http://www.aimspress.com/aimspress-data/aimses/2025/6/PDF/Environ-12-06-045.pdf,75966,
+98,R0464,europepmc PMC9737528,62456,"https://www.mdpi.com/1660-4601/19/23/16119/pdf?version=1670374178: 403; https://doi.org/10.3390/ijerph192316119: 403; https://www.ncbi.nlm.nih.gov/pmc/articles/9737528: html text 166 chars, no full text"
+100,R0035,pdf https://www.frontiersin.org/journals/environmental-science/articles/10.3389/fenvs.2025.1653446/pdf,71520,
+102,R0180,html https://www.ncbi.nlm.nih.gov/pmc/articles/10076262,45028,"https://www.nature.com/articles/s41598-023-32775-2.pdf: html text 310 chars, no full text; https://pmc.ncbi.nlm.nih.gov/articles/PMC10076262/pdf/41598_2023_Article_32775.pdf: html text 82 chars, no full text; https://doi.org/10.1038/s41598-023-32775-2: html text 310 chars, no full text"
+103,R0025,html https://www.ncbi.nlm.nih.gov/pmc/articles/11675597,63278,"https://www.mdpi.com/1099-4300/26/12/1062/pdf?version=1733485143: 403; https://pmc.ncbi.nlm.nih.gov/articles/PMC11675597/pdf/entropy-26-01062.pdf: html text 82 chars, no full text; https://doi.org/10.3390/e26121062: 403"
+105,R0512,pdf http://www.witpress.com/Secure/ejournals/papers/EI030205f.pdf,29928,
+108,R0199,pdf https://francis-press.com/uploads/papers/QrHnlQJz1FWduqK3SiF6fi8n4g3zzuzazRFcpFAi.pdf,18687,
+111,R0242,html https://www.ncbi.nlm.nih.gov/pmc/articles/10470446,44269,http://dx.doi.org/10.7717/peerj.15931: 403
+115,R0254,html https://www.ncbi.nlm.nih.gov/pmc/articles/11276040,96049,"https://pmc.ncbi.nlm.nih.gov/articles/PMC11276040/pdf/entropy-26-00534.pdf: html text 82 chars, no full text; https://doi.org/10.3390/e26070534: 403"
+116,R0050,pdf http://thesai.org/Downloads/Volume16No7/Paper_85-Air_Quality_Prediction_Based_on_VMD_CNN_BiLSTM_Attention.pdf,48478,
+118,R0299,pdf http://www.eeer.org/upload/eer-2020-469.pdf,35518,
+120,R0113,pdf https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0330465&type=printable,96483,
+121,R0458,pdf https://ieeexplore.ieee.org/ielx7/6287639/6514899/10247539.pdf,75727,
+123,R0245,html https://www.ncbi.nlm.nih.gov/pmc/articles/8216800,59306,https://onlinelibrary.wiley.com/doi/pdfdirect/10.1155/2021/8810046: 403; https://doi.org/10.1155/2021/8810046: 403
+125,R0057,html https://doi.org/10.3934/mbe.2021104,17531,
+130,R0110,pdf https://wepub.org/index.php/TEEES/article/download/3898/4267,21231,
+131,R0147,html https://www.ncbi.nlm.nih.gov/pmc/articles/12031554,82496,https://doi.org/10.3390/toxics13040254: 403
+133,R0226,html https://www.ncbi.nlm.nih.gov/pmc/articles/10696222,85836,"https://pmc.ncbi.nlm.nih.gov/articles/PMC10696222/pdf/main.pdf: html text 82 chars, no full text; https://doi.org/10.1016/j.heliyon.2023.e22569: html text 11 chars, no full text"
+134,R0093,pdf https://www.pjoes.com/pdf-188850-120778?filename=A-Novel-Hybrid-Forecastin.pdf,49637,
+140,R0289,html https://www.ncbi.nlm.nih.gov/pmc/articles/6801950,70168,https://www.mdpi.com/1660-4601/16/19/3505/pdf?version=1569222391: 403; https://doi.org/10.3390/ijerph16193505: 403
+142,R0127,html https://doi.org/10.4491/eer.2025.121,51484,
+143,R0171,html https://www.ncbi.nlm.nih.gov/pmc/articles/8049823,54258,https://downloads.hindawi.com/journals/cin/2021/6631614.pdf: 403; https://doi.org/10.1155/2021/6631614: 403
+144,R0114,pdf https://journals.riverpublishers.com/index.php/SPEE/article/download/19327/15321,33402,
+81,R0092,not obtained,0,https://www.mdpi.com/2076-3417/13/5/2796/pdf?version=1677049360: 403; https://doi.org/10.3390/app13052796: 403; https://doaj.org/article/7d9700ce16614896ae27a4fa25efadbe: 403
+82,R0053,not obtained,0,"https://ieeexplore.ieee.org/ielx7/6287639/6514899/09906077.pdf: 404; https://doi.org/10.1109/access.2022.3210974: html text 0 chars, no full text; https://doaj.org/article/9ef1be25f52f478c963e487b573f827f: 403"
+83,R0206,not obtained,0,https://www.mdpi.com/2078-2489/12/5/210/pdf?version=1621074445: 403; https://doi.org/10.3390/info12050210: 403; https://doaj.org/article/3c21bd36e91f4f838394753694f1417c: 403
+84,R0231,not obtained,0,https://rmets.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/met.1866: 403; https://doi.org/10.1002/met.1866: 403
+86,R0370,not obtained,0,https://dl.acm.org/doi/pdf/10.1145/3768184.3768250: 403; https://doi.org/10.1145/3768184.3768250: 403
+88,R0197,not obtained,0,https://www.mdpi.com/2071-1050/15/22/16064/pdf?version=1700225892: 403; https://doi.org/10.3390/su152216064: 403
+90,R0236,not obtained,0,https://www.mdpi.com/2073-4433/16/8/965/pdf?version=1755226257: 403; https://doi.org/10.3390/atmos16080965: 403; https://doaj.org/article/de76f37a929d488a899fe56db05166db: 403
+91,R0060,not obtained,0,https://www.mdpi.com/2071-1050/14/23/16128/pdf?version=1670211397: 403; https://doi.org/10.3390/su142316128: 403; https://doaj.org/article/88dc605999634ddb80c836478f2da845: 403
+92,R0176,not obtained,0,https://doi.org/10.3390/rs17142530: 403; https://doaj.org/article/cff791ffde4f447b8fda111d66fff4db: 403
+94,R0014,not obtained,0,https://www.mdpi.com/2071-1050/14/19/12182/pdf?version=1664523914: 403; https://doi.org/10.3390/su141912182: 403
+97,R0491,not obtained,0,"https://iopscience.iop.org/article/10.1088/1742-6596/1748/3/032033/pdf: html text 392 chars, no full text; https://doi.org/10.1088/1742-6596/1748/3/032033: html text 392 chars, no full text"
+99,R0041,not obtained,0,https://www.mdpi.com/2220-9964/13/3/79/pdf?version=1709343743: 403; https://doi.org/10.3390/ijgi13030079: 403; https://doaj.org/article/d6f787650ec448a39efc878ad264e840: 403
+101,R0187,not obtained,0,https://downloads.hindawi.com/journals/ijis/2023/9407104.pdf: 403; https://doi.org/10.1155/2023/9407104: 403
+104,R0380,not obtained,0,"https://doi.org/10.1016/j.ecoenv.2025.118442: html text 11 chars, no full text; https://doaj.org/article/9ac3a09b865a40a2bf38de9e9e05a327: 403; elsevier API HTTP 403"
+106,R0062,not obtained,0,https://www.mdpi.com/2073-4433/10/4/223/pdf?version=1556106332: 403; https://doi.org/10.3390/atmos10040223: 403; https://doaj.org/article/a194cbbd208e4931922842dc573bbc83: 403
+107,R0248,not obtained,0,https://www.mdpi.com/2073-4433/14/3/467/pdf?version=1677490398: 403; https://doi.org/10.3390/atmos14030467: 403; https://doaj.org/article/80cf09fecd244d25ad873fd6b1697c2d: 403
+109,R0006,not obtained,0,https://www.mdpi.com/2227-9717/13/8/2482/pdf?version=1754529097: 403; https://doi.org/10.3390/pr13082482: 403
+110,R0307,not obtained,0,https://www.mdpi.com/2571-9394/7/2/15/pdf?version=1743653727: 403; https://doi.org/10.3390/forecast7020015: 403; https://doaj.org/article/0e076eccde6c435ea7b5a7f205c6956c: 403
+112,R0131,not obtained,0,https://www.mdpi.com/2073-4433/12/11/1452/pdf?version=1636433016: 403; https://doi.org/10.3390/atmos12111452: 403; https://doaj.org/article/236884f9cfc947ae826f6af5349f0bbc: 403
+113,R0288,not obtained,0,https://stats.mosuljournals.com/article_169962_28382b353919b911e70aa83702bb0caa.pdf: URLError; https://doi.org/10.33899/iqjoss.2021.169962: URLError
+114,R0056,not obtained,0,"https://doi.org/10.1016/j.eswa.2023.123008: html text 11 chars, no full text; elsevier API HTTP 403"
+117,R0031,not obtained,0,https://www.mdpi.com/2073-4433/13/9/1451/pdf?version=1662612462: 403; https://doi.org/10.3390/atmos13091451: 403; https://doaj.org/article/9b7499cc15774d89abcc3e84b9c05b29: 403
+119,R0510,not obtained,0,"https://iopscience.iop.org/article/10.1088/1755-1315/448/1/012029/pdf: html text 392 chars, no full text; https://doi.org/10.1088/1755-1315/448/1/012029: html text 392 chars, no full text"
+122,R0106,not obtained,0,"https://doi.org/10.1109/access.2018.2820164: html text 0 chars, no full text; https://doaj.org/article/f4cfc33278cd4262bdc72a074ea550e6: 403"
+124,R0201,not obtained,0,"https://link.springer.com/content/pdf/10.1007%2Fs00521-018-3345-0.pdf: html text 310 chars, no full text; https://doi.org/10.1007/s00521-018-3345-0: html text 310 chars, no full text; https://epub.jku.at/doi/10.1007/s00521-018-3345-0: html text 2155 chars, no full text"
+126,R0439,not obtained,0,https://dl.acm.org/doi/pdf/10.1145/3650215.3650389: 403; https://doi.org/10.1145/3650215.3650389: 403
+127,R0200,not obtained,0,https://www.mdpi.com/2227-7390/8/2/214/pdf?version=1581644597: 403; https://doi.org/10.3390/math8020214: 403; https://doaj.org/article/851f3e12184545a28071f6df23611a26: 403
+128,R0308,not obtained,0,https://doi.org/10.1080/08839514.2022.2112545: 403; https://doi.org/10.60692/cxvtz-by052: URLError; https://doi.org/10.60692/tf2f7-6p775: URLError
+129,R0139,not obtained,0,"https://doi.org/10.1016/j.jclepro.2023.139449: html text 11 chars, no full text; elsevier API HTTP 403"
+132,R0061,not obtained,0,https://doi.org/10.2139/ssrn.4123155: 403; elsevier API HTTP 403
+135,R0018,not obtained,0,https://www.mdpi.com/2071-1050/14/20/13191/pdf?version=1666686262: 403; https://doi.org/10.3390/su142013191: 403; https://doaj.org/article/0f1a5a33876d45b5bb773bf8864be45c: 403
+136,R0094,not obtained,0,https://downloads.hindawi.com/journals/ddns/2021/5577041.pdf: 403; https://doi.org/10.1155/2021/5577041: 403; https://doaj.org/article/46603b7130834eebaf21761599319ddb: 403
+137,R0211,not obtained,0,https://www.mdpi.com/2071-1050/17/2/616/pdf?version=1736910847: 403; https://doi.org/10.3390/su17020616: 403
+138,R0263,not obtained,0,https://www.mdpi.com/2076-3417/11/15/6915/pdf?version=1628002237: 403; https://doi.org/10.3390/app11156915: 403; https://doaj.org/article/55f5a9e45b984fcab78821ac53e9328b: 403
+139,R0126,not obtained,0,"https://doi.org/10.1016/j.dsm.2023.02.002: html text 11 chars, no full text; https://doaj.org/article/3bc837445d0f421fa4e9d1249d342d81: 403; elsevier API HTTP 403"
+141,R0337,not obtained,0,https://doi.org/10.3390/su17062546: 403
+145,R0440,not obtained,0,https://dl.acm.org/doi/pdf/10.1145/3660395.3660492: 403; https://doi.org/10.1145/3660395.3660492: 403
+146,R0181,pdf https://ieeexplore.ieee.org/ielx7/6287639/9668973/09691315.pdf,46869,
+147,R0202,html https://www.ncbi.nlm.nih.gov/pmc/articles/9864912,65956,"https://www.mdpi.com/2305-6304/11/1/51/pdf?version=1674027716: 403; https://pmc.ncbi.nlm.nih.gov/articles/PMC9864912/pdf/toxics-11-00051.pdf: html text 82 chars, no full text; https://doi.org/10.3390/toxics11010051: 403"
+148,R0055,not obtained,0,https://www.mdpi.com/2073-4433/16/12/1324/pdf?version=1763952842: 403; https://doi.org/10.3390/atmos16121324: 403; https://doaj.org/article/b3b151ee822d470bb3201c31b0251447: 403
+149,R0166,not obtained,0,"https://doi.org/10.1016/j.eti.2025.104717: html text 11 chars, no full text; elsevier API HTTP 403"
+150,R0081,not obtained,0,https://www.mdpi.com/2073-4433/12/1/64/pdf?version=1609754813: 403; https://doi.org/10.3390/atmos12010064: 403; https://doaj.org/article/86c990512f2544dbaa4c0120f61b0e56: 403
+151,R0269,not obtained,0,"https://doi.org/10.1109/access.2025.3570526: html text 0 chars, no full text; https://pure.ulster.ac.uk/en/publications/4fd85ada-e06c-4f80-b61a-bb24897aca54: html text 13769 chars, no full text; https://doaj.org/article/6105d0a143dc4bd694b9a03335fdf9d9: 403; https://pure.qub.ac.uk/en/publications/e8b54055-49d9-4036-a749-0b3bb4fde22c: html text 13277 chars, no full text"
+152,R0184,not obtained,0,https://www.mdpi.com/2227-7390/10/19/3566/pdf?version=1665478989: 403; https://doi.org/10.3390/math10193566: 403; https://doaj.org/article/ab2f4128d33d4f91aa29ed657e6a0ecd: 403
+153,R0020,html https://www.ncbi.nlm.nih.gov/pmc/articles/11294351,45517,"https://pmc.ncbi.nlm.nih.gov/articles/PMC11294351/pdf/41598_2024_Article_68874.pdf: html text 82 chars, no full text; https://doi.org/10.1038/s41598-024-68874-x: html text 310 chars, no full text"
+154,R0167,not obtained,0,https://www.mdpi.com/2071-1050/15/13/10660/pdf?version=1688633358: 403; https://doi.org/10.3390/su151310660: 403
+155,R0178,not obtained,0,"https://doi.org/10.1016/j.scs.2023.104486: html text 11 chars, no full text; elsevier API HTTP 403"
+156,R0149,html https://www.ncbi.nlm.nih.gov/pmc/articles/11297238,35758,"https://pmc.ncbi.nlm.nih.gov/articles/PMC11297238/pdf/41598_2024_Article_68972.pdf: html text 82 chars, no full text; https://doi.org/10.1038/s41598-024-68972-w: html text 310 chars, no full text"
+157,R0267,not obtained,0,"https://doi.org/10.5281/zenodo.6957826: html text 3659 chars, no full text; https://doi.org/10.5281/zenodo.6957827: html text 3659 chars, no full text"
+158,R0215,not obtained,0,"https://doi.org/10.1016/j.envsoft.2023.105780: html text 11 chars, no full text; elsevier API HTTP 403"
+159,R0497,not obtained,0,"https://iopscience.iop.org/article/10.1088/1742-6596/1624/2/022015/pdf: html text 392 chars, no full text; https://doi.org/10.1088/1742-6596/1624/2/022015: html text 392 chars, no full text"
+160,R0054,not obtained,0,"https://doi.org/10.1016/j.scitotenv.2022.153276: html text 11 chars, no full text; https://doi.org/10.2139/ssrn.3978609: 403; elsevier API HTTP 403"
+161,R0150,not obtained,0,"https://doi.org/10.1016/j.ecoenv.2025.119209: html text 11 chars, no full text; elsevier API HTTP 403"
+1,R0558,manual download by the first author,42410,https://aaqr.org/articles/aaqr-14-03-oa-0046.pdf: 403; https://doi.org/10.4209/aaqr.2014.03.0046: 403
+3,R0303,manual download by the first author,69214,https://doi.org/10.3390/urbansci9050138: 403; https://doaj.org/article/137dd764d8ec4cecb09810e5572f191e: 403
+5,R0513,manual download by the first author,17967,"https://iopscience.iop.org/article/10.1088/1757-899X/768/7/072059/pdf: html text 392 chars, no full text; https://doi.org/10.1088/1757-899x/768/7/072059: html text 392 chars, no full text"
+6,R0455,manual download by the first author,19948,"https://iopscience.iop.org/article/10.1088/1742-6596/2555/1/012009/pdf: html text 392 chars, no full text; https://doi.org/10.1088/1742-6596/2555/1/012009: html text 392 chars, no full text"
+7,R0218,manual download by the first author,26903,"https://ijgem.org/index.php/ojs/article/download/51/51: 404; https://doi.org/10.62051/ijgem.v6n3.25: html text 3890 chars, no full text"
+8,R0189,manual download by the first author,113127,"https://doi.org/10.1016/j.eswa.2024.125128: html text 11 chars, no full text"
+9,R0091,manual download by the first author,35629,https://jpoll.ut.ac.ir/article_79309_d58a12a65b4335df8f94f6c29a043d3d.pdf: URLError
+11,R0292,manual download by the first author,54693,"https://www.econstor.eu/bitstream/10419/327206/1/S2444569X22001299.pdf: html text 1437 chars, no full text; https://doi.org/10.1016/j.jik.2022.100294: html text 11 chars, no full text; https://hdl.handle.net/10419/327206: html text 1437 chars, no full text; https://doaj.org/article/f87d3b4b0c5748a490676c2c3994ab7e: 403"
+13,R0077,manual download by the first author,54717,https://www.mdpi.com/2073-4433/16/12/1334/pdf?version=1764085799: 403; https://doi.org/10.3390/atmos16121334: 403; https://doaj.org/article/5471af8276f942d6bf32419417c6139d: 403
+14,R0316,manual download by the first author,40936,https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/met.2115: 403; https://doi.org/10.1002/met.2115: 403; https://doaj.org/article/35f5e3b1ba054293af0aa75d2e36fb21: 403
+15,R0111,manual download by the first author,36976,"https://www.sciencedirect.com/science/article/pii/S0160412022003002/pdf: 403; https://doi.org/10.1016/j.envint.2022.107373: html text 11 chars, no full text; https://doi.org/10.2139/ssrn.4079735: 403; https://doaj.org/article/608771b8ea9d4871a0fb00697ca81b0f: 403"
+16,R0012,manual download by the first author,46803,https://www.tandfonline.com/doi/pdf/10.1080/10962247.2017.1292968?needAccess=true&role=button: 403; https://doi.org/10.1080/10962247.2017.1292968: 403
+17,R0255,manual download by the first author,62466,https://www.mdpi.com/2079-9292/13/21/4242/pdf?version=1730213598: 403; https://doi.org/10.3390/electronics13214242: 403
+19,R0007,manual download by the first author,66288,https://www.mdpi.com/2073-4433/16/9/1095/pdf?version=1758190193: 403; https://doi.org/10.3390/atmos16091095: 403; https://doaj.org/article/9ce78687caab42e28d5ae9a83c2a8a5c: 403
+20,R0008,not obtained,0,https://www.sciencedirect.com/science/article/pii/S0048969719359297: 403; elsevier API HTTP 403
+21,R0073,manual download by the first author,51531,https://www.mdpi.com/2073-4433/14/7/1106/pdf?version=1688366757: 403; https://doi.org/10.3390/atmos14071106: 403; https://doaj.org/article/c3b0bd287c314fa1919a161630153616: 403
+23,R0165,manual download by the first author,57713,"https://link.springer.com/content/pdf/10.1007/s44273-025-00067-y.pdf: html text 310 chars, no full text; https://doi.org/10.1007/s44273-025-00067-y: html text 310 chars, no full text; https://doaj.org/article/b06eea5788454ef583f42836ff31b599: 403"
+24,R0431,not obtained,0,https://iris.uniroma1.it/bitstream/11573/1702829/2/ManganelliConforti_Enhancing_2023.pdf: 403; https://hdl.handle.net/11573/1702829: 403
+25,R0518,manual download by the first author,51430,https://downloads.hindawi.com/journals/ddns/2020/6019826.pdf: 403; https://doi.org/10.1155/2020/6019826: 403; https://doaj.org/article/d9a5157d958b4eaea715b659fed34ed6: 403
+26,R0373,manual download by the first author,30068,https://dl.acm.org/doi/pdf/10.1145/3760658.3760671: 403; https://doi.org/10.1145/3760658.3760671: 403
+28,R0196,not obtained,0,https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cem.3539: 403; https://doi.org/10.1002/cem.3539: 403
+32,R0319,manual download by the first author,68631,"https://doi.org/10.1127/metz/2021/1061: html text 4530 chars, no full text; https://doaj.org/article/714cbeadd7a844c2a57fc76d5b2c922b: 403"
+33,R0450,manual download by the first author,22442,https://dl.acm.org/doi/pdf/10.1145/3589845.3589857: 403; https://doi.org/10.1145/3589845.3589857: 403
+34,R0117,manual download by the first author,57821,"https://www.dora.lib4ri.ch/empa/dload/empa:38056/PDF/view: 403; https://ars.els-cdn.com/content/image/1-s2.0-S0269749124009771-ga1_lrg.jpg: html text 253030 chars, no full text; https://doi.org/10.1016/j.envpol.2024.124263: html text 11 chars, no full text; https://www.dora.lib4ri.ch/empa/item/empa:38056: html text 10 chars, no full text"
+36,R0116,manual download by the first author,55439,"https://doi.org/10.1109/access.2025.3552229: html text 0 chars, no full text; https://doaj.org/article/ec40cc7221b940619303dcb778f61aa8: 403"
+37,R0516,manual download by the first author,17542,"https://iopscience.iop.org/article/10.1088/1757-899X/735/1/012059/pdf: html text 392 chars, no full text; https://doi.org/10.1088/1757-899x/735/1/012059: html text 392 chars, no full text"
+38,R0489,manual download by the first author,26457,"https://iopscience.iop.org/article/10.1088/1742-6596/1780/1/012015/pdf: html text 392 chars, no full text; https://doi.org/10.1088/1742-6596/1780/1/012015: html text 392 chars, no full text"
+39,R0138,manual download by the first author,62791,"https://doi.org/10.20937/atm.53482: html text 3037 chars, no full text"
+40,R0015,manual download by the first author,111801,"https://doi.org/10.1016/j.jclepro.2023.139233: html text 11 chars, no full text"
+43,R0120,manual download by the first author,73462,https://doi.org/10.3390/su17052244: 403
+44,R0517,manual download by the first author,28311,"https://www.sciencedirect.com/science/article/pii/S1877050920306712/pdf: 403; https://doi.org/10.1016/j.procs.2020.03.206: html text 11 chars, no full text"
+49,R0155,manual download by the first author,75447,"https://ieeexplore.ieee.org/ielx7/6287639/6514899/10176132.pdf: 404; https://doi.org/10.1109/access.2023.3293249: html text 0 chars, no full text; https://doaj.org/article/c4e1b0b6e1154989be4ec3ccb66ce06f: 403"
+51,R0099,manual download by the first author,57164,"https://doi.org/10.1016/j.ecolind.2023.111138: html text 11 chars, no full text"
+53,R0217,manual download by the first author,73300,"https://doi.org/10.1016/j.ecoenv.2025.119593: html text 11 chars, no full text; http://hdl.handle.net/20.500.12944/109937: URLError"
+54,R0177,not obtained,0,"http://dx.doi.org/10.1504/ijgw.2024.135368: html text 0 chars, no full text; https://doi.org/10.1504/ijgw.2024.135368: html text 0 chars, no full text"
+56,R0343,not obtained,0,https://doi.org/10.56452/7-5-201: URLError; http://doi.org/10.56452/7-5-201: URLError
+57,R0142,manual download by the first author,67946,https://www.mdpi.com/2079-9292/13/18/3658/pdf?version=1726294509: 403; https://doi.org/10.3390/electronics13183658: 403
+58,R0326,manual download by the first author,38969,"https://doi.org/10.1016/j.iintel.2024.100128: html text 11 chars, no full text"
+59,R0070,manual download by the first author,45511,"https://doi.org/10.1016/j.ecoenv.2023.115572: html text 11 chars, no full text; https://doaj.org/article/ed19711904b64cfbab3108645333ecb6: 403"
+60,R0026,manual download by the first author,52265,"https://www.sciencedirect.com/science/article/pii/S1352231015001491/pdf: 403; https://doi.org/10.1016/j.atmosenv.2015.02.030: html text 11 chars, no full text"
+63,R0209,manual download by the first author,72404,https://www.mdpi.com/2073-4433/14/2/405/pdf?version=1676878992: 403; https://doi.org/10.3390/atmos14020405: 403; https://doaj.org/article/50bee8546a3b465c9df40cc196c0c070: 403
+64,R0096,manual download by the first author,40161,https://aaqr.org/articles/aaqr-20-03-oa-0097.pdf: 403; https://doi.org/10.4209/aaqr.2020.03.0097: 403
+67,R0172,manual download by the first author,58888,https://www.mdpi.com/2071-1050/14/9/4889/pdf?version=1650362520: 403; https://doi.org/10.3390/su14094889: 403
+69,R0101,manual download by the first author,48417,"https://www.mdpi.com/2071-1050/17/24/11233/pdf?version=1765806499: 403; https://doi.org/10.3390/su172411233: 403; https://scholars.cityu.edu.hk/en/publications/a89a6466-34ad-427d-ae66-c1045a233155: html text 11424 chars, no full text"
+71,R0076,manual download by the first author,50112,"https://doi.org/10.1016/j.apr.2024.102152: html text 11 chars, no full text"
+75,R0160,manual download by the first author,45512,https://doi.org/10.32877/bt.v8i2.3164: 403
+77,R0174,manual download by the first author,58183,"https://www.sciencedirect.com/science/article/pii/S2095809919307271/pdf: 403; https://doi.org/10.1016/j.eng.2020.05.009: html text 11 chars, no full text; https://doaj.org/article/fbce59db3c6146eab2684b491cc65413: 403"
+78,R0238,manual download by the first author,103578,https://www.tandfonline.com/doi/pdf/10.1080/19942060.2025.2507753?needAccess=true: 403; https://doi.org/10.1080/19942060.2025.2507753: 403; https://doaj.org/article/73c24c6a34e44c71bba63d591c3c1263: 403
+79,R0257,manual download by the first author,60494,https://www.mdpi.com/2071-1050/15/9/7367/pdf?version=1683188832: 403; https://doi.org/10.3390/su15097367: 403
+80,R0243,manual download by the first author,63264,"https://journalofcloudcomputing.springeropen.com/counter/pdf/10.1186/s13677-024-00598-9: html text 310 chars, no full text; https://doi.org/10.1186/s13677-024-00598-9: html text 310 chars, no full text; https://doaj.org/article/bfac4e563916476387539b6c063aadc2: 403"

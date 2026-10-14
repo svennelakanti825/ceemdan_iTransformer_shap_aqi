@@ -1,0 +1,17 @@
+# C2 runner environment: Python 3.13.0 (pre-registration section 2) with these exact versions.
+# Every third-party package the runner loads on the laptop (Windows 11, i5-1135G7), listed on 10 Oct 2026.
+# On Linux, xgboost also installs its own dependency nvidia-nccl-cu12. c2_colab_bundle.py refuses to build a bundle
+# unless the laptop's installed versions equal these.
+numpy==2.4.2
+pandas==3.0.1
+scipy==1.17.1
+xgboost==3.2.0
+scikit-learn==1.8.0
+joblib==1.5.3
+threadpoolctl==3.6.0
+python-dateutil==2.9.0.post0
+six==1.17.0
+tzdata==2025.3
+pytz==2026.3.post1
+psutil==7.2.2
+charset-normalizer==3.4.4

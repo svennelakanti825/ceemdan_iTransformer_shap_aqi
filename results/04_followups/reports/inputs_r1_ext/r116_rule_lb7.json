@@ -1,0 +1,7 @@
+{
+ "sd_val_r2_ii_5_seeds": 0.010673383833865152,
+ "gain_iii_over_ii": -0.010248196445276414,
+ "gain_iv_over_best_of_ii_iii": -0.031472026365489736,
+ "main_conditioning": "bias",
+ "iv_beats_ii_and_iii": false
+}

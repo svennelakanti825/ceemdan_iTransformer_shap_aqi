@@ -1,0 +1,43 @@
+{
+ "P3_max_pred_diff": {
+  "model file (main)": 0.0,
+  "model file_dseed42": 0.0,
+  "r116 bias 123 (main)": 0.0,
+  "r116 bias 42": 0.0,
+  "r116 bias 2024": 0.0,
+  "r116 bias 7": 0.0,
+  "r116 bias 2025": 0.0,
+  "r116 none 123": 0.0,
+  "r116 scale_bias 123": 0.0,
+  "r116 vector_bias 123": 0.0
+ },
+ "P3_metrics_max_rel_diff": 0.0,
+ "code_record_same": {
+  "v2_lb7_bias_d1b_s123.pt": true,
+  "v2_dseed42_lb7_bias_d1b_s123.pt": true,
+  "r116_lb7_bias_s42.pt": true,
+  "r116_lb7_bias_s2024.pt": true,
+  "r116_lb7_bias_s7.pt": true,
+  "r116_lb7_bias_s2025.pt": true,
+  "r116_lb7_none_s123.pt": true,
+  "r116_lb7_scale_bias_s123.pt": true,
+  "r116_lb7_vector_bias_s123.pt": true
+ },
+ "P4_max_shap_diff": 0.0,
+ "P5": {
+  "seed": 42,
+  "train_time_s": 446.78790855407715,
+  "max_pred_diff_aqi": 0.0,
+  "val_r2_new": 0.7870937367467715,
+  "val_r2_saved": 0.7870937367467715,
+  "val_r2_diff": 0.0,
+  "val_r2_sd_5_seeds": 0.010673383833865152,
+  "val_within_sd": true,
+  "test_r2_new": 0.8389761340340433,
+  "test_r2_saved": 0.8389761340340433,
+  "test_r2_diff": 0.0,
+  "test_r2_sd_5_seeds": 0.013930941275260919,
+  "test_within_sd": true,
+  "passed": true
+ }
+}

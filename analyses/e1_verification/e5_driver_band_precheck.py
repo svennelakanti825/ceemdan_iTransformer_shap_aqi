@@ -1,4 +1,4 @@
-"""E5: weather x timescale drivers beyond climatology, on development folds only (rules fixed before the run).
+"""E5: weather x timescale drivers beyond climatology, on development folds only (pre-registered in E5_PREREGISTRATION.md).
 
 Same LB7 windows, causal CEEMDAN cache, XGBoost settings and seeds as E1/E3. Only windows with target < 2019-04-01
 are used. Forward-chaining folds F1/F2, early stopping on the last 10% of the fit period. Met = causal filter bank

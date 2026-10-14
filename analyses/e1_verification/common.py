@@ -1,4 +1,4 @@
-"""Shared loader for the XGBoost verification experiments (8 Oct 2026).
+"""Shared loader for the editor-condition-1 verification experiments (8 Oct 2026).
 
 Rebuilds the run-of-record calendar pipeline (D1, R1.9, N1, C5) by executing the exact helper cells in
 ../tools, so the windows, splits and causal decompositions are the ones the revised manuscript reports.

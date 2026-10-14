@@ -84,13 +84,39 @@ The predictions, pooled and city results are byte-identical across the three run
 
 The verdict files differ only in their run metadata (time, machine). The reported run is `T6`.
 
+### Pinned inputs
+
+Appendix A of the pre-registration pins the SHA-256 of the data, the ERA5 files, the decompositions and nine code
+files the diagnostic imports. Eight of the code files are published exactly as pinned and verify with the command
+above. The ninth, `e1_verification/common.py`, differs in one statement, the location of `city_day.csv`, as
+section 2 of the pre-registration states for packaging. As run, the statement held an absolute path on the authors'
+machine, which is left out below. It named the same pinned file as Appendix A (row 1). Here it points to
+`data/city_day.csv` of this repository. All other lines are as run.
+
+| `e1_verification/common.py` | SHA-256 |
+|---|---|
+| as run (pinned in Appendix A, and printed by the run in `outputs/c2_runs/T6/c2x_verdict.txt`) | `dd1a9716406d6521d9f418b9046a5ec96438a344e7a37cbd96a5efd2a3d1ade3` |
+| published here | `99bcd56be703e80e52668d97b943e0113cfb3c4c8c0248eefa00310b37d8e257` |
+
+```diff
+--- common.py (as run, pinned)
++++ common.py (published)
+@@ -21,2 +21 @@
+-DATA = Path(r'<absolute path on the authors' machine, part 1>'
+-            r'<part 2>/city_day.csv')
++DATA = REV1.parent / 'data' / 'city_day.csv'
+```
+
+The statement did not affect the diagnostic. The frozen `c2x_features.py` checks the AQI file against its pinned
+digest and then sets `common.DATA` to that file (line 209) before anything is read.
+
 ## Changes from the code as run
 
 Comments and docstrings were edited to remove internal document names. The code is as run, except these lines:
 
 | File | Line as run | Here |
 |---|---|---|
-| `e1_verification/common.py` | absolute path of `city_day.csv` on the authors' machine | `DATA = REV1.parent / 'data' / 'city_day.csv'` |
+| `e1_verification/common.py` | absolute path of `city_day.csv` on the authors' machine (exact lines and both digests under Pinned inputs) | `DATA = REV1.parent / 'data' / 'city_day.csv'` |
 | `e1_verification/e4_weekly_cycle.py` | the same path, relative to the authors' project | `data/city_day.csv` of this repository |
 | `dataset_check/e7_common.py` | the same path, relative to the authors' project | `KAGGLE = HERE.parents[1] / 'data' / 'city_day.csv'` |
 | `baselines/baselines.py` | stored main-model predictions in the authors' project | `results/02_r1_ext/reports/r116_test_predictions_lb7.npz` |

@@ -1,0 +1,30 @@
+\begin{table}[!htbp]
+\centering
+\caption{Zero-crossing scale diagnostics across decompositions: median [5th, 95th percentile]. Units are available-sample steps, equalling days only for uninterrupted histories.}\label{tab:periods0}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrr}
+\toprule
+City & IMF1 & IMF2 & IMF3 \\
+\midrule
+Ahmedabad & 3.6 [3.3, 4.0] & 7.4 [6.5, 8.2] & 16.6 [14.3, 19.9] \\
+Amaravati & 3.3 [3.2, 3.5] & 7.5 [6.9, 8.1] & 16.9 [15.2, 18.7] \\
+Amritsar & 3.7 [3.5, 3.9] & 7.3 [6.6, 8.9] & 15.8 [14.0, 19.1] \\
+Bengaluru & 3.5 [3.1, 3.7] & 7.4 [7.0, 8.1] & 16.1 [14.3, 17.8] \\
+Brajrajnagar & 3.6 [3.4, 3.8] & 7.0 [6.5, 7.8] & 17.2 [15.5, 18.7] \\
+Chennai & 3.5 [3.2, 3.7] & 7.7 [6.8, 8.7] & 16.2 [14.0, 22.1] \\
+Delhi & 3.5 [3.3, 3.9] & 7.6 [7.0, 8.3] & 16.2 [14.6, 17.8] \\
+Gurugram & 3.5 [3.3, 3.9] & 7.3 [6.7, 8.1] & 16.6 [15.2, 19.7] \\
+Hyderabad & 3.6 [3.3, 4.0] & 7.5 [6.8, 8.1] & 15.5 [13.7, 17.3] \\
+Jaipur & 3.4 [3.3, 3.6] & 7.3 [6.9, 7.8] & 18.2 [16.9, 20.2] \\
+Jorapokhar & 3.5 [3.4, 3.8] & 7.3 [6.9, 8.3] & 14.6 [13.6, 15.8] \\
+Kolkata & 3.6 [3.4, 3.8] & 6.7 [6.0, 7.3] & 16.2 [14.2, 17.8] \\
+Lucknow & 3.5 [3.1, 3.7] & 7.2 [6.7, 7.7] & 16.6 [14.7, 17.8] \\
+Mumbai & 3.5 [3.3, 3.6] & 7.0 [6.5, 7.7] & 15.2 [14.0, 16.2] \\
+Patna & 3.5 [3.4, 3.7] & 7.1 [6.4, 7.7] & 15.8 [14.3, 18.2] \\
+Talcher & 3.5 [3.4, 3.7] & 7.0 [6.6, 7.4] & 16.9 [15.8, 18.1] \\
+Thiruvananthapuram & 3.2 [3.1, 3.4] & 7.5 [6.9, 8.3] & 15.2 [14.2, 17.1] \\
+Visakhapatnam & 3.6 [3.3, 3.8] & 7.6 [7.0, 8.3] & 18.2 [16.7, 19.7] \\
+\bottomrule
+\end{tabular}
+\par\smallskip\begin{minipage}{0.98\linewidth}\footnotesize Statistics pool all available decomposition origins, including training, validation and test. Units are available-sample steps, not physical frequencies or calendar periods; they equal days only for uninterrupted histories. Undefined scales (fewer than two crossings) are omitted. The slow channel is not interpreted as a periodic cycle. Full counts and unrounded diagnostics are in the source CSV.\end{minipage}
+\end{table}

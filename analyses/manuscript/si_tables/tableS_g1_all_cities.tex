@@ -1,0 +1,32 @@
+\begin{table}[!htbp]
+\centering
+\footnotesize
+\caption{Channel attribution of the augmented model in all 18 modelled cities (model seed 123, lookback 7 days).}\label{tab:s_g1}
+\setlength{\tabcolsep}{4pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrrl}
+\toprule
+City & Test windows & Test $R^2$ & Decomposition (\%) & IMF1 to IMF4 (\%) & Slow in decomposition (\%) & Leading input \\
+\midrule
+Delhi & 367 & 0.917 & 24.0 & 3.27 & 86.4 & PM$_{2.5}$ \\
+Mumbai & 367 & 0.866 & 17.7 & 2.54 & 85.6 & PM$_{2.5}$ \\
+Bengaluru & 367 & 0.496 & 14.5 & 3.22 & 77.9 & PM$_{2.5}$ \\
+Patna & 362 & 0.913 & 20.0 & 1.75 & 91.3 & PM$_{2.5}$ \\
+Gurugram & 367 & 0.854 & 26.2 & 2.77 & 89.4 & PM$_{2.5}$ \\
+Lucknow & 367 & 0.896 & 22.5 & 2.81 & 87.5 & PM$_{2.5}$ \\
+Kolkata & 367 & 0.859 & 26.6 & 1.40 & 94.7 & PM$_{2.5}$ \\
+Jaipur & 367 & 0.692 & 24.4 & 4.81 & 80.3 & PM$_{2.5}$ \\
+Ahmedabad$^{a}$ & 348 & 0.649 & 28.0 & 6.14 & 78.0 & CO \\
+Amaravati & 305 & 0.404 & 23.4 & 3.90 & 83.4 & PM$_{2.5}$ \\
+Amritsar & 350 & 0.618 & 20.3 & 3.25 & 84.0 & PM$_{2.5}$ \\
+Brajrajnagar$^{a}$ & 251 & 0.571 & 20.6 & 3.53 & 82.9 & PM$_{2.5}$ \\
+Chennai & 367 & 0.378 & 15.7 & 3.98 & 74.7 & PM$_{2.5}$ \\
+Hyderabad & 367 & 0.557 & 22.0 & 3.82 & 82.6 & PM$_{2.5}$ \\
+Jorapokhar$^{a}$ & 288 & 0.604 & 25.6 & 2.68 & 89.5 & PM$_{2.5}$ \\
+Talcher$^{a}$ & 264 & 0.722 & 23.1 & 4.02 & 82.6 & PM$_{2.5}$ \\
+Thiruvananthapuram & 364 & 0.082 & 17.2 & 2.78 & 83.8 & PM$_{2.5}$ \\
+Visakhapatnam$^{a}$ & 336 & 0.588 & 17.9 & 4.11 & 77.1 & PM$_{2.5}$ \\
+\bottomrule
+\end{tabular}}
+\par\smallskip\begin{minipage}{0.98\linewidth}\footnotesize Shares of the summed mean absolute channel SHAP value over 100 explained test windows, with 50 training windows as background. $^{a}$Limited data: fails the 80\% completeness rule and is not interpreted city by city.\end{minipage}
+\end{table}

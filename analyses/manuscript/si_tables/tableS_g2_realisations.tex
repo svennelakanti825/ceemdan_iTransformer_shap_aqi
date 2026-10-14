@@ -1,0 +1,26 @@
+\begin{table}[!htbp]
+\centering
+\footnotesize
+\caption{Four CEEMDAN realisations with five model seeds each: one-way random-effects analysis over realisations.}\label{tab:s_g2}
+\setlength{\tabcolsep}{4pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llrrrrrr}
+\toprule
+Scope & Quantity & Mean & Seed s.d. & Between s.d. & $F_{3,16}$ & $p$ & Range \\
+\midrule
+Delhi & Decomposition share (\%) & 22.59 & 5.86 & 0.00 & 0.46 & 0.712 & 7.46 to 32.08 \\
+Delhi & IMF1 to IMF4 (\%) & 2.64 & 1.33 & 0.34 & 1.33 & 0.299 & 0.42 to 5.44 \\
+Delhi & Slow in decomposition (\%) & 87.29 & 9.00 & 2.39 & 1.35 & 0.293 & 55.31 to 97.41 \\
+Mumbai & Decomposition share (\%) & 21.34 & 7.04 & 0.00 & 0.67 & 0.582 & 12.36 to 34.20 \\
+Mumbai & IMF1 to IMF4 (\%) & 1.67 & 0.77 & 0.00 & 0.72 & 0.554 & 0.58 to 2.95 \\
+Mumbai & Slow in decomposition (\%) & 92.11 & 3.20 & 0.00 & 0.51 & 0.680 & 85.20 to 96.44 \\
+Bengaluru & Decomposition share (\%) & 16.17 & 6.74 & 0.00 & 0.82 & 0.503 & 8.51 to 31.53 \\
+Bengaluru & IMF1 to IMF4 (\%) & 2.00 & 0.91 & 0.00 & 0.44 & 0.729 & 0.84 to 3.22 \\
+Bengaluru & Slow in decomposition (\%) & 86.74 & 6.43 & 0.00 & 0.61 & 0.617 & 70.39 to 94.86 \\
+All cities & Validation $R^2$ & 0.7890 & 0.0117 & 0.0000 & 0.07 & 0.974 & 0.7702 to 0.8041 \\
+All cities & Test $R^2$ & 0.8210 & 0.0169 & 0.0000 & 0.24 & 0.866 & 0.7703 to 0.8451 \\
+All cities & Test MAE & 28.44 & 2.92 & 0.00 & 0.55 & 0.657 & 24.53 to 37.03 \\
+\bottomrule
+\end{tabular}}
+\par\smallskip\begin{minipage}{0.98\linewidth}\footnotesize Seed s.d. is the model-seed standard deviation within realisations. Between s.d. is the realisation standard deviation, set to zero when realisations differ less than model seeds alone would make them. With 4 groups of 5 the test detects a realisation s.d. of 1.32 times the seed s.d. with 80\% probability.\end{minipage}
+\end{table}

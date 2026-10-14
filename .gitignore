@@ -21,6 +21,7 @@ env/
 analyses/dataset_check/data_bulletins/*.csv
 analyses/dataset_check/outputs/decomp/
 analyses/phase4_v2_results_r1/
+analyses/manuscript/si_rebuild/
 analyses/literature_count/outputs/search/*_raw.jsonl
 analyses/literature_count/outputs/search/*_records.csv
 analyses/literature_count/outputs/fulltext_*/

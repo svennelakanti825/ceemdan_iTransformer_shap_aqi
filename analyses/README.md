@@ -14,8 +14,28 @@ The folders keep the layout in which the scripts were run, so their relative imp
 | Bulletin against dataset AQI (median r over 26 cities) | `dataset_check/e7_d0_d1.py` | `dataset_check/outputs/e7_d0_comparability.csv` |
 | PM2.5 among the prominent pollutants on test-year bulletin days, 13 cities | `dataset_check/e7_prominent_pm25.py` | `dataset_check/outputs/e7_prominent_pm25_test_year.csv` |
 | Weather diagnostic (Supplementary Note S8 and its table) | `e1_verification/c2_xgb_confirm.py`, `c2x_features.py`, `c2x_verdict.py`, run by `c2_colab_run.ipynb` | `e1_verification/outputs/c2_runs/T6/` |
+| Windows, missingness, filled and compressed histories, completeness screen (Supplementary Note S1 and its tables) | `e1_verification/data_audit.py` | `e1_verification/outputs/data_audit.csv`, `pollutant_missing.csv` |
+| Prefix audit: availability recomputed from each origin's calendar prefix (19,250 origins, 0 mismatches, 59 filled test windows) | `e1_verification/data_audit.py` | `e1_verification/outputs/prefix_audit.json` |
+| Ahmedabad CO equal to NO on 1,317 days, and the XGBoost proxy check (MAE of the other 17 cities 9.9% lower without Ahmedabad, Welch p 6.5e-05) | `dataset_check/gd_ahmedabad_check.py`, then `dataset_check/ahmedabad_co_no.py` | `dataset_check/outputs/gd_ahmedabad_check/`, `dataset_check/outputs/ahmedabad_co_no.txt` |
+| Detectable realisation effect of the G2 test (1.32 times the model-seed s.d. with 80% probability) | `followups/g2_power.py` | `followups/g2_power.txt` |
+| Exploratory test-year weather analysis disclosed in Methods, and the power planning of the weather diagnostic (both cited by the pre-registration) | `e1_verification/e3_met_forecast.py`, `e1_verification/c2_t1_design_check.py` | `e1_verification/outputs/e3_met_forecast.csv`, `c2_t1_design_check.txt` (reads `e5_pooled.csv`) |
 | Weekly cycle of NO2 and AQI | `e1_verification/e4_weekly_cycle.py` | `e1_verification/outputs/e4_weekly_cycle.csv` |
 | Literature sample (Supplementary Note S5 and its tables) | `literature_count/lc_*.py` | `literature_count/outputs/coding_sheet.csv`, `coding_order.csv`, `screening_decisions.csv`, `flow_counts.json` |
+
+## Figures and tables of the manuscript (`manuscript/`)
+
+- `manuscript/scripts/make_figures.py` draws Figs 1 to 4 and Supplementary Fig. S1 (including the average-linkage
+  clustering that orders the cities in Fig. S1) into `manuscript/figures/`.
+- `manuscript/scripts/make_tables.py` writes Tables 1 and 2 to `manuscript/tables/` and the supplementary tables
+  `tableS_*` to `manuscript/si_tables/`, including the Wilson 95% intervals of the literature shares.
+- `manuscript/scripts/rebuild_si_tables.py` computes the twelve supplementary tables `si_tables/ch_*.tex` (windows,
+  coverage, missingness, background, city accuracy and periods, channel periods, lookback, gap sensitivity) into
+  `manuscript/si_rebuild/tables/` under their names without the `ch_` prefix. The numbers in every table body are
+  identical to `si_tables/ch_*.tex`, whose captions and notes were then edited for wording. The script also writes
+  tables and figures of an earlier draft that are not used.
+
+The tables regenerate byte for byte. The figures regenerate with identical plotted values. Their glyphs depend on the
+installed fonts (Liberation Sans or Arial).
 
 Fig. 2, Fig. 3b and Table 2 come from notebook 04 (`results/04_followups/`), and the other model results from
 notebooks 01 to 03 (see the main README).
@@ -50,6 +70,9 @@ prints that all frozen files in the run bundle match the freeze list before any 
 frozen files are unchanged, their comments and paths refer to the authors' project layout (for example the location
 of `city_day.csv`), in which the run bundle was built by `c2_colab_bundle.py`.
 
+The pre-registration also refers to `C2_TASK_TRACKER.md`, the authors' internal project log, which is not
+distributed. The digests it recorded are those in `C2_FREEZE_SHA256.txt` and in the verdict file.
+
 The run was repeated on two further machines (a second Colab session, `T7`, and a laptop under Linux, `S1_wsl_i5`).
 The predictions, pooled and city results are byte-identical across the three runs:
 
@@ -73,6 +96,8 @@ Comments and docstrings were edited to remove internal document names. The code 
 | `baselines/baselines.py` | stored main-model predictions in the authors' project | `results/02_r1_ext/reports/r116_test_predictions_lb7.npz` |
 | `dataset_check/e7_prominent_pm25.py` | all-city attribution summary in the authors' project | `results/04_followups/reports/shap/g1_shap18_summary_lb7.csv` |
 | `x1_shap_recheck/x1_rerun.py` | `REPO = REV1.parent.parent` | `REPO = REV1.parent` (the root of this repository) |
+| `manuscript/scripts/make_tables.py`, `make_figures.py` | result paths in the authors' project | the `results/` and `analyses/` folders of this repository |
+| `manuscript/scripts/rebuild_si_tables.py` | a flat copy of the result files and the data audit in a working folder | a lookup in `results/02_r1_ext/reports`, `results/01_baselines`, `results/03_bg_check` and `e1_verification/outputs`, writing to `manuscript/si_rebuild/` |
 | `literature_count/lc_search.py` | the authors' e-mail address for the OpenAlex polite pool | `MAILTO = os.environ.get('OPENALEX_MAILTO', '')` |
 
 The frozen weather-diagnostic files and `baselines/BASELINES_DESIGN.md` are not edited at all (their SHA-256 is
@@ -92,9 +117,14 @@ pre-specification. Its rules are verbatim and its header lists the edits.
   writes the bulletin decompositions to `dataset_check/outputs/decomp/` (several CPU-hours).
 - **Weather.** The ERA5 files used are included (`e1_verification/outputs/era5_daily.csv` and `era5_daily_pool.csv`,
   CC BY 4.0, see `ERA5_SOURCE.txt`), because the Open-Meteo service cannot return a fixed snapshot.
-- **Literature.** Full texts and abstracts are not redistributed (copyright). `screening_set_no_abstracts.csv` is the
-  screening set without its abstract column. The Scopus searches need an Elsevier API key (`ELSEVIER_API_KEY`).
-  The search protocol is given in Supplementary Note S5.
+- **Literature.** Full texts and abstracts are not redistributed (copyright). The search exports
+  (`outputs/search/openalex_records_no_abstracts.csv`, `scopus_records_no_abstracts.csv`, with `search_log.json` giving
+  the queries, dates and counts) and `screening_set_no_abstracts.csv` are given without their abstract column. The Scopus searches need an Elsevier API key (`ELSEVIER_API_KEY`).
+  The protocol, fixed before the searches ran, is `literature_count/LITERATURE_COUNT_PROTOCOL_13Oct2026.md`,
+  published unchanged so that its SHA-256 in `PROTOCOL_SHA256.txt` can be recomputed (CRLF converted to LF). As it
+  states, title and abstract screening and the first full-text coding were done with AI assistance (Claude,
+  Anthropic). The first author then checked all 60 codings against the source papers. `outputs/coding_sheet.csv`
+  is the coding reported in the paper.
 - **Whole-record decompositions** for the leakage contrast are included (`e1_verification/outputs/fullrec_<city>.npz`,
   written by `e1_verification/fullrecord_decomp.py`).
 

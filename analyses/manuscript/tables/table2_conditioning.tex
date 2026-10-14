@@ -1,0 +1,18 @@
+\begin{table}[!htbp]
+\centering
+\footnotesize
+\caption{City conditioning of the augmented model, mean and standard deviation over five model seeds.}\label{tab:conditioning}
+\setlength{\tabcolsep}{4pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrrr}
+\toprule
+Arm & Validation $R^2$ & Test $R^2$ & Test MAE & $R^2$ before & $R^2$ after & MAE after \\
+\midrule
+Scalar city bias (main model) & 0.789 $\pm$ 0.011 & 0.821 $\pm$ 0.014 & 28.71 $\pm$ 2.62 & 0.846 $\pm$ 0.008 & $-$0.151 $\pm$ 0.259 & 27.32 $\pm$ 4.07 \\
+No city term & 0.796 $\pm$ 0.005 & 0.837 $\pm$ 0.020 & 26.13 $\pm$ 1.89 & 0.842 $\pm$ 0.019 & 0.433 $\pm$ 0.093 & 20.79 $\pm$ 2.82 \\
+City scale and bias & 0.786 $\pm$ 0.009 & 0.823 $\pm$ 0.015 & 29.14 $\pm$ 2.29 & 0.845 $\pm$ 0.017 & $-$0.071 $\pm$ 0.192 & 27.50 $\pm$ 3.45 \\
+City vector and bias & 0.773 $\pm$ 0.007 & 0.825 $\pm$ 0.020 & 28.81 $\pm$ 3.58 & 0.843 $\pm$ 0.013 & 0.057 $\pm$ 0.437 & 25.58 $\pm$ 6.37 \\
+\bottomrule
+\end{tabular}}
+\par\smallskip\begin{minipage}{0.98\linewidth}\footnotesize Before and after refer to target dates before and from 25 March 2020. The selection rule was fixed before the runs and uses validation scores only. The no-city-term arm is a diagnostic outside that rule.\end{minipage}
+\end{table}

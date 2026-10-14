@@ -47,6 +47,7 @@ scripts and results of the analyses that ran outside the notebooks (see `analyse
 | Fig. 2, attribution in all cities | `results/04_followups/reports/shap/g1_shap18_matrix_lb7.csv`, `g1_shap18_summary_lb7.csv` |
 | Fig. 3a, raw-history ablation and PM2.5 target | `results/02_r1_ext/reports/shap/shap_periods_ablation13ch_lb7.csv`, `shap_v2_pm25_attribution_lb7.csv` |
 | Fig. 3b, four decomposition realisations × five model seeds | `results/04_followups/reports/shap/g2_shap_lb7.csv`, `results/04_followups/reports/g2_anova_lb7.csv` |
+| Component diagnostic (four decomposition seeds, three cities, six dates) | `results/02_r1_ext/reports/c5_seed_stability.csv` |
 | Fig. 4a, leakage contrast | `analyses/x1_shap_recheck/outputs/e1_accuracy.csv`, `e1_shares.csv` |
 | Fig. 4b-c, official bulletins | `analyses/x1_shap_recheck/outputs/e7_d2_pooled.csv` |
 | Weather diagnostic | `analyses/e1_verification/outputs/c2_runs/T6/` |

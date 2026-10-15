@@ -30,6 +30,7 @@ SRC = {
     'v2_full': RES / 'comparison_v2_full.csv',
     'multiseed': RES / 'multiseed_summary_lb7.csv',
     'g3': GF / 'g3_conditioning_summary_lb7.csv',
+    'g3_pred': GF / 'g3_test_predictions_lb7.npz',
     'g1': GF / 'shap' / 'g1_shap18_summary_lb7.csv',
     'g2_anova': GF / 'g2_anova_lb7.csv',
     'e1_acc': R1 / 'x1_shap_recheck' / 'outputs' / 'e1_accuracy.csv',
@@ -113,17 +114,26 @@ def table2_conditioning() -> None:
     g = pd.read_csv(SRC['g3']).set_index('conditioning')
     names = {'bias': 'Scalar city bias (main model)', 'none': 'No city term', 'scale_bias': 'City scale and bias',
              'vector_bias': 'City vector and bias'}
+    z = np.load(SRC['g3_pred'])
+    late = z['test_dates'] >= np.datetime64('2020-03-25')
+
+    def error_after(arm: str) -> tuple[float, float]:
+        e = [(z[f'pred__{arm}__{s}'][late] - z['y_test'][late]).mean() for s in (42, 123, 2024, 7, 2025)]
+        return float(np.mean(e)), float(np.std(e, ddof=1))
+
     rows = []
     for k in ('bias', 'none', 'scale_bias', 'vector_bias'):
         r = g.loc[k]
         rows.append([names[k], pm(r.mean_val_r2, r.std_val_r2, 3), pm(r.mean_test_r2, r.std_test_r2, 3),
                      pm(r.mean_test_mae, r.std_test_mae), pm(r.mean_test_r2_pre, r.std_test_r2_pre, 3),
-                     pm(r.mean_test_r2_lock, r.std_test_r2_lock, 3), pm(r.mean_test_mae_lock, r.std_test_mae_lock)])
+                     pm(r.mean_test_r2_lock, r.std_test_r2_lock, 3), pm(r.mean_test_mae_lock, r.std_test_mae_lock),
+                     pm(*error_after(k), 1)])
     table(TAB / 'table2_conditioning.tex', 'tab:conditioning',
           'City conditioning of the augmented model, mean and standard deviation over five model seeds.',
-          'lrrrrrr', ['Arm', 'Validation $R^2$', 'Test $R^2$', 'Test MAE', '$R^2$ before', '$R^2$ after',
-                      'MAE after'], rows,
-          'Before and after refer to target dates before and from 25 March 2020. The selection rule was fixed before '
+          'lrrrrrrr', ['Arm', 'Validation $R^2$', 'Test $R^2$', 'Test MAE', '$R^2$ before', '$R^2$ after',
+                      'MAE after', 'Mean error after'], rows,
+          'Before and after refer to target dates before and from 25 March 2020. Mean error after is the mean of forecast '
+          'minus observed AQI over the 1,669 windows from that date, in AQI units. The selection rule was fixed before '
           'the runs and uses validation scores only. The no-city-term arm is a diagnostic outside that rule.',
           size='\\footnotesize')
 

@@ -19,6 +19,8 @@ The folders keep the layout in which the scripts were run, so their relative imp
 | Ahmedabad CO equal to NO on 1,317 days, and the XGBoost proxy check (MAE of the other 17 cities 9.9% lower without Ahmedabad, Welch p 6.5e-05) | `dataset_check/gd_ahmedabad_check.py`, then `dataset_check/ahmedabad_co_no.py` | `dataset_check/outputs/gd_ahmedabad_check/`, `dataset_check/outputs/ahmedabad_co_no.txt` |
 | Detectable realisation effect of the G2 test (1.32 times the model-seed s.d. with 80% probability) | `followups/g2_power.py` | `followups/g2_power.txt` |
 | Exploratory test-year weather analysis disclosed in Methods, and the power planning of the weather diagnostic (both cited by the pre-registration) | `e1_verification/e3_met_forecast.py`, `e1_verification/c2_t1_design_check.py` | `e1_verification/outputs/e3_met_forecast.csv`, `c2_t1_design_check.txt` (reads `e5_pooled.csv`) |
+| Boundary error of IMF1 to IMF4 with and without the autoregressive extension (18% lower), the step that chose the extension | `e1_verification/i14_boundary_error.py` (rerun on the laptop: byte-identical output) | `e1_verification/outputs/i14_boundary_error.csv` |
+| Every number of the main text and the Supplementary Notes, with the printed and the recomputed value (derived numbers such as the 85.4% short-band share are listed with their formula) | `manuscript/scripts/trace_claims.py` | `TRACEABILITY.md`, `manuscript/outputs/trace_claims.csv`, `manuscript/outputs/derived_numbers.txt` |
 | Weekly cycle of NO2 and AQI | `e1_verification/e4_weekly_cycle.py` | `e1_verification/outputs/e4_weekly_cycle.csv` |
 | Literature sample (Supplementary Note S5 and its tables) | `literature_count/lc_*.py` | `literature_count/outputs/coding_sheet.csv`, `coding_order.csv`, `screening_decisions.csv`, `flow_counts.json` |
 
@@ -124,6 +126,7 @@ Comments and docstrings were edited to remove internal document names. The code 
 | `x1_shap_recheck/x1_rerun.py` | `REPO = REV1.parent.parent` | `REPO = REV1.parent` (the root of this repository) |
 | `manuscript/scripts/make_tables.py`, `make_figures.py` | result paths in the authors' project | the `results/` and `analyses/` folders of this repository |
 | `manuscript/scripts/rebuild_si_tables.py` | a flat copy of the result files and the data audit in a working folder | a lookup in `results/02_r1_ext/reports`, `results/01_baselines`, `results/03_bg_check` and `e1_verification/outputs`, writing to `manuscript/si_rebuild/` |
+| `e1_verification/i14_boundary_error.py` | repository, data and output locations in the authors' project | `ROOT` is the root of this repository, `DATA = ROOT / 'data' / 'city_day.csv'`, output to `outputs/` |
 | `literature_count/lc_search.py` | the authors' e-mail address for the OpenAlex polite pool | `MAILTO = os.environ.get('OPENALEX_MAILTO', '')` |
 
 The frozen weather-diagnostic files and `baselines/BASELINES_DESIGN.md` are not edited at all (their SHA-256 is

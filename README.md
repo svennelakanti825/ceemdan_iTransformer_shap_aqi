@@ -55,6 +55,10 @@ scripts and results of the analyses that ran outside the notebooks (see `analyse
 | Window construction, boundary extension, lookback, background (Supplementary Information) | `results/02_r1/`, `results/02_r1_ext/`, `results/03_bg_check/` |
 
 `analyses/README.md` lists the remaining Supplementary results and the scripts that produced them.
+`analyses/TRACEABILITY.md` maps every number of the main text and the Supplementary Notes, section by section and by
+Supplementary table label, to the file it comes from. Numbers that no file prints (for example the 85.4% share of
+the weather gain in the short bands) are computed by `analyses/manuscript/scripts/trace_claims.py`, which recomputes
+all of them from the files of this repository and reports any difference from the printed value.
 
 ## How to run
 

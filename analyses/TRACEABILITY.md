@@ -2,7 +2,7 @@
 
 Every number quoted in the main text and the Supplementary Notes, with the file it comes from, grouped by manuscript section and keyed by the Supplementary table label (`tab:...`) that also shows it. `analyses/manuscript/scripts/trace_claims.py` recomputes each value from the files of this repository, compares it with the printed value and writes `analyses/manuscript/outputs/trace_claims.csv`. **Direct** means that a result file prints the number. **Derived** means the number is computed from files that do not print it, and the formula is given.
 
-Status of the last run: 368 values, 368 reproduced, 0 differ; 188 are derived. Differences are listed at the end of this file.
+Status of the last run: 370 values, 370 reproduced, 0 differ; 190 are derived. Differences are listed at the end of this file.
 
 ## Abstract
 
@@ -577,6 +577,8 @@ Status of the last run: 368 values, 368 reproduced, 0 differ; 188 are derived. D
 
 | Claim | Printed | SI table | File | Kind | Derivation |
 |---|---|---|---|---|---|
+| Cities of the first-round eight-city subset (tag D4, step 2) | Bengaluru, Delhi, Gurugram, Jaipur, Kolkata, Lucknow, Mumbai, Patna | tab:s_g1 | `results/04_followups/reports/shap/g1_shap18_summary_lb7.csv` | derived | d4_attribution_set is True |
+| All eight pass the completeness screen, so they are a subset of the 13 | True | tab:s_g1 | `results/04_followups/reports/shap/g1_shap18_summary_lb7.csv` | derived | passes_completeness over those eight |
 | Delhi: median change of the share between two model seeds on one decomposition | 4.2 | tab:s_g2 | `results/04_followups/reports/shap/g2_shap_lb7.csv` | derived | median of |difference| over the 10 model-seed pairs of each of the 4 decompositions |
 | Delhi: largest such change | 24.6 | tab:s_g2 | `results/04_followups/reports/shap/g2_shap_lb7.csv` | derived | max of the same differences |
 | Mumbai: median change of the share between two model seeds on one decomposition | 5.9 | tab:s_g2 | `results/04_followups/reports/shap/g2_shap_lb7.csv` | derived | median of |difference| over the 10 model-seed pairs of each of the 4 decompositions |

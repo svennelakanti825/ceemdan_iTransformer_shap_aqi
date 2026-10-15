@@ -16,6 +16,8 @@ Test windows with a compressed decomposition history (count): printed 2,427, rec
 Share of the 6,171 test windows with a compressed history (%): printed 39.3, recomputed 39.3291. 2,427 / 6,171 [analyses/e1_verification/outputs/data_audit.csv]
 Modelled cities with at least 80% of 14-day windows retained: printed 13, recomputed 13. eligible14_pct >= 80 [analyses/e1_verification/outputs/data_audit.csv]
 Same screen as used for the 13 interpreted cities: printed 13, recomputed 13. sum of passes_completeness [results/04_followups/reports/shap/g1_shap18_summary_lb7.csv]
+Cities of the first-round eight-city subset (tag D4, step 2): printed Bengaluru, Delhi, Gurugram, Jaipur, Kolkata, Lucknow, Mumbai, Patna, recomputed Bengaluru, Delhi, Gurugram, Jaipur, Kolkata, Lucknow, Mumbai, Patna. d4_attribution_set is True [results/04_followups/reports/shap/g1_shap18_summary_lb7.csv]
+All eight pass the completeness screen, so they are a subset of the 13: printed True, recomputed True. passes_completeness over those eight [results/04_followups/reports/shap/g1_shap18_summary_lb7.csv]
 Cities that fail the screen: printed Ahmedabad, Brajrajnagar, Jorapokhar, Talcher, Visakhapatnam, recomputed Ahmedabad, Brajrajnagar, Jorapokhar, Talcher, Visakhapatnam. passes_completeness is False [results/04_followups/reports/shap/g1_shap18_summary_lb7.csv]
 Median zero-crossing scale of IMF1 across the 18 cities (lowest): printed 3.2, recomputed 3.23. min and max over cities of median_d [results/02_r1_ext/reports/table8_channel_periods.csv]
 Median zero-crossing scale of IMF1 across the 18 cities (highest): printed 3.7, recomputed 3.71. min and max over cities of median_d [results/02_r1_ext/reports/table8_channel_periods.csv]

@@ -201,7 +201,7 @@ suffix (R1.1-7, R1.2-4, R1.9-4) is a sub-item.
 | D1 | Calendar-based windows: (b) gaps of at most 3 days filled from the past (main), (a) nothing filled |
 | D2, G1 | How a decomposition history treats gaps: longer gaps are joined |
 | D3, S1, S2 | Window-construction checks: S1 compares windows with and without filled days, S2 retrains three window constructions |
-| D4 | Rule that selects the eight-city attribution set from data completeness and pollution level |
+| D4 | Completeness rule behind the manuscript's 13-city interpretation threshold, and the eight-city subset of the first revision round (see "D4 and the 13-city threshold" below) |
 | N1, P3 | Pollutant gap filling from the city's own past only |
 | N2 | SHAP explains the model on exactly its saved training inputs |
 | N4 | CEEMDAN noise amplitude passed under the name the library reads |
@@ -227,6 +227,30 @@ suffix (R1.1-7, R1.2-4, R1.9-4) is a sub-item.
 | run of record | The run of notebook 02 _r1 |
 
 In notebook 04, G1 names the all-city attribution, not the gap rule of the table above.
+
+### D4 and the 13-city threshold
+
+The manuscript's prespecified completeness screen and tag D4 are the same rule. D4 has two steps, implemented by
+`d4_completeness` and `d4_shap8_cities` in notebook 04, in the code cell that starts "Revision 1, R3.3 decision D4
+(option c)" (cell 36 counting from 0, just before the heading "G1-G3 helper functions").
+
+1. **Completeness screen (the manuscript's 13 cities).** A city passes when at least 80% of its 14-day calendar
+   windows are kept under the calendar eligibility rule (`D4_MIN_KEPT_PCT = 80.0`, `D4_LOOKBACK = 14`). It uses the
+   14-day lookback whatever lookback is later selected, so it does not depend on the lookback choice. Thirteen of the
+   18 modelled cities pass. The five that fail (Ahmedabad, Brajrajnagar, Jorapokhar, Talcher, Visakhapatnam) are
+   trained and evaluated and carry a limited-data flag. The cell prints the table with the kept share of every city,
+   and the result files carry it as `passes_completeness` (`results/04_followups/reports/shap/g1_shap18_summary_lb7.csv`)
+   and as `eligible14_pct` (`analyses/e1_verification/outputs/data_audit.csv`). The manuscript interprets attribution
+   in these 13 cities (Methods, Calendar windows and missingness).
+2. **Eight-city subset (first revision round only).** From the cities that pass, Delhi, Mumbai and Bengaluru plus the
+   five most polluted others by mean AQI (Patna, Gurugram, Lucknow, Kolkata, Jaipur) form the eight-city set. The
+   first revision round computed attribution for these eight only, and the column `d4_attribution_set` in the same
+   file marks them. Notebook 04 then computed the other ten cities (G1), which gives all 18 cities, and the manuscript
+   reports the 13 that pass. It uses the eight only to state that their earlier values were reproduced exactly
+   (Supplementary Note S6). The pollution-level step plays no part in which cities are interpreted.
+
+So "eight-city set" in older comments and output names step 2, and the manuscript's 13 cities are step 1. The eight
+cities all pass step 1, so they are a subset of the 13.
 
 ## Data
 

@@ -186,6 +186,13 @@ def section_data() -> None:
     g1 = csv_(G + '/shap/g1_shap18_summary_lb7.csv')
     add(M2 + ' | Results 3', 'tab:s_g1', 'Same screen as used for the 13 interpreted cities', '13',
         int(g1.passes_completeness.sum()), G + '/shap/g1_shap18_summary_lb7.csv', 'sum of passes_completeness', 'derived')
+    d4 = g1[g1.d4_attribution_set]
+    add('Supplementary Note S6', 'tab:s_g1', 'Cities of the first-round eight-city subset (tag D4, step 2)',
+        'Bengaluru, Delhi, Gurugram, Jaipur, Kolkata, Lucknow, Mumbai, Patna', ', '.join(sorted(d4.city)),
+        G + '/shap/g1_shap18_summary_lb7.csv', 'd4_attribution_set is True', 'derived')
+    add('Supplementary Note S6', 'tab:s_g1', 'All eight pass the completeness screen, so they are a subset of the 13', 'True',
+        bool(d4.passes_completeness.all()), G + '/shap/g1_shap18_summary_lb7.csv', 'passes_completeness over those eight',
+        'derived')
     add('Supplementary Note S1', '', 'Cities that fail the screen',
         'Ahmedabad, Brajrajnagar, Jorapokhar, Talcher, Visakhapatnam',
         ', '.join(sorted(g1[~g1.passes_completeness].city)), G + '/shap/g1_shap18_summary_lb7.csv',

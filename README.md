@@ -228,6 +228,18 @@ suffix (R1.1-7, R1.2-4, R1.9-4) is a sub-item.
 
 In notebook 04, G1 names the all-city attribution, not the gap rule of the table above.
 
+### The word "causal" in the code
+
+The code, its comments and the printed output use "causal" in the signal-processing sense: a quantity at date t is
+computed from data up to t and never from later data. "Causal decomposition" is therefore the past-only decomposition
+of the manuscript (tag C5), "causal channels" are the channels it produces, and arm names such as CAUSAL, CAUSAL+DOY
+and CAUSAL+METPAST in the weather analyses name models that use those channels. The manuscript avoids the word for
+this purpose. It uses "past-only" for a temporal information constraint and states that this constraint does not make
+the decomposition causal in the environmental or causal-inference sense. Nothing in the code, the notebooks or the
+models folder identifies a causal pathway, a physical source or an intervention effect. Read every "causal" in the
+code as "past-only". The as-run code and its recorded outputs are left unchanged so that they stay identical to what
+was executed.
+
 ### D4 and the 13-city threshold
 
 The manuscript's prespecified completeness screen and tag D4 are the same rule. D4 has two steps, implemented by

@@ -154,6 +154,11 @@ pre-specification. Its rules are verbatim and its header lists the edits.
   states, title and abstract screening and the first full-text coding were done with AI assistance (Claude,
   Anthropic). The first author then checked all 60 codings against the source papers. `outputs/coding_sheet.csv`
   is the coding reported in the paper.
+  Two checks must not be confused. Section 6 of the protocol specified an independent, blind second coding of a
+  random 20% of the sample (at least 12 papers) with an agreement statistic. That second coding was not carried out
+  as specified, and no agreement statistic is reported. What was done instead is a complete verification: the first
+  author read every one of the 60 papers against its coding and the evidence recorded for it. This is a check of
+  each coding, not an independent recoding, so it gives no measure of inter-coder agreement.
 - **Whole-record decompositions** for the leakage contrast are included (`e1_verification/outputs/fullrec_<city>.npz`,
   written by `e1_verification/fullrecord_decomp.py`).
 

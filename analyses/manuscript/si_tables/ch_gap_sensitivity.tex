@@ -1,0 +1,15 @@
+\begin{table}[!htbp]
+\centering
+\caption{Window-construction sensitivity on the same 5,828 test targets. Five model seeds per arm.}\label{tab:gaps}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrr}
+\toprule
+Construction & $R^2$ & RMSE & MAE \\
+\midrule
+Calendar with short-gap filling & $0.828 \pm 0.015$ & $45.335 \pm 2.056$ & $27.797 \pm 2.677$ \\
+Calendar excluding missing days & $0.813 \pm 0.029$ & $47.186 \pm 3.684$ & $30.379 \pm 4.249$ \\
+Consecutive observations & $0.824 \pm 0.011$ & $45.864 \pm 1.419$ & $27.948 \pm 2.717$ \\
+\bottomrule
+\end{tabular}
+\par\smallskip\begin{minipage}{0.98\linewidth}\footnotesize The no-fill arm removes filled target-history input days. Pollutant imputation and compressed decomposition histories remain. It does not establish end-to-end online validity.\end{minipage}
+\end{table}

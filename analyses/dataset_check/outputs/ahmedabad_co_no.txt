@@ -1,0 +1,5 @@
+Ahmedabad, days with CO and NO both present: 1400
+  CO == NO on 1317 days, 01 Jan 2015 to 09 Apr 2020; they differ on every day from 10 Apr 2020 (83 days)
+Other cities, days with CO == NO: 5 of 24120
+City and column pairs equal on more than half of the days with both present (at least 30): Ahmedabad NO=CO on 94.1% of 1400 days
+Proxy check, other 17 cities, all test windows, 10 seeds per arm: MAE 18.647 (ALL) against 16.797 (NO_AHM), change -9.92%, Welch t -6.652, p 6.50e-05

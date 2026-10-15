@@ -1,0 +1,4 @@
+arm,reference,n_cities,cities_lower_mae_seed7,cities_lower_mae_seed42,cities_lower_mae_seed123,cities_lower_mae_seed2024,cities_lower_mae_seed2025,cities_lower_mean_mae
+none,bias,18,16,4,14,8,16,15
+scale_bias,bias,18,15,2,11,12,6,7
+vector_bias,bias,18,14,4,2,6,15,9

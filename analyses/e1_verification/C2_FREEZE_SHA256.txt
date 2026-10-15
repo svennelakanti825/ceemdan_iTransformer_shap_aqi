@@ -1,0 +1,19 @@
+# C2 code freeze (task C2-T5, 10 Oct 2026). SHA-256 under the pre-registration hash rule: .py .md .csv .txt
+# .json after CRLF -> LF, other files (the notebook) as raw bytes, kept exact by .gitattributes -text.
+# Any change to a listed file after this point means a new, labelled run (C2_TASK_TRACKER.md ground rule 3).
+# The imported code (common.py, e1_leakage_contrast.py, e5_driver_band_precheck.py, the fetch scripts and the
+# tools/ helper cells) and all data are pinned by Appendix A of C2_PREREGISTRATION.md and checked at every build.
+# c2_colab_bundle.py refuses to build, and c2_colab_run.ipynb refuses a real run, unless these hashes match.
+1bcd59bb35bba9bb04693d8c224d8e3522bf54578ab16f047a4e6a67a9a0be88  Implementation/revision_1/e1_verification/c2_xgb_confirm.py
+451402f9227b1396ffbcfc61919b985b8954ec8edd52dcd53a0c16e8b017e50b  Implementation/revision_1/e1_verification/c2x_features.py
+b4f50e0470a2d7a9e1e71a6e9228252e82807083f7e37c7a5237211b49fde555  Implementation/revision_1/e1_verification/c2x_verdict.py
+66ad4065bd2087d4a9db552a3451de1678b44a1b9c0ac297fe6d9b625e876760  Implementation/revision_1/tests/test_c2x.py
+cf5a7394cc0380de5ad6a49c7c78b27b516cda4dc862348f5591fe7c19abe544  Implementation/revision_1/tests/test_c2x_verdict.py
+f2f8cab849c376a00287a5bb8c9c4dc3990d86123e612860ee105e8e9022924a  Implementation/revision_1/tests/test_c2_runner.py
+5db5da9e400d3a28b9afb4f1172f70bcd38f1621dccbacbc0a100decd7513ba8  Implementation/revision_1/e1_verification/c2_requirements.txt
+c3b38c294ba09b1f872e414d48e40623adb1f9d1382473099c2cc78494debd50  Implementation/revision_1/e1_verification/C2_PREREGISTRATION.md
+c2d32acd5cbe91dede7cd460ee0ceee2deb029755f0d58964e8d39915e134ed7  Implementation/revision_1/e1_verification/C2_PREREGISTRATION_ADDENDUM_A1.md
+0f3e15ce2d78ed9dedf2c436f417c4c80e9a81c9e14de38a30c9a2854151348c  Implementation/revision_1/e1_verification/C2_PREREGISTRATION_ADDENDUM_A2.md
+3cd8430bec5738e8badd5b25f106a66b2de871065233d92ecda68cc8f5677ec8  Implementation/revision_1/e1_verification/c2_colab_bundle.py
+eac08a9a01cbda6dd159f7911f8e8d1bfafdf143580962ccdb5f2a1654353eb6  Implementation/revision_1/e1_verification/c2_colab_run.ipynb
+e4de0525fd7ee13fd1db0d57d66bee745d4cfff9cba224d347dadd1f02286c35  Implementation/revision_1/e1_verification/c2_t5_dryrun.py

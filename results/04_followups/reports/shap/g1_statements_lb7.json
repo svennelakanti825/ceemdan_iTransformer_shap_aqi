@@ -1,0 +1,78 @@
+{
+ "all 18 modelled cities": {
+  "n_cities": 18,
+  "pm25_leads_in": 17,
+  "cities_where_pm25_does_not_lead": [
+   "Ahmedabad"
+  ],
+  "decomposition_share_pct_range": [
+   14.525152054869393,
+   27.956887131443796
+  ],
+  "imf1_4_share_pct_range": [
+   1.397114683021484,
+   6.1410516583913655
+  ],
+  "slow_of_decomposition_pct_range": [
+   74.72646693347046,
+   94.7452465949832
+  ],
+  "cities_where_slow_channel_is_not_most_of_decomposition": []
+ },
+ "13 cities passing completeness": {
+  "n_cities": 13,
+  "pm25_leads_in": 13,
+  "cities_where_pm25_does_not_lead": [],
+  "decomposition_share_pct_range": [
+   14.525152054869393,
+   26.587635524202426
+  ],
+  "imf1_4_share_pct_range": [
+   1.397114683021484,
+   4.810693198596179
+  ],
+  "slow_of_decomposition_pct_range": [
+   74.72646693347046,
+   94.7452465949832
+  ],
+  "cities_where_slow_channel_is_not_most_of_decomposition": []
+ },
+ "5 limited-data cities": {
+  "n_cities": 5,
+  "pm25_leads_in": 4,
+  "cities_where_pm25_does_not_lead": [
+   "Ahmedabad"
+  ],
+  "decomposition_share_pct_range": [
+   17.9423923909067,
+   27.956887131443796
+  ],
+  "imf1_4_share_pct_range": [
+   2.680355763942597,
+   6.1410516583913655
+  ],
+  "slow_of_decomposition_pct_range": [
+   77.10453131491093,
+   89.53108349103742
+  ],
+  "cities_where_slow_channel_is_not_most_of_decomposition": []
+ },
+ "the 8 cities of D4 (as reported)": {
+  "n_cities": 8,
+  "pm25_leads_in": 8,
+  "cities_where_pm25_does_not_lead": [],
+  "decomposition_share_pct_range": [
+   14.525152054869393,
+   26.587635524202426
+  ],
+  "imf1_4_share_pct_range": [
+   1.397114683021484,
+   4.810693198596179
+  ],
+  "slow_of_decomposition_pct_range": [
+   77.8521737775884,
+   94.7452465949832
+  ],
+  "cities_where_slow_channel_is_not_most_of_decomposition": []
+ }
+}

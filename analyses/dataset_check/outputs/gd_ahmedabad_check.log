@@ -1,0 +1,134 @@
+ALL seed 0: best 83, other-17 MAE 20.203 (7 s)
+ALL seed 1: best 104, other-17 MAE 18.516 (8 s)
+ALL seed 2: best 193, other-17 MAE 17.280 (10 s)
+ALL seed 3: best 122, other-17 MAE 17.745 (8 s)
+ALL seed 4: best 97, other-17 MAE 18.696 (12 s)
+ALL seed 5: best 100, other-17 MAE 18.756 (8 s)
+ALL seed 6: best 108, other-17 MAE 18.157 (7 s)
+ALL seed 7: best 104, other-17 MAE 18.498 (9 s)
+ALL seed 8: best 86, other-17 MAE 19.767 (8 s)
+ALL seed 9: best 97, other-17 MAE 18.849 (8 s)
+NO_AHM seed 0: best 295, other-17 MAE 16.704 (31 s)
+NO_AHM seed 1: best 132, other-17 MAE 17.229 (14 s)
+NO_AHM seed 2: best 159, other-17 MAE 16.958 (12 s)
+NO_AHM seed 3: best 453, other-17 MAE 16.762 (23 s)
+NO_AHM seed 4: best 300, other-17 MAE 16.690 (17 s)
+NO_AHM seed 5: best 288, other-17 MAE 16.806 (14 s)
+NO_AHM seed 6: best 388, other-17 MAE 16.725 (20 s)
+NO_AHM seed 7: best 302, other-17 MAE 16.660 (15 s)
+NO_AHM seed 8: best 212, other-17 MAE 16.717 (11 s)
+NO_AHM seed 9: best 334, other-17 MAE 16.717 (16 s)
+CO_MASK seed 0: best 85, other-17 MAE 19.873 (8 s)
+CO_MASK seed 1: best 73, other-17 MAE 21.891 (7 s)
+CO_MASK seed 2: best 116, other-17 MAE 18.044 (8 s)
+CO_MASK seed 3: best 81, other-17 MAE 20.410 (8 s)
+CO_MASK seed 4: best 79, other-17 MAE 20.676 (7 s)
+CO_MASK seed 5: best 95, other-17 MAE 19.132 (8 s)
+CO_MASK seed 6: best 89, other-17 MAE 19.411 (8 s)
+CO_MASK seed 7: best 84, other-17 MAE 20.055 (8 s)
+CO_MASK seed 8: best 100, other-17 MAE 18.712 (7 s)
+CO_MASK seed 9: best 83, other-17 MAE 20.180 (11 s)
+TRAIN17 seed 0: best 191, other-17 MAE 16.760 (11 s)
+TRAIN17 seed 1: best 150, other-17 MAE 17.054 (9 s)
+TRAIN17 seed 2: best 162, other-17 MAE 16.934 (6 s)
+TRAIN17 seed 3: best 281, other-17 MAE 16.723 (6 s)
+TRAIN17 seed 4: best 216, other-17 MAE 16.693 (4 s)
+TRAIN17 seed 5: best 186, other-17 MAE 16.962 (4 s)
+TRAIN17 seed 6: best 138, other-17 MAE 17.066 (3 s)
+TRAIN17 seed 7: best 344, other-17 MAE 16.680 (7 s)
+TRAIN17 seed 8: best 220, other-17 MAE 16.711 (4 s)
+TRAIN17 seed 9: best 275, other-17 MAE 16.724 (5 s)
+VAL17 seed 0: best 581, other-17 MAE 16.902 (8 s)
+VAL17 seed 1: best 473, other-17 MAE 16.897 (6 s)
+VAL17 seed 2: best 350, other-17 MAE 17.069 (6 s)
+VAL17 seed 3: best 555, other-17 MAE 16.958 (8 s)
+VAL17 seed 4: best 288, other-17 MAE 16.890 (4 s)
+VAL17 seed 5: best 431, other-17 MAE 17.034 (6 s)
+VAL17 seed 6: best 582, other-17 MAE 17.009 (8 s)
+VAL17 seed 7: best 354, other-17 MAE 17.031 (5 s)
+VAL17 seed 8: best 265, other-17 MAE 16.990 (4 s)
+VAL17 seed 9: best 454, other-17 MAE 16.996 (6 s)
+G-D check, 2026-10-13 12:24 local, Windows-11-10.0.26200-SP0, Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+xgboost 3.2.0, numpy 2.4.2, pandas 3.0.1, n_jobs 8, seeds (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+windows {'train': 11569, 'test': 6171, 'val': 1510}; Ahmedabad windows train 696, val 76, test 348; CO_MASK cells set missing 7301
+other 17 cities: test windows 5823
+
+Other 17 cities, period all: mean +/- s.d. over 10 seeds
+  ALL      MAE 18.647 +/- 0.862 | RMSE 26.581 +/- 0.593 | R2 0.8900 +/- 0.0049 | mean error +4.804
+  NO_AHM   MAE 16.797 +/- 0.173 | RMSE 25.021 +/- 0.189 | R2 0.9026 +/- 0.0015 | mean error +2.230
+  CO_MASK  MAE 19.838 +/- 1.084 | RMSE 27.483 +/- 0.780 | R2 0.8824 +/- 0.0067 | mean error +6.643
+  TRAIN17  MAE 16.831 +/- 0.155 | RMSE 25.067 +/- 0.167 | R2 0.9022 +/- 0.0013 | mean error +2.122
+  VAL17    MAE 16.978 +/- 0.063 | RMSE 25.283 +/- 0.076 | R2 0.9005 +/- 0.0006 | mean error +2.179
+  NO_AHM - ALL, mae: -1.8501 (seed-paired s.d. 0.9338); -9.92% ; Welch p 0.000
+  NO_AHM - ALL, r2: +0.0126 (seed-paired s.d. 0.0054); +1.41% ; Welch p 0.000
+  CO_MASK - ALL, mae: +1.1916 (seed-paired s.d. 1.3303); +6.39% ; Welch p 0.014
+  CO_MASK - ALL, r2: -0.0076 (seed-paired s.d. 0.0082); -0.86% ; Welch p 0.010
+  TRAIN17 - ALL, mae: -1.8162 (seed-paired s.d. 0.9284); -9.74% ; Welch p 0.000
+  TRAIN17 - ALL, r2: +0.0122 (seed-paired s.d. 0.0054); +1.37% ; Welch p 0.000
+  VAL17 - ALL, mae: -1.6691 (seed-paired s.d. 0.8923); -8.95% ; Welch p 0.000
+  VAL17 - ALL, r2: +0.0105 (seed-paired s.d. 0.0051); +1.18% ; Welch p 0.000
+
+Other 17 cities, period pre: mean +/- s.d. over 10 seeds
+  ALL      MAE 19.769 +/- 0.789 | RMSE 27.955 +/- 0.557 | R2 0.8986 +/- 0.0041 | mean error +4.718
+  NO_AHM   MAE 18.039 +/- 0.152 | RMSE 26.392 +/- 0.186 | R2 0.9096 +/- 0.0013 | mean error +2.346
+  CO_MASK  MAE 20.912 +/- 1.000 | RMSE 28.855 +/- 0.731 | R2 0.8919 +/- 0.0055 | mean error +6.296
+  TRAIN17  MAE 18.056 +/- 0.140 | RMSE 26.421 +/- 0.163 | R2 0.9094 +/- 0.0011 | mean error +2.282
+  VAL17    MAE 18.230 +/- 0.060 | RMSE 26.687 +/- 0.082 | R2 0.9076 +/- 0.0006 | mean error +2.367
+  NO_AHM - ALL, mae: -1.7299 (seed-paired s.d. 0.8485); -8.75% ; Welch p 0.000
+  NO_AHM - ALL, r2: +0.0111 (seed-paired s.d. 0.0044); +1.23% ; Welch p 0.000
+  CO_MASK - ALL, mae: +1.1429 (seed-paired s.d. 1.2339); +5.78% ; Welch p 0.011
+  CO_MASK - ALL, r2: -0.0067 (seed-paired s.d. 0.0067); -0.74% ; Welch p 0.007
+  TRAIN17 - ALL, mae: -1.7127 (seed-paired s.d. 0.8489); -8.66% ; Welch p 0.000
+  TRAIN17 - ALL, r2: +0.0109 (seed-paired s.d. 0.0045); +1.21% ; Welch p 0.000
+  VAL17 - ALL, mae: -1.5395 (seed-paired s.d. 0.8318); -7.79% ; Welch p 0.000
+  VAL17 - ALL, r2: +0.0090 (seed-paired s.d. 0.0043); +1.00% ; Welch p 0.000
+
+Other 17 cities, period lock: mean +/- s.d. over 10 seeds
+  ALL      MAE 15.612 +/- 1.063 | RMSE 22.443 +/- 0.735 | R2 0.6783 +/- 0.0212 | mean error +5.037
+  NO_AHM   MAE 13.436 +/- 0.271 | RMSE 20.870 +/- 0.234 | R2 0.7221 +/- 0.0063 | mean error +1.913
+  CO_MASK  MAE 16.935 +/- 1.314 | RMSE 23.369 +/- 0.959 | R2 0.6510 +/- 0.0288 | mean error +7.584
+  TRAIN17  MAE 13.516 +/- 0.218 | RMSE 20.970 +/- 0.207 | R2 0.7194 +/- 0.0055 | mean error +1.690
+  VAL17    MAE 13.592 +/- 0.146 | RMSE 21.021 +/- 0.157 | R2 0.7181 +/- 0.0042 | mean error +1.669
+  NO_AHM - ALL, mae: -2.1751 (seed-paired s.d. 1.1812); -13.93% ; Welch p 0.000
+  NO_AHM - ALL, r2: +0.0438 (seed-paired s.d. 0.0236); +6.45% ; Welch p 0.000
+  CO_MASK - ALL, mae: +1.3232 (seed-paired s.d. 1.5929); +8.48% ; Welch p 0.024
+  CO_MASK - ALL, r2: -0.0273 (seed-paired s.d. 0.0348); -4.02% ; Welch p 0.028
+  TRAIN17 - ALL, mae: -2.0960 (seed-paired s.d. 1.1518); -13.43% ; Welch p 0.000
+  TRAIN17 - ALL, r2: +0.0411 (seed-paired s.d. 0.0230); +6.06% ; Welch p 0.000
+  VAL17 - ALL, mae: -2.0193 (seed-paired s.d. 1.0577); -12.93% ; Welch p 0.000
+  VAL17 - ALL, r2: +0.0398 (seed-paired s.d. 0.0205); +5.86% ; Welch p 0.000
+
+Best iteration (early stopping) by arm: ALL mean 109 (83-193); NO_AHM mean 286 (132-453); CO_MASK mean 88 (73-116); TRAIN17 mean 216 (138-344); VAL17 mean 433 (265-582)
+
+Ahmedabad itself (test): mean over seeds
+  ALL      MAE 92.300 +/- 1.695 | R2 0.6985
+  NO_AHM   MAE 173.737 +/- 1.792 | R2 -0.1065
+  CO_MASK  MAE 102.114 +/- 1.671 | R2 0.6538
+  TRAIN17  MAE 173.581 +/- 1.854 | R2 -0.1055
+  VAL17    MAE 97.166 +/- 1.413 | R2 0.6756
+
+Per city (other 17), test MAE, mean over seeds: ALL, then each arm - ALL (NO_AHM, CO_MASK, TRAIN17, VAL17), and the ALL seed s.d.
+  Amaravati            19.195   -3.941   +1.972   -3.795   -3.195   s.d. 1.591
+  Amritsar             23.733   -2.643   +1.517   -2.673   -2.699   s.d. 1.239
+  Bengaluru             8.847   -1.701   +1.665   -1.701   -1.684   s.d. 1.190
+  Brajrajnagar         18.823   +0.188   -0.051   +0.295   +0.737   s.d. 0.320
+  Chennai              15.419   -0.404   +0.943   -0.432   -0.511   s.d. 0.615
+  Delhi                25.027   -1.876   +1.083   -1.821   -1.311   s.d. 0.454
+  Gurugram             27.137   -2.051   +0.637   -2.037   -1.553   s.d. 0.564
+  Hyderabad            13.952   -2.667   +2.079   -2.762   -3.004   s.d. 1.678
+  Jaipur               13.123   -1.008   +1.014   -1.000   -1.181   s.d. 0.684
+  Jorapokhar           22.499   -1.119   +0.299   -0.945   -0.933   s.d. 0.373
+  Kolkata              21.038   -2.730   +1.508   -2.577   -3.006   s.d. 1.368
+  Lucknow              24.661   -2.452   +1.149   -2.401   -1.552   s.d. 0.785
+  Mumbai               12.770   -1.933   +1.305   -1.849   -1.989   s.d. 1.090
+  Patna                21.348   -1.479   +0.784   -1.339   -1.126   s.d. 0.488
+  Talcher              19.148   +0.322   +0.447   +0.059   +0.508   s.d. 0.334
+  Thiruvananthapuram   13.334   -3.580   +2.285   -3.630   -3.393   s.d. 1.774
+  Visakhapatnam        18.257   -1.321   +0.957   -1.217   -1.225   s.d. 0.663
+  NO_AHM has a lower mean MAE than ALL in 15 of 17 cities
+  CO_MASK has a lower mean MAE than ALL in 1 of 17 cities
+  TRAIN17 has a lower mean MAE than ALL in 15 of 17 cities
+  VAL17 has a lower mean MAE than ALL in 15 of 17 cities
+  cities where |NO_AHM - ALL| exceeds 2 seed s.d. of ALL: ['Amaravati', 'Amritsar', 'Delhi', 'Gurugram', 'Jorapokhar', 'Lucknow', 'Patna', 'Thiruvananthapuram']
+
+elapsed 461 s

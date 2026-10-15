@@ -1,0 +1,17 @@
+{
+  "origins_checked": {
+    "train": 11569,
+    "validation": 1510,
+    "test": 6171
+  },
+  "mask_mismatches": {
+    "train": 0,
+    "validation": 0,
+    "test": 0
+  },
+  "filled_origins": {
+    "train": 155,
+    "validation": 23,
+    "test": 59
+  }
+}

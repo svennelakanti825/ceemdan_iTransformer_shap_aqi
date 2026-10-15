@@ -1,0 +1,11 @@
+{
+ "note": "information only: the rule fixed in advance was applied in Section 8b of notebook 02 _r1_ext (seed 123 against the s.d. of the scalar bias), and the main model is not changed (plan section 5, G3 (a))",
+ "sd_val_r2_bias_5_seeds": 0.010673383833865152,
+ "gain_iii_over_ii_mean_val_r2": -0.0028243864305967925,
+ "gain_iv_over_best_of_ii_iii_mean_val_r2": -0.016320971131454476,
+ "sd_test_r2_bias_5_seeds": 0.013930941275260919,
+ "gain_i_over_ii_mean_test_r2": 0.015982875323006684,
+ "iii_would_replace_ii_on_5_seed_means": false,
+ "statement_iv_limitation": false,
+ "statement_i_beats_ii_on_test": true
+}

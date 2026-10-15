@@ -1,0 +1,234 @@
+C2 verdict (rules of C2_PREREGISTRATION.md sections 7-9)
+pre-registration SHA-256 c3b38c294ba09b1f872e414d48e40623adb1f9d1382473099c2cc78494debd50
+addendum A1 SHA-256 c2d32acd5cbe91dede7cd460ee0ceee2deb029755f0d58964e8d39915e134ed7
+addendum A2 SHA-256 0f3e15ce2d78ed9dedf2c436f417c4c80e9a81c9e14de38a30c9a2854151348c (platform: Linux x86-64, n_jobs 2)
+
+PRIMARY (MET_PP against the 10 POOL_PP sets, full test year; order H1 -> H2 -> H1b, one-sided 5%)
+  H1 MAE (null mean - real)          effect +1.139 (90% +0.843 to +1.434) = +4.92% (+3.64 to +6.20)  p 0.0000  -> pass  below every null mean: True
+                                     real 21.989, null mean 23.128, null-set s.d. 0.154, rel. SE of null mean 0.0021
+  H2 short-band share excess (pp)    effect +3.474 (90% +3.327 to +3.621)  p 0.0000  -> pass
+  H1b MAE (MET - MET_PP), Welch      effect +0.439 (90% +0.215 to +0.662)  p 0.0008  -> pass
+  lockdown check: p 0.0000 -> no sentence
+
+GATE: g = 4.92% against 13% -> option A not run
+
+WORDING (section 9, row 1):
+  "In a diagnostic setting where the forecast day's weather is known, short-timescale weather explains part of the day-to-day variation in AQI beyond seasonal climatology (MAE 4.9% lower, 90% interval 3.6 to 6.2), and it adds to the weather of the forecast origin."
+  "Weather known at the forecast origin also lowers the error beyond seasonal climatology (MAE 3.4% lower, 90% interval 1.4 to 5.3)."
+
+SECONDARY
+  P H1 MAE (MET vs POOL)             effect +0.785 (90% +0.336 to +1.235) = +3.38% (+1.45 to +5.32)  p 0.0054  -> pass
+  P H2 short excess                  effect +3.032 (90% +2.906 to +3.159)  p 0.0000  -> pass
+  H4 seasonal excess (descriptive)   effect -0.096 (90% -0.328 to +0.135)
+  ablation MAE (LONG - MET_PP)       effect +0.868 (90% +0.648 to +1.088)  p 0.0000
+  E5 nulls MET_PP H1 form            effect +1.267 (90% +0.609 to +1.924) = +5.45% (+2.62 to +8.27)  p 0.0100  -> pass
+  E5 nulls MET_PP H2 form            effect +3.478 (90% +3.209 to +3.747)  p 0.0000  -> pass
+  E5 verbatim MET_PP                 H1 True, H2 False
+  E5 nulls MET H1 form               effect +0.786 (90% +0.100 to +1.472) = +3.39% (+0.43 to +6.34)  p 0.0370  -> pass
+  E5 nulls MET H2 form               effect +3.081 (90% +2.959 to +3.204)  p 0.0000  -> pass
+  E5 verbatim MET                    H1 True, H2 False
+  BASE_minus_MET                     effect +0.578 (90% +0.366 to +0.790)  p 0.0000
+  BASE_minus_MET_PP                  effect +1.016 (90% +0.796 to +1.237)  p 0.0000
+  BASE_minus_POOL                    effect -0.207 (90% -0.419 to +0.004)  p 0.9469
+  BASE_minus_POOL_PP                 effect -0.122 (90% -0.308 to +0.063)  p 0.8708
+  BASE_minus_E5NULL                  effect -0.208 (90% -0.579 to +0.163)  p 0.8607
+  BASE_minus_E5NULL_PP               effect -0.250 (90% -0.611 to +0.111)  p 0.8994
+
+climate check: median over cities of (pool mean - real mean) / real s.d.
+           syn  intra   subs   seas
+lblh     0.001 -0.003 -0.035 -0.025
+wind    -0.000 -0.003 -0.017  0.061
+lvent    0.000 -0.005 -0.026 -0.026
+t2m     -0.002 -0.016 -0.050 -0.104
+rh      -0.002 -0.018 -0.001 -0.146
+sprecip -0.001 -0.014 -0.016  0.017
+
+ARM MEANS, full test year (40 seeds)
+                mae    rmse     r2    met  met_syn  met_intra  met_seas
+BASE         23.006  42.034  0.861  0.000    0.000      0.000     0.000
+MET          22.428  41.614  0.863  5.020    3.177      0.447     0.672
+MET_PP       21.989  40.641  0.870  5.645    3.089      0.979     0.736
+MET_PP_LONG  22.858  41.908  0.861  1.919    0.000      0.000     0.727
+POOL_0       23.412  42.057  0.860  2.164    0.287      0.214     0.982
+POOL_1       22.843  41.724  0.863  2.170    0.397      0.252     0.605
+POOL_2       23.340  42.077  0.860  2.239    0.274      0.293     0.789
+POOL_3       23.420  42.383  0.858  2.378    0.323      0.247     0.891
+POOL_4       22.992  42.067  0.860  2.272    0.203      0.402     0.846
+POOL_5       23.467  41.899  0.862  2.286    0.272      0.318     0.781
+POOL_6       23.304  42.488  0.858  2.114    0.233      0.381     0.813
+POOL_7       23.201  42.001  0.861  2.115    0.244      0.258     1.021
+POOL_8       23.299  41.724  0.863  2.268    0.453      0.272     0.881
+POOL_9       22.855  41.808  0.862  2.278    0.273      0.323     0.861
+POOL_PP_0    22.983  42.081  0.860  2.296    0.254      0.263     1.043
+POOL_PP_1    22.971  41.935  0.861  2.238    0.487      0.256     0.585
+POOL_PP_2    23.255  41.849  0.862  2.438    0.364      0.321     0.816
+POOL_PP_3    22.898  42.157  0.860  2.501    0.252      0.309     0.888
+POOL_PP_4    23.079  41.727  0.863  2.262    0.256      0.352     0.827
+POOL_PP_5    23.246  42.042  0.861  2.278    0.209      0.327     0.766
+POOL_PP_6    23.130  42.366  0.858  2.183    0.277      0.364     0.806
+POOL_PP_7    23.102  41.965  0.861  2.095    0.242      0.263     0.948
+POOL_PP_8    23.399  42.193  0.860  2.097    0.244      0.311     0.857
+POOL_PP_9    23.218  42.506  0.857  2.176    0.353      0.235     0.783
+E5NULL_1     23.601  42.403  0.858  2.076    0.229      0.252     0.837
+E5NULL_2     23.103  41.898  0.862  2.087    0.289      0.304     0.777
+E5NULL_3     23.031  41.670  0.863  2.558    0.267      0.290     1.095
+E5NULL_4     23.121  41.842  0.862  1.856    0.207      0.334     0.772
+E5NULL_PP_1  23.590  42.326  0.859  2.124    0.177      0.345     0.796
+E5NULL_PP_2  23.004  42.054  0.860  2.118    0.308      0.314     0.738
+E5NULL_PP_3  23.150  42.079  0.860  2.500    0.221      0.275     1.061
+E5NULL_PP_4  23.280  41.878  0.862  2.001    0.280      0.440     0.770
+
+DESCRIPTIVE (estimates with 90% intervals, no p-values)
+  pre: MET_PP_vs_POOL_PP_mae         effect +1.184 (90% +0.909 to +1.459) = +4.67% (+3.58 to +5.75)
+  pre: MET_PP_vs_POOL_PP_short       effect +3.616 (90% +3.442 to +3.790)
+  pre: MET_vs_POOL_mae               effect +0.779 (90% +0.378 to +1.179) = +3.06% (+1.49 to +4.63)
+  pre: MET_vs_POOL_short             effect +3.098 (90% +2.952 to +3.244)
+  lock: MET_PP_vs_POOL_PP_mae        effect +1.016 (90% +0.612 to +1.420) = +5.96% (+3.59 to +8.33)
+  lock: MET_PP_vs_POOL_PP_short      effect +3.037 (90% +2.946 to +3.128)
+  lock: MET_vs_POOL_mae              effect +0.802 (90% +0.178 to +1.426) = +4.68% (+1.04 to +8.31)
+  lock: MET_vs_POOL_short            effect +2.830 (90% +2.740 to +2.920)
+  band/group met                     effect +3.389 (90% +3.134 to +3.644)
+  band/group met_syn                 effect +2.795 (90% +2.634 to +2.956)
+  band/group met_intra               effect +0.679 (90% +0.595 to +0.763)
+  band/group met_subs                effect +0.011 (90% -0.248 to +0.271)
+  band/group met_seas                effect -0.096 (90% -0.328 to +0.135)
+  band/group met_disp                effect +1.785 (90% +1.634 to +1.935)
+  band/group met_temp                effect +0.179 (90% -0.023 to +0.380)
+  band/group met_hum                 effect +0.347 (90% +0.201 to +0.494)
+  band/group met_rain                effect +1.079 (90% +0.880 to +1.277)
+  Ahmedabad: MET_PP_vs_POOL_PP_mae   effect +0.714 (90% -0.377 to +1.805) = +0.77% (-0.41 to +1.95)
+  Ahmedabad: MET_PP_vs_POOL_PP_short effect +2.925 (90% +2.497 to +3.353)
+  Ahmedabad: MET_vs_POOL_mae         effect -1.207 (90% -2.415 to +0.002) = -1.31% (-2.62 to +0.00)
+  Ahmedabad: MET_vs_POOL_short       effect +1.797 (90% +1.288 to +2.306)
+  Amaravati: MET_PP_vs_POOL_PP_mae   effect +1.578 (90% +0.905 to +2.251) = +7.84% (+4.50 to +11.19)
+  Amaravati: MET_PP_vs_POOL_PP_short effect +2.238 (90% +2.146 to +2.330)
+  Amaravati: MET_vs_POOL_mae         effect +1.374 (90% +0.326 to +2.422) = +6.78% (+1.61 to +11.95)
+  Amaravati: MET_vs_POOL_short       effect +2.223 (90% +2.130 to +2.315)
+  Amritsar: MET_PP_vs_POOL_PP_mae    effect +1.363 (90% +0.791 to +1.936) = +5.68% (+3.29 to +8.06)
+  Amritsar: MET_PP_vs_POOL_PP_short  effect +3.613 (90% +3.502 to +3.724)
+  Amritsar: MET_vs_POOL_mae          effect +1.170 (90% +0.327 to +2.014) = +4.84% (+1.35 to +8.33)
+  Amritsar: MET_vs_POOL_short        effect +3.403 (90% +3.319 to +3.487)
+  Bengaluru: MET_PP_vs_POOL_PP_mae   effect +1.060 (90% +0.481 to +1.639) = +11.63% (+5.28 to +17.98)
+  Bengaluru: MET_PP_vs_POOL_PP_short effect +2.503 (90% +2.412 to +2.593)
+  Bengaluru: MET_vs_POOL_mae         effect +0.907 (90% +0.151 to +1.662) = +9.76% (+1.63 to +17.89)
+  Bengaluru: MET_vs_POOL_short       effect +2.381 (90% +2.284 to +2.478)
+  Brajrajnagar: MET_PP_vs_POOL_PP_mae effect +0.396 (90% +0.086 to +0.707) = +2.06% (+0.45 to +3.68)
+  Brajrajnagar: MET_PP_vs_POOL_PP_short effect +4.071 (90% +3.935 to +4.207)
+  Brajrajnagar: MET_vs_POOL_mae      effect +0.130 (90% -0.226 to +0.487) = +0.68% (-1.18 to +2.54)
+  Brajrajnagar: MET_vs_POOL_short    effect +3.898 (90% +3.774 to +4.023)
+  Chennai: MET_PP_vs_POOL_PP_mae     effect +0.477 (90% +0.119 to +0.836) = +3.03% (+0.75 to +5.30)
+  Chennai: MET_PP_vs_POOL_PP_short   effect +2.444 (90% +2.348 to +2.541)
+  Chennai: MET_vs_POOL_mae           effect +0.308 (90% -0.225 to +0.840) = +1.94% (-1.42 to +5.31)
+  Chennai: MET_vs_POOL_short         effect +2.415 (90% +2.296 to +2.535)
+  Delhi: MET_PP_vs_POOL_PP_mae       effect +1.875 (90% +1.629 to +2.122) = +7.48% (+6.50 to +8.46)
+  Delhi: MET_PP_vs_POOL_PP_short     effect +4.789 (90% +4.634 to +4.945)
+  Delhi: MET_vs_POOL_mae             effect +1.482 (90% +1.089 to +1.874) = +5.88% (+4.32 to +7.44)
+  Delhi: MET_vs_POOL_short           effect +4.225 (90% +4.088 to +4.361)
+  Gurugram: MET_PP_vs_POOL_PP_mae    effect +1.628 (90% +1.134 to +2.122) = +5.99% (+4.17 to +7.80)
+  Gurugram: MET_PP_vs_POOL_PP_short  effect +4.821 (90% +4.649 to +4.993)
+  Gurugram: MET_vs_POOL_mae          effect +1.144 (90% +0.587 to +1.701) = +4.20% (+2.15 to +6.24)
+  Gurugram: MET_vs_POOL_short        effect +4.246 (90% +4.113 to +4.378)
+  Hyderabad: MET_PP_vs_POOL_PP_mae   effect +1.635 (90% +0.979 to +2.291) = +11.23% (+6.72 to +15.73)
+  Hyderabad: MET_PP_vs_POOL_PP_short effect +2.722 (90% +2.626 to +2.817)
+  Hyderabad: MET_vs_POOL_mae         effect +1.299 (90% +0.396 to +2.201) = +8.80% (+2.68 to +14.92)
+  Hyderabad: MET_vs_POOL_short       effect +2.595 (90% +2.512 to +2.678)
+  Jaipur: MET_PP_vs_POOL_PP_mae      effect +0.657 (90% +0.285 to +1.029) = +4.95% (+2.15 to +7.76)
+  Jaipur: MET_PP_vs_POOL_PP_short    effect +3.593 (90% +3.453 to +3.733)
+  Jaipur: MET_vs_POOL_mae            effect +0.730 (90% +0.156 to +1.305) = +5.46% (+1.17 to +9.76)
+  Jaipur: MET_vs_POOL_short          effect +3.131 (90% +3.012 to +3.251)
+  Jorapokhar: MET_PP_vs_POOL_PP_mae  effect +0.370 (90% +0.277 to +0.463) = +1.64% (+1.23 to +2.05)
+  Jorapokhar: MET_PP_vs_POOL_PP_short effect +5.210 (90% +5.052 to +5.368)
+  Jorapokhar: MET_vs_POOL_mae        effect +0.325 (90% +0.116 to +0.533) = +1.43% (+0.51 to +2.36)
+  Jorapokhar: MET_vs_POOL_short      effect +4.737 (90% +4.589 to +4.886)
+  Kolkata: MET_PP_vs_POOL_PP_mae     effect +1.675 (90% +1.086 to +2.265) = +7.72% (+5.01 to +10.44)
+  Kolkata: MET_PP_vs_POOL_PP_short   effect +3.892 (90% +3.741 to +4.043)
+  Kolkata: MET_vs_POOL_mae           effect +1.303 (90% +0.575 to +2.032) = +5.96% (+2.63 to +9.29)
+  Kolkata: MET_vs_POOL_short         effect +3.344 (90% +3.238 to +3.450)
+  Lucknow: MET_PP_vs_POOL_PP_mae     effect +1.719 (90% +1.286 to +2.152) = +6.97% (+5.21 to +8.72)
+  Lucknow: MET_PP_vs_POOL_PP_short   effect +4.896 (90% +4.704 to +5.088)
+  Lucknow: MET_vs_POOL_mae           effect +1.334 (90% +0.956 to +1.712) = +5.37% (+3.85 to +6.89)
+  Lucknow: MET_vs_POOL_short         effect +4.108 (90% +3.951 to +4.264)
+  Mumbai: MET_PP_vs_POOL_PP_mae      effect +1.136 (90% +0.679 to +1.592) = +8.61% (+5.15 to +12.07)
+  Mumbai: MET_PP_vs_POOL_PP_short    effect +2.953 (90% +2.845 to +3.062)
+  Mumbai: MET_vs_POOL_mae            effect +0.800 (90% +0.260 to +1.341) = +6.01% (+1.95 to +10.08)
+  Mumbai: MET_vs_POOL_short          effect +2.595 (90% +2.472 to +2.717)
+  Patna: MET_PP_vs_POOL_PP_mae       effect +0.945 (90% +0.726 to +1.164) = +4.44% (+3.41 to +5.47)
+  Patna: MET_PP_vs_POOL_PP_short     effect +4.600 (90% +4.413 to +4.787)
+  Patna: MET_vs_POOL_mae             effect +0.400 (90% +0.159 to +0.640) = +1.88% (+0.75 to +3.01)
+  Patna: MET_vs_POOL_short           effect +3.905 (90% +3.731 to +4.079)
+  Talcher: MET_PP_vs_POOL_PP_mae     effect +0.650 (90% +0.434 to +0.867) = +3.32% (+2.22 to +4.43)
+  Talcher: MET_PP_vs_POOL_PP_short   effect +3.774 (90% +3.595 to +3.953)
+  Talcher: MET_vs_POOL_mae           effect +0.339 (90% +0.232 to +0.447) = +1.73% (+1.18 to +2.28)
+  Talcher: MET_vs_POOL_short         effect +3.635 (90% +3.519 to +3.752)
+  Thiruvananthapuram: MET_PP_vs_POOL_PP_mae effect +1.549 (90% +0.660 to +2.439) = +10.97% (+4.67 to +17.27)
+  Thiruvananthapuram: MET_PP_vs_POOL_PP_short effect +2.195 (90% +2.098 to +2.292)
+  Thiruvananthapuram: MET_vs_POOL_mae effect +1.384 (90% +0.280 to +2.488) = +9.64% (+1.95 to +17.33)
+  Thiruvananthapuram: MET_vs_POOL_short effect +2.401 (90% +2.341 to +2.460)
+  Visakhapatnam: MET_PP_vs_POOL_PP_mae effect +0.542 (90% +0.238 to +0.846) = +2.90% (+1.27 to +4.53)
+  Visakhapatnam: MET_PP_vs_POOL_PP_short effect +3.018 (90% +2.893 to +3.143)
+  Visakhapatnam: MET_vs_POOL_mae     effect +0.467 (90% +0.061 to +0.872) = +2.49% (+0.33 to +4.65)
+  Visakhapatnam: MET_vs_POOL_short   effect +2.735 (90% +2.642 to +2.828)
+
+PROVENANCE
+  mode: REAL RUN
+  arms: 32
+  seeds: 0-39 (40)
+  device: cpu
+  processes: 4
+  xgboost n_jobs per fit: 2
+  xgboost threads used per fit: 2
+  python: 3.13.0
+  numpy: 2.4.2
+  pandas: 3.0.1
+  scipy: 1.17.1
+  xgboost: 3.2.0
+  platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+  machine: x86_64
+  processor: x86_64
+  cpu: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+  logical processors available: 8
+  fits made on (addendum A2.3): {'11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz | Linux x86_64 | 8 processors': 1280}
+  run key: 349bd360241853ff673816bbf068eaf7bb18a6b8fbafc2c60b72a2abdaf9b674
+  max additivity gap: 0.0009793520730454475
+  sha256 C2_PREREGISTRATION.md: c3b38c294ba09b1f872e414d48e40623adb1f9d1382473099c2cc78494debd50
+  sha256 C2_PREREGISTRATION_ADDENDUM_A1.md: c2d32acd5cbe91dede7cd460ee0ceee2deb029755f0d58964e8d39915e134ed7
+  sha256 C2_PREREGISTRATION_ADDENDUM_A2.md: 0f3e15ce2d78ed9dedf2c436f417c4c80e9a81c9e14de38a30c9a2854151348c
+  sha256 c2_xgb_confirm.py: 1bcd59bb35bba9bb04693d8c224d8e3522bf54578ab16f047a4e6a67a9a0be88
+  sha256 c2x_features.py: 451402f9227b1396ffbcfc61919b985b8954ec8edd52dcd53a0c16e8b017e50b
+  sha256 c2x_verdict.py: b4f50e0470a2d7a9e1e71a6e9228252e82807083f7e37c7a5237211b49fde555
+  sha256 test_c2x.py: 66ad4065bd2087d4a9db552a3451de1678b44a1b9c0ac297fe6d9b625e876760
+  sha256 test_c2x_verdict.py: cf5a7394cc0380de5ad6a49c7c78b27b516cda4dc862348f5591fe7c19abe544
+  sha256 test_c2_runner.py: f2f8cab849c376a00287a5bb8c9c4dc3990d86123e612860ee105e8e9022924a
+  sha256 input exports/paper_draft_v1/revision_1/Revised_Overleaf/audit_inputs/city_day.csv: 0d84b21c3e4878bbad8df362f2ab05f61ad959538dddf5918e714077ed3c1847
+  sha256 input Implementation/revision_1/e1_verification/outputs/era5_daily.csv: c757a0875981429d3fbd4049fecb6e4dda92a06470a45a7f712929a408c69c99
+  sha256 input Implementation/revision_1/e1_verification/outputs/era5_daily_pool.csv: c8d72b276b28e3c5e5c15c86807f67eb7a9233f838d3ba5feee63af3237de5d1
+  sha256 input Implementation/revision_1/e1_verification/common.py: dd1a9716406d6521d9f418b9046a5ec96438a344e7a37cbd96a5efd2a3d1ade3
+  sha256 input Implementation/revision_1/e1_verification/e1_leakage_contrast.py: ee0bef59ac6228b23dea9182f0e3581eee6ec220f7bd2a9ba33a1366a158b8f2
+  sha256 input Implementation/revision_1/e1_verification/e5_driver_band_precheck.py: c4075fdbfaffbbc7aac1b41b26a49eb277c89d8f2047fcb24ccff2a9d280563a
+  sha256 input Implementation/revision_1/e1_verification/fetch_era5.py: 1e491c819f49ac7ded2aefa1a7e4dffc7e0dc187f2b089a5922519f66332e333
+  sha256 input Implementation/revision_1/e1_verification/fetch_era5_pool.py: b1164c742948c415d7e72a8d3fb34982088a27b0d05986f2e6fcca05bc80ac08
+  sha256 input Implementation/revision_1/tools/d1_helper_cell.py: db5d76348a619cbad3b8e9148230155decdeb129b9ec536c266194dfb02e5c57
+  sha256 input Implementation/revision_1/tools/r19_helper_cell.py: e56b88b99f17f8dd94d871c567e41dd4ad35bbc88ca8e134e21ffe45f5a75630
+  sha256 input Implementation/revision_1/tools/c5_helper_cell.py: 7fe091af1bba71fd3c633dbf33eaab02bc72e3ea2c5f62fd2bcfe0c0f950f34f
+  sha256 input Implementation/revision_1/tools/n1_helper_cell.py: 8dd39cff622a1598ad59ba64871e54d7f8f8877cc36ba024aabd4d557c6cd787
+  sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Ahmedabad.npz: 6ffabbbba15913d044e1e5b9f13c1927661deaf13da7ae96f6f2bc832602da3c
+  sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Amaravati.npz: 1a1aef39aba673b77140290fb755cc45478427d86077f176996f0f9b97a7e645
+  sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Amritsar.npz: ba1f5a8384122281ebb1d36d74097fd4ed02902b8edb470362a98b5a17969f01
+  sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Bengaluru.npz: 487630402b20a4eaf51b39db348703e6186392cee9aa8c93e0d6b64be5c700ea
+  sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Brajrajnagar.npz: 02ff8e921636b3720ab92361b003667dfedece878c6f1e4cac9d0b825eb5b81d
+  sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Chennai.npz: 3083adf00665d90e44e828e1a6a9bfb20d4ae4bf2835fd96c2a786a7ad07ed87
+  sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Delhi.npz: 992ca9b7ff6d35292a103ee146dfc54032427e77c849ebd1643db41d72aad014
+  sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Gurugram.npz: 4663945ea4db644545c01b0ef1546d7af2f195ceec951b0b8813fc0217ca08c2
+  sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Hyderabad.npz: d894b77811d54cad05a5e39a62beb52b054f6688bae0e588650100f1a9554c2e
+  sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Jaipur.npz: 3dc57cce9c5030d134ad9465528e316631484d17289e6e58c8dc6e4b3b525f02
+  sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Jorapokhar.npz: bb70a9662428cc3a176f64320b54a4a85c267d78568b0c5304f807f60bd95ae9
+  sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Kolkata.npz: 5564caf3b06861ad1e5eb2c73cedcffbf097a4cbeff58b71f197fb571b06a5ec
+  sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Lucknow.npz: 20e911925e50b1102cb6f027967f544cbb5d09b3dce5093c2b257f7e1e416e04
+  sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Mumbai.npz: d18b262378860e8bf16a9f3314055198bfb9aa8cc6fe70b7e662bf8c02a71413
+  sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Patna.npz: 37facd6334a6ba0fc1700d5cac65ba9199d9a347b5e70089ec0a2345608d5b88
+  sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Talcher.npz: 2eecd97334cc1b92a6b93e003d434877ba1afa030f5640e3fb2eea1907f7d8fd
+  sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Thiruvananthapuram.npz: e42d910e239448ad367e1331dfec36a97b2917c6708e6549d0ffe1015f0216f9
+  sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Visakhapatnam.npz: 41bc2e554cec78872b46ff24ff2475a80e4b9b05d62199731944ff42fb7c3745
+  sha256 output pooled: 6e335e5e146a113dc16548fa350ce9848d2f7e5b09b78f95b6caec85daeba8da
+  sha256 output city: d9db8f03fdbc96b4eac3e5eb7105dd63ce3f6359af423543ae40b3a4b5bdee14
+  sha256 output predictions: 69c54434cff032e01c6eb83c21bde0f69d6054d9807012f65e254fba5def4165

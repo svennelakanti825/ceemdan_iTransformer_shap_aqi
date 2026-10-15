@@ -1,0 +1,20 @@
+\begin{table}[!htbp]
+\centering
+\footnotesize
+\caption{Pre-registered weather diagnostic (XGBoost, 40 seeds per arm): rules and secondary contrasts.}\label{tab:s_c2}
+\setlength{\tabcolsep}{4pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrr}
+\toprule
+Contrast & Effect & 90\% interval & One-sided $p$ \\
+\midrule
+H1, forecast-day weather against same-season nulls (MAE) & +4.92\% & +3.64 to +6.20\% & 0.0000 \\
+H2, short-band weather share above nulls (points) & +3.474 & +3.327 to +3.621 & 0.0000 \\
+H1b, forecast-day weather adds to origin weather (MAE) & +0.439 & +0.215 to +0.662 & 0.0008 \\
+Weather up to the origin against its nulls (MAE) & +3.38\% & +1.45 to +5.32\% & 0.0054 \\
+Forecast-day weather against no weather (MAE) & +1.016 & +0.796 to +1.237 & 0.0000 \\
+Same-season weather against no weather (MAE) & $-$0.122 & $-$0.308 to +0.063 & 0.8708 \\
+\bottomrule
+\end{tabular}}
+\par\smallskip\begin{minipage}{0.98\linewidth}\footnotesize Effects are differences in test MAE (AQI units or percent of the null mean) or in attribution share (percentage points). H1, H2 and H1b were tested in that order at one-sided 5\%. Forecast-day weather is a perfect-prognosis setting. Gate: the H1 effect of 4.92\% is below the pre-registered 13\%, so the iTransformer arm was not run.\end{minipage}
+\end{table}

@@ -1,0 +1,6969 @@
+{
+ "pre_registration_sha256": "c3b38c294ba09b1f872e414d48e40623adb1f9d1382473099c2cc78494debd50",
+ "addendum_A1_sha256": "c2d32acd5cbe91dede7cd460ee0ceee2deb029755f0d58964e8d39915e134ed7",
+ "addendum_A2_sha256": "0f3e15ce2d78ed9dedf2c436f417c4c80e9a81c9e14de38a30c9a2854151348c",
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39
+ ],
+ "provenance": {
+  "mode": "REAL RUN",
+  "arms": 32,
+  "seeds": "0-39 (40)",
+  "device": "cpu",
+  "processes": 4,
+  "xgboost n_jobs per fit": 2,
+  "xgboost threads used per fit": 2,
+  "python": "3.13.0",
+  "numpy": "2.4.2",
+  "pandas": "3.0.1",
+  "scipy": "1.17.1",
+  "xgboost": "3.2.0",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "machine": "x86_64",
+  "processor": "x86_64",
+  "cpu": "AMD EPYC 7B12",
+  "logical processors available": 8,
+  "fits made on (addendum A2.3)": {
+   "AMD EPYC 7B12 | Linux x86_64 | 8 processors": 1280
+  },
+  "run key": "349bd360241853ff673816bbf068eaf7bb18a6b8fbafc2c60b72a2abdaf9b674",
+  "max additivity gap": 0.0009793520730454475,
+  "sha256 C2_PREREGISTRATION.md": "c3b38c294ba09b1f872e414d48e40623adb1f9d1382473099c2cc78494debd50",
+  "sha256 C2_PREREGISTRATION_ADDENDUM_A1.md": "c2d32acd5cbe91dede7cd460ee0ceee2deb029755f0d58964e8d39915e134ed7",
+  "sha256 C2_PREREGISTRATION_ADDENDUM_A2.md": "0f3e15ce2d78ed9dedf2c436f417c4c80e9a81c9e14de38a30c9a2854151348c",
+  "sha256 c2_xgb_confirm.py": "1bcd59bb35bba9bb04693d8c224d8e3522bf54578ab16f047a4e6a67a9a0be88",
+  "sha256 c2x_features.py": "451402f9227b1396ffbcfc61919b985b8954ec8edd52dcd53a0c16e8b017e50b",
+  "sha256 c2x_verdict.py": "b4f50e0470a2d7a9e1e71a6e9228252e82807083f7e37c7a5237211b49fde555",
+  "sha256 test_c2x.py": "66ad4065bd2087d4a9db552a3451de1678b44a1b9c0ac297fe6d9b625e876760",
+  "sha256 test_c2x_verdict.py": "cf5a7394cc0380de5ad6a49c7c78b27b516cda4dc862348f5591fe7c19abe544",
+  "sha256 test_c2_runner.py": "f2f8cab849c376a00287a5bb8c9c4dc3990d86123e612860ee105e8e9022924a",
+  "sha256 input exports/paper_draft_v1/revision_1/Revised_Overleaf/audit_inputs/city_day.csv": "0d84b21c3e4878bbad8df362f2ab05f61ad959538dddf5918e714077ed3c1847",
+  "sha256 input Implementation/revision_1/e1_verification/outputs/era5_daily.csv": "c757a0875981429d3fbd4049fecb6e4dda92a06470a45a7f712929a408c69c99",
+  "sha256 input Implementation/revision_1/e1_verification/outputs/era5_daily_pool.csv": "c8d72b276b28e3c5e5c15c86807f67eb7a9233f838d3ba5feee63af3237de5d1",
+  "sha256 input Implementation/revision_1/e1_verification/common.py": "dd1a9716406d6521d9f418b9046a5ec96438a344e7a37cbd96a5efd2a3d1ade3",
+  "sha256 input Implementation/revision_1/e1_verification/e1_leakage_contrast.py": "ee0bef59ac6228b23dea9182f0e3581eee6ec220f7bd2a9ba33a1366a158b8f2",
+  "sha256 input Implementation/revision_1/e1_verification/e5_driver_band_precheck.py": "c4075fdbfaffbbc7aac1b41b26a49eb277c89d8f2047fcb24ccff2a9d280563a",
+  "sha256 input Implementation/revision_1/e1_verification/fetch_era5.py": "1e491c819f49ac7ded2aefa1a7e4dffc7e0dc187f2b089a5922519f66332e333",
+  "sha256 input Implementation/revision_1/e1_verification/fetch_era5_pool.py": "b1164c742948c415d7e72a8d3fb34982088a27b0d05986f2e6fcca05bc80ac08",
+  "sha256 input Implementation/revision_1/tools/d1_helper_cell.py": "db5d76348a619cbad3b8e9148230155decdeb129b9ec536c266194dfb02e5c57",
+  "sha256 input Implementation/revision_1/tools/r19_helper_cell.py": "e56b88b99f17f8dd94d871c567e41dd4ad35bbc88ca8e134e21ffe45f5a75630",
+  "sha256 input Implementation/revision_1/tools/c5_helper_cell.py": "7fe091af1bba71fd3c633dbf33eaab02bc72e3ea2c5f62fd2bcfe0c0f950f34f",
+  "sha256 input Implementation/revision_1/tools/n1_helper_cell.py": "8dd39cff622a1598ad59ba64871e54d7f8f8877cc36ba024aabd4d557c6cd787",
+  "sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Ahmedabad.npz": "6ffabbbba15913d044e1e5b9f13c1927661deaf13da7ae96f6f2bc832602da3c",
+  "sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Amaravati.npz": "1a1aef39aba673b77140290fb755cc45478427d86077f176996f0f9b97a7e645",
+  "sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Amritsar.npz": "ba1f5a8384122281ebb1d36d74097fd4ed02902b8edb470362a98b5a17969f01",
+  "sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Bengaluru.npz": "487630402b20a4eaf51b39db348703e6186392cee9aa8c93e0d6b64be5c700ea",
+  "sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Brajrajnagar.npz": "02ff8e921636b3720ab92361b003667dfedece878c6f1e4cac9d0b825eb5b81d",
+  "sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Chennai.npz": "3083adf00665d90e44e828e1a6a9bfb20d4ae4bf2835fd96c2a786a7ad07ed87",
+  "sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Delhi.npz": "992ca9b7ff6d35292a103ee146dfc54032427e77c849ebd1643db41d72aad014",
+  "sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Gurugram.npz": "4663945ea4db644545c01b0ef1546d7af2f195ceec951b0b8813fc0217ca08c2",
+  "sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Hyderabad.npz": "d894b77811d54cad05a5e39a62beb52b054f6688bae0e588650100f1a9554c2e",
+  "sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Jaipur.npz": "3dc57cce9c5030d134ad9465528e316631484d17289e6e58c8dc6e4b3b525f02",
+  "sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Jorapokhar.npz": "bb70a9662428cc3a176f64320b54a4a85c267d78568b0c5304f807f60bd95ae9",
+  "sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Kolkata.npz": "5564caf3b06861ad1e5eb2c73cedcffbf097a4cbeff58b71f197fb571b06a5ec",
+  "sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Lucknow.npz": "20e911925e50b1102cb6f027967f544cbb5d09b3dce5093c2b257f7e1e416e04",
+  "sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Mumbai.npz": "d18b262378860e8bf16a9f3314055198bfb9aa8cc6fe70b7e662bf8c02a71413",
+  "sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Patna.npz": "37facd6334a6ba0fc1700d5cac65ba9199d9a347b5e70089ec0a2345608d5b88",
+  "sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Talcher.npz": "2eecd97334cc1b92a6b93e003d434877ba1afa030f5640e3fb2eea1907f7d8fd",
+  "sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Thiruvananthapuram.npz": "e42d910e239448ad367e1331dfec36a97b2917c6708e6549d0ffe1015f0216f9",
+  "sha256 input Implementation/revision_1/phase4_v2_results_r1/models/c5_decompositions_ext_ar/c5_Visakhapatnam.npz": "41bc2e554cec78872b46ff24ff2475a80e4b9b05d62199731944ff42fb7c3745",
+  "sha256 output pooled": "6e335e5e146a113dc16548fa350ce9848d2f7e5b09b78f95b6caec85daeba8da",
+  "sha256 output city": "d9db8f03fdbc96b4eac3e5eb7105dd63ce3f6359af423543ae40b3a4b5bdee14",
+  "sha256 output predictions": "69c54434cff032e01c6eb83c21bde0f69d6054d9807012f65e254fba5def4165"
+ },
+ "warnings": [],
+ "primary": {
+  "H1": {
+   "real_mean": 21.98945829958337,
+   "null_means": [
+    22.98300022211169,
+    22.97071228453878,
+    23.254861845712846,
+    22.898279984390264,
+    23.078757446207465,
+    23.24555112872435,
+    23.12994900734184,
+    23.10221149175369,
+    23.398867522675335,
+    23.21816505395966
+   ],
+   "null_mean": 23.128035598741597,
+   "null_sd": 0.15385435261627617,
+   "K": 10,
+   "effect": 1.1385772991582286,
+   "se": 0.16136380635344097,
+   "df": 9,
+   "t": 7.055964561621468,
+   "p": 2.9734404854391643e-05,
+   "lo": 0.8427792188690992,
+   "hi": 1.434375379447358,
+   "below_every_null": true,
+   "pct": 4.92293128094363,
+   "pct_lo": 3.643972335095139,
+   "pct_hi": 6.201890226792122,
+   "rel_se_null_mean": 0.0021036381586363125,
+   "status": "pass"
+  },
+  "H2": {
+   "real_mean": 4.0679047036680815,
+   "null_means": [
+    0.517243353721267,
+    0.7424925803117978,
+    0.6852046203264509,
+    0.560651514579056,
+    0.608732021131362,
+    0.5358109294539671,
+    0.6402359309441895,
+    0.5055169210057392,
+    0.5548290948926342,
+    0.5881704261815583
+   ],
+   "null_mean": 0.5938887392548022,
+   "null_sd": 0.07638373176773272,
+   "K": 10,
+   "effect": 3.4740159644132795,
+   "se": 0.08011193373425357,
+   "df": 9,
+   "t": 43.36452513975318,
+   "p": 4.604117268747693e-12,
+   "lo": 3.32716174262492,
+   "hi": 3.620870186201639,
+   "status": "pass"
+  },
+  "H1b": {
+   "mean_a": 22.42811350376597,
+   "mean_b": 21.98945829958337,
+   "effect": 0.4386552041826022,
+   "se": 0.13413870191812868,
+   "df": 77.61373211816799,
+   "t": 3.270161391977198,
+   "p": 0.0008020833513444173,
+   "lo": 0.2153512570060025,
+   "hi": 0.6619591513592018,
+   "status": "pass"
+  }
+ },
+ "lockdown_check": {
+  "run": true,
+  "p": 1.2360278578823907e-05,
+  "effect": 1.1841609962459962,
+  "pct": 4.665350480434461,
+  "triggered": false
+ },
+ "secondary": {
+  "P_H1": {
+   "real_mean": 22.42811350376597,
+   "null_means": [
+    23.41174010351129,
+    22.842711425302788,
+    23.339823279599475,
+    23.42026809742763,
+    22.992279522416272,
+    23.46652189218289,
+    23.30358305391588,
+    23.201220200525807,
+    23.298993866734556,
+    22.855496117624774
+   ],
+   "null_mean": 23.213263755924135,
+   "null_sd": 0.23385505327617223,
+   "K": 10,
+   "effect": 0.7851502521581644,
+   "se": 0.24526924906535164,
+   "df": 9,
+   "t": 3.201176890907193,
+   "p": 0.005405433216300263,
+   "lo": 0.3355440197135846,
+   "hi": 1.2347564846027441,
+   "below_every_null": true,
+   "pct": 3.382334601517593,
+   "pct_lo": 1.4454840268979934,
+   "pct_hi": 5.319185176137192,
+   "rel_se_null_mean": 0.003185741645243651,
+   "status": "pass"
+  },
+  "P_H2": {
+   "real_mean": 3.6242011183033553,
+   "null_means": [
+    0.5011551497711995,
+    0.6497001281031255,
+    0.5672796119811704,
+    0.5699685999598029,
+    0.6050416503115316,
+    0.5904448335529662,
+    0.6140580307336518,
+    0.5028696538551911,
+    0.7248408490239713,
+    0.5964023112136293
+   ],
+   "null_mean": 0.592176081850624,
+   "null_sd": 0.0657838309602489,
+   "K": 10,
+   "effect": 3.0320250364527315,
+   "se": 0.0689946639776386,
+   "df": 9,
+   "t": 43.94579032134167,
+   "p": 4.086247185977748e-12,
+   "lo": 2.905550025631051,
+   "hi": 3.158500047274412,
+   "status": "pass"
+  },
+  "H4_seasonal_excess": {
+   "real_mean": 0.7358549933790238,
+   "null_means": [
+    1.0429597994500281,
+    0.5847068998867707,
+    0.8163157440351313,
+    0.8879705067089553,
+    0.8267299336026127,
+    0.7664652632916507,
+    0.8061997901744652,
+    0.9483491296500526,
+    0.8568520558637026,
+    0.7831222244011411
+   ],
+   "null_mean": 0.831967134706451,
+   "null_sd": 0.12044759339579007,
+   "K": 10,
+   "effect": -0.09611214132742718,
+   "se": 0.12632650169430534,
+   "df": 9,
+   "lo": -0.32768288532047835,
+   "hi": 0.13545860266562398
+  },
+  "ablation_long_minus_pp": {
+   "mean_a": 22.85766603661171,
+   "mean_b": 21.98945829958337,
+   "effect": 0.8682077370283423,
+   "se": 0.13198048519321343,
+   "df": 77.1358344049545,
+   "t": 6.5783038739198885,
+   "p": 2.567588309702383e-09,
+   "lo": 0.648480180065691,
+   "hi": 1.0879352939909936
+  },
+  "E5_sensitivity": {
+   "MET_PP": {
+    "H1_form": {
+     "real_mean": 21.98945829958337,
+     "null_means": [
+      23.590312701549664,
+      23.00351108803855,
+      23.15018629962091,
+      23.279897667843564
+     ],
+     "null_mean": 23.25597693926317,
+     "null_sd": 0.24985547066921054,
+     "K": 4,
+     "effect": 1.266518639679802,
+     "se": 0.2793469084832798,
+     "df": 3,
+     "t": 4.533855937609594,
+     "p": 0.01004071140003168,
+     "lo": 0.6091138396303201,
+     "hi": 1.923923439729284,
+     "below_every_null": true,
+     "pct": 5.445991982996564,
+     "pct_lo": 2.6191711542418603,
+     "pct_hi": 8.272812811751267,
+     "rel_se_null_mean": 0.005371854971342408,
+     "status": "pass"
+    },
+    "H2_form": {
+     "real_mean": 4.0679047036680815,
+     "null_means": [
+      0.5219281539145565,
+      0.621576390848974,
+      0.496581218445486,
+      0.7204000168676175
+     ],
+     "null_mean": 0.5901214450191585,
+     "null_sd": 0.10224483497820593,
+     "K": 4,
+     "effect": 3.4777832586489232,
+     "se": 0.11431320067975835,
+     "df": 3,
+     "t": 30.423286531812952,
+     "p": 3.900639085406212e-05,
+     "lo": 3.208762752054017,
+     "hi": 3.7468037652438295,
+     "status": "pass"
+    },
+    "H4_form": {
+     "real_mean": 0.7358549933790238,
+     "null_means": [
+      0.7956427456721981,
+      0.7378746165643183,
+      1.0611192277860737,
+      0.7695367438685587
+     ],
+     "null_mean": 0.8410433334727873,
+     "null_sd": 0.1486064031099145,
+     "K": 4,
+     "effect": -0.10518834009376343,
+     "se": 0.16614700962275247,
+     "df": 3,
+     "lo": -0.4961926373416158,
+     "hi": 0.2858159571540889
+    },
+    "pre_lockdown_H1_form": {
+     "real_mean": 24.197876242159317,
+     "null_means": [
+      25.835558887419836,
+      25.282552750276913,
+      25.36705540598154,
+      25.500006201636893
+     ],
+     "null_mean": 25.496293311328795,
+     "null_sd": 0.24324362293261012,
+     "K": 4,
+     "effect": 1.2984170691694779,
+     "se": 0.2719546379853215,
+     "df": 3,
+     "lo": 0.6584089682100552,
+     "hi": 1.9384251701289004,
+     "below_every_null": true,
+     "pct": 5.092571901785232,
+     "pct_lo": 2.5823713281393093,
+     "pct_hi": 7.602772475431155,
+     "rel_se_null_mean": 0.004770176197034285
+    },
+    "E5_verbatim_H1": true,
+    "E5_verbatim_H2": false
+   },
+   "MET": {
+    "H1_form": {
+     "real_mean": 22.42811350376597,
+     "null_means": [
+      23.600552263415974,
+      23.103335301707233,
+      23.031063525685614,
+      23.12108048972348
+     ],
+     "null_mean": 23.214007895133076,
+     "null_sd": 0.2606204881787026,
+     "K": 4,
+     "effect": 0.7858943913671048,
+     "se": 0.2913825639483797,
+     "df": 3,
+     "t": 2.697122232428194,
+     "p": 0.03698306049921233,
+     "lo": 0.10016531983218402,
+     "hi": 1.4716234629020257,
+     "below_every_null": true,
+     "pct": 3.385431739824088,
+     "pct_lo": 0.4314865415945005,
+     "pct_hi": 6.339376938053676,
+     "rel_se_null_mean": 0.005613431540043175,
+     "status": "pass"
+    },
+    "H2_form": {
+     "real_mean": 3.6242011183033553,
+     "null_means": [
+      0.48120068445377023,
+      0.5928851798813154,
+      0.5570523790870803,
+      0.5407541802207548
+     ],
+     "null_mean": 0.5429731059107302,
+     "null_sd": 0.04658396270926072,
+     "K": 4,
+     "effect": 3.081228012392625,
+     "se": 0.05208245363961112,
+     "df": 3,
+     "t": 59.16057706715277,
+     "p": 5.319821003777065e-06,
+     "lo": 2.958659070402403,
+     "hi": 3.203796954382847,
+     "status": "pass"
+    },
+    "H4_form": {
+     "real_mean": 0.6722221069168837,
+     "null_means": [
+      0.8369959912205986,
+      0.7770742342124554,
+      1.0952525680569276,
+      0.7722340419222882
+     ],
+     "null_mean": 0.8703892088530674,
+     "null_sd": 0.15277517095793727,
+     "K": 4,
+     "effect": -0.1981671019361837,
+     "se": 0.1708078337680497,
+     "df": 3,
+     "lo": -0.60014001230362,
+     "hi": 0.20380580843125262
+    },
+    "pre_lockdown_H1_form": {
+     "real_mean": 24.681970725531897,
+     "null_means": [
+      25.835515019460445,
+      25.351228904194535,
+      25.23547319069485,
+      25.35472674831609
+     ],
+     "null_mean": 25.44423596566648,
+     "null_sd": 0.2666729630253013,
+     "K": 4,
+     "effect": 0.7622652401345817,
+     "se": 0.29814943654293086,
+     "df": 3,
+     "lo": 0.06061125806768175,
+     "hi": 1.4639192222014819,
+     "below_every_null": true,
+     "pct": 2.995826800078236,
+     "pct_lo": 0.23821213633401436,
+     "pct_hi": 5.753441463822458,
+     "rel_se_null_mean": 0.0052403413367400785
+    },
+    "E5_verbatim_H1": true,
+    "E5_verbatim_H2": false
+   }
+  },
+  "weather_vs_none": {
+   "BASE_minus_MET": {
+    "mean_a": 23.005900443745787,
+    "mean_b": 22.42811350376597,
+    "effect": 0.5777869399798163,
+    "se": 0.12744156179791089,
+    "df": 77.93122452413968,
+    "t": 4.533740263604395,
+    "p": 1.0325048795960394e-05,
+    "lo": 0.3656423251005517,
+    "hi": 0.789931554859081
+   },
+   "BASE_minus_MET_PP": {
+    "mean_a": 23.005900443745787,
+    "mean_b": 21.98945829958337,
+    "effect": 1.0164421441624185,
+    "se": 0.13232802806749583,
+    "df": 77.22705105980653,
+    "t": 7.681230945601089,
+    "p": 2.0523679784808707e-11,
+    "lo": 0.7961391440213174,
+    "hi": 1.2367451443035198
+   },
+   "BASE_minus_POOL": {
+    "effect": -0.20736331217834802,
+    "se": 0.11553463662902652,
+    "df": 9,
+    "t": -1.7948151154374323,
+    "p": 0.9468705826241901,
+    "lo": -0.4191513487527555,
+    "hi": 0.004424724396059482
+   },
+   "BASE_minus_POOL_PP": {
+    "effect": -0.12213515499581007,
+    "se": 0.10122524313933953,
+    "df": 9,
+    "t": -1.2065681564003499,
+    "p": 0.8708222830896113,
+    "lo": -0.3076924573058054,
+    "hi": 0.06342214731418525
+   },
+   "BASE_minus_E5NULL": {
+    "effect": -0.20810745138728848,
+    "se": 0.15767115583183683,
+    "df": 3,
+    "t": -1.3198828301179206,
+    "p": 0.8607236427484892,
+    "lo": -0.5791649842448735,
+    "hi": 0.16295008147029655
+   },
+   "BASE_minus_E5NULL_PP": {
+    "effect": -0.25007649551738353,
+    "se": 0.15325264344393622,
+    "df": 3,
+    "t": -1.6317923782428456,
+    "p": 0.89938810076141,
+    "lo": -0.6107356628850644,
+    "hi": 0.1105826718502973
+   }
+  },
+  "climate_check_median_diff_in_sd": {
+   "lblh": {
+    "syn": 0.000931,
+    "intra": -0.003346,
+    "subs": -0.035184,
+    "seas": -0.025449
+   },
+   "wind": {
+    "syn": -0.00023,
+    "intra": -0.003027,
+    "subs": -0.017205,
+    "seas": 0.060605
+   },
+   "lvent": {
+    "syn": 0.000268,
+    "intra": -0.004684,
+    "subs": -0.026034,
+    "seas": -0.025842
+   },
+   "t2m": {
+    "syn": -0.002461,
+    "intra": -0.016069,
+    "subs": -0.049784,
+    "seas": -0.103753
+   },
+   "rh": {
+    "syn": -0.001911,
+    "intra": -0.018182,
+    "subs": -0.000512,
+    "seas": -0.145619
+   },
+   "sprecip": {
+    "syn": -0.000838,
+    "intra": -0.013786,
+    "subs": -0.01619,
+    "seas": 0.017207
+   }
+  },
+  "climate_check_full": [
+   {
+    "city": "Ahmedabad",
+    "feature": "lblh|syn",
+    "real_mean": 0.000901,
+    "pool_mean": -1.1e-05,
+    "real_sd": 0.196502,
+    "diff_in_sd": -0.004641
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "lblh|intra",
+    "real_mean": 0.003708,
+    "pool_mean": 0.000196,
+    "real_sd": 0.167082,
+    "diff_in_sd": -0.021018
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "lblh|subs",
+    "real_mean": 0.01244,
+    "pool_mean": -3.9e-05,
+    "real_sd": 0.197054,
+    "diff_in_sd": -0.06333
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "lblh|seas",
+    "real_mean": 6.298164,
+    "pool_mean": 6.238472,
+    "real_sd": 0.299369,
+    "diff_in_sd": -0.199393
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "wind|syn",
+    "real_mean": 0.001124,
+    "pool_mean": 0.000225,
+    "real_sd": 0.626599,
+    "diff_in_sd": -0.001435
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "wind|intra",
+    "real_mean": 0.007071,
+    "pool_mean": 0.001177,
+    "real_sd": 0.437345,
+    "diff_in_sd": -0.013476
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "wind|subs",
+    "real_mean": 0.013737,
+    "pool_mean": -0.000521,
+    "real_sd": 0.397835,
+    "diff_in_sd": -0.035839
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "wind|seas",
+    "real_mean": 2.678991,
+    "pool_mean": 2.635761,
+    "real_sd": 0.442504,
+    "diff_in_sd": -0.097695
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "lvent|syn",
+    "real_mean": 0.001219,
+    "pool_mean": 5.9e-05,
+    "real_sd": 0.452596,
+    "diff_in_sd": -0.002563
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "lvent|intra",
+    "real_mean": 0.007516,
+    "pool_mean": 0.000911,
+    "real_sd": 0.316233,
+    "diff_in_sd": -0.020887
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "lvent|subs",
+    "real_mean": 0.019932,
+    "pool_mean": 9e-05,
+    "real_sd": 0.317591,
+    "diff_in_sd": -0.062479
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "lvent|seas",
+    "real_mean": 7.197927,
+    "pool_mean": 7.12608,
+    "real_sd": 0.486243,
+    "diff_in_sd": -0.147758
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "t2m|syn",
+    "real_mean": 0.005958,
+    "pool_mean": -0.003546,
+    "real_sd": 1.145363,
+    "diff_in_sd": -0.008298
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "t2m|intra",
+    "real_mean": 0.029573,
+    "pool_mean": -0.00621,
+    "real_sd": 1.595677,
+    "diff_in_sd": -0.022425
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "t2m|subs",
+    "real_mean": 0.170824,
+    "pool_mean": 0.004419,
+    "real_sd": 2.832224,
+    "diff_in_sd": -0.058754
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "t2m|seas",
+    "real_mean": 27.645035,
+    "pool_mean": 27.058194,
+    "real_sd": 3.979497,
+    "diff_in_sd": -0.147466
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "rh|syn",
+    "real_mean": 0.028955,
+    "pool_mean": -0.009062,
+    "real_sd": 5.776611,
+    "diff_in_sd": -0.006581
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "rh|intra",
+    "real_mean": 0.124095,
+    "pool_mean": -0.002042,
+    "real_sd": 6.145329,
+    "diff_in_sd": -0.020526
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "rh|subs",
+    "real_mean": -0.09122,
+    "pool_mean": 0.054279,
+    "real_sd": 7.812448,
+    "diff_in_sd": 0.018624
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "rh|seas",
+    "real_mean": 58.447049,
+    "pool_mean": 59.088786,
+    "real_sd": 11.071707,
+    "diff_in_sd": 0.057962
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "sprecip|syn",
+    "real_mean": 0.00063,
+    "pool_mean": -0.000386,
+    "real_sd": 0.95938,
+    "diff_in_sd": -0.00106
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "sprecip|intra",
+    "real_mean": 0.003096,
+    "pool_mean": -0.00012,
+    "real_sd": 0.70022,
+    "diff_in_sd": -0.004592
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "sprecip|subs",
+    "real_mean": 0.00254,
+    "pool_mean": 0.00021,
+    "real_sd": 0.559141,
+    "diff_in_sd": -0.004167
+   },
+   {
+    "city": "Ahmedabad",
+    "feature": "sprecip|seas",
+    "real_mean": 0.488543,
+    "pool_mean": 0.568791,
+    "real_sd": 0.641784,
+    "diff_in_sd": 0.125039
+   },
+   {
+    "city": "Amaravati",
+    "feature": "lblh|syn",
+    "real_mean": -0.000982,
+    "pool_mean": 9.8e-05,
+    "real_sd": 0.176152,
+    "diff_in_sd": 0.006137
+   },
+   {
+    "city": "Amaravati",
+    "feature": "lblh|intra",
+    "real_mean": -0.00135,
+    "pool_mean": 0.000392,
+    "real_sd": 0.149799,
+    "diff_in_sd": 0.011626
+   },
+   {
+    "city": "Amaravati",
+    "feature": "lblh|subs",
+    "real_mean": 0.002132,
+    "pool_mean": 0.000776,
+    "real_sd": 0.14151,
+    "diff_in_sd": -0.009586
+   },
+   {
+    "city": "Amaravati",
+    "feature": "lblh|seas",
+    "real_mean": 6.451434,
+    "pool_mean": 6.383072,
+    "real_sd": 0.210371,
+    "diff_in_sd": -0.32496
+   },
+   {
+    "city": "Amaravati",
+    "feature": "wind|syn",
+    "real_mean": -0.001849,
+    "pool_mean": 0.000538,
+    "real_sd": 0.526924,
+    "diff_in_sd": 0.00453
+   },
+   {
+    "city": "Amaravati",
+    "feature": "wind|intra",
+    "real_mean": 0.001092,
+    "pool_mean": 0.000824,
+    "real_sd": 0.414701,
+    "diff_in_sd": -0.000646
+   },
+   {
+    "city": "Amaravati",
+    "feature": "wind|subs",
+    "real_mean": 0.007268,
+    "pool_mean": 0.000152,
+    "real_sd": 0.330922,
+    "diff_in_sd": -0.021502
+   },
+   {
+    "city": "Amaravati",
+    "feature": "wind|seas",
+    "real_mean": 2.457712,
+    "pool_mean": 2.381785,
+    "real_sd": 0.42259,
+    "diff_in_sd": -0.179671
+   },
+   {
+    "city": "Amaravati",
+    "feature": "lvent|syn",
+    "real_mean": -0.001911,
+    "pool_mean": 0.000404,
+    "real_sd": 0.399694,
+    "diff_in_sd": 0.00579
+   },
+   {
+    "city": "Amaravati",
+    "feature": "lvent|intra",
+    "real_mean": -0.000411,
+    "pool_mean": 0.001004,
+    "real_sd": 0.312649,
+    "diff_in_sd": 0.004526
+   },
+   {
+    "city": "Amaravati",
+    "feature": "lvent|subs",
+    "real_mean": 0.004548,
+    "pool_mean": 0.001021,
+    "real_sd": 0.276494,
+    "diff_in_sd": -0.012759
+   },
+   {
+    "city": "Amaravati",
+    "feature": "lvent|seas",
+    "real_mean": 7.347766,
+    "pool_mean": 7.237462,
+    "real_sd": 0.358393,
+    "diff_in_sd": -0.307774
+   },
+   {
+    "city": "Amaravati",
+    "feature": "t2m|syn",
+    "real_mean": 7.3e-05,
+    "pool_mean": 0.000581,
+    "real_sd": 1.081072,
+    "diff_in_sd": 0.000469
+   },
+   {
+    "city": "Amaravati",
+    "feature": "t2m|intra",
+    "real_mean": 0.008748,
+    "pool_mean": 0.001602,
+    "real_sd": 1.16885,
+    "diff_in_sd": -0.006114
+   },
+   {
+    "city": "Amaravati",
+    "feature": "t2m|subs",
+    "real_mean": 0.090112,
+    "pool_mean": 0.010149,
+    "real_sd": 1.58299,
+    "diff_in_sd": -0.050514
+   },
+   {
+    "city": "Amaravati",
+    "feature": "t2m|seas",
+    "real_mean": 29.321297,
+    "pool_mean": 28.654649,
+    "real_sd": 2.279859,
+    "diff_in_sd": -0.292407
+   },
+   {
+    "city": "Amaravati",
+    "feature": "rh|syn",
+    "real_mean": 0.021589,
+    "pool_mean": -0.007121,
+    "real_sd": 5.583778,
+    "diff_in_sd": -0.005142
+   },
+   {
+    "city": "Amaravati",
+    "feature": "rh|intra",
+    "real_mean": 0.041857,
+    "pool_mean": -0.024007,
+    "real_sd": 5.076892,
+    "diff_in_sd": -0.012973
+   },
+   {
+    "city": "Amaravati",
+    "feature": "rh|subs",
+    "real_mean": -0.019202,
+    "pool_mean": -0.028119,
+    "real_sd": 3.650743,
+    "diff_in_sd": -0.002443
+   },
+   {
+    "city": "Amaravati",
+    "feature": "rh|seas",
+    "real_mean": 70.511319,
+    "pool_mean": 71.695177,
+    "real_sd": 4.841518,
+    "diff_in_sd": 0.244522
+   },
+   {
+    "city": "Amaravati",
+    "feature": "sprecip|syn",
+    "real_mean": 0.004858,
+    "pool_mean": -4.9e-05,
+    "real_sd": 1.068879,
+    "diff_in_sd": -0.004592
+   },
+   {
+    "city": "Amaravati",
+    "feature": "sprecip|intra",
+    "real_mean": 0.01058,
+    "pool_mean": -6.8e-05,
+    "real_sd": 0.71954,
+    "diff_in_sd": -0.014798
+   },
+   {
+    "city": "Amaravati",
+    "feature": "sprecip|subs",
+    "real_mean": 0.011666,
+    "pool_mean": 0.000752,
+    "real_sd": 0.499289,
+    "diff_in_sd": -0.021859
+   },
+   {
+    "city": "Amaravati",
+    "feature": "sprecip|seas",
+    "real_mean": 0.812833,
+    "pool_mean": 0.836706,
+    "real_sd": 0.680274,
+    "diff_in_sd": 0.035094
+   },
+   {
+    "city": "Amritsar",
+    "feature": "lblh|syn",
+    "real_mean": 0.000821,
+    "pool_mean": -0.000574,
+    "real_sd": 0.196662,
+    "diff_in_sd": -0.007092
+   },
+   {
+    "city": "Amritsar",
+    "feature": "lblh|intra",
+    "real_mean": 0.005492,
+    "pool_mean": -0.000772,
+    "real_sd": 0.179414,
+    "diff_in_sd": -0.034909
+   },
+   {
+    "city": "Amritsar",
+    "feature": "lblh|subs",
+    "real_mean": 0.014906,
+    "pool_mean": -0.001532,
+    "real_sd": 0.285937,
+    "diff_in_sd": -0.05749
+   },
+   {
+    "city": "Amritsar",
+    "feature": "lblh|seas",
+    "real_mean": 5.927708,
+    "pool_mean": 5.9426,
+    "real_sd": 0.401399,
+    "diff_in_sd": 0.037099
+   },
+   {
+    "city": "Amritsar",
+    "feature": "wind|syn",
+    "real_mean": -0.001491,
+    "pool_mean": -0.001244,
+    "real_sd": 0.5064,
+    "diff_in_sd": 0.000488
+   },
+   {
+    "city": "Amritsar",
+    "feature": "wind|intra",
+    "real_mean": -0.001366,
+    "pool_mean": -0.00079,
+    "real_sd": 0.256348,
+    "diff_in_sd": 0.002248
+   },
+   {
+    "city": "Amritsar",
+    "feature": "wind|subs",
+    "real_mean": -0.000796,
+    "pool_mean": 0.002407,
+    "real_sd": 0.177312,
+    "diff_in_sd": 0.018064
+   },
+   {
+    "city": "Amritsar",
+    "feature": "wind|seas",
+    "real_mean": 1.965042,
+    "pool_mean": 1.912066,
+    "real_sd": 0.237794,
+    "diff_in_sd": -0.222781
+   },
+   {
+    "city": "Amritsar",
+    "feature": "lvent|syn",
+    "real_mean": 0.000121,
+    "pool_mean": -0.001355,
+    "real_sd": 0.428729,
+    "diff_in_sd": -0.003442
+   },
+   {
+    "city": "Amritsar",
+    "feature": "lvent|intra",
+    "real_mean": 0.004244,
+    "pool_mean": -0.001434,
+    "real_sd": 0.269715,
+    "diff_in_sd": -0.021052
+   },
+   {
+    "city": "Amritsar",
+    "feature": "lvent|subs",
+    "real_mean": 0.014273,
+    "pool_mean": 0.000308,
+    "real_sd": 0.343013,
+    "diff_in_sd": -0.040711
+   },
+   {
+    "city": "Amritsar",
+    "feature": "lvent|seas",
+    "real_mean": 6.549155,
+    "pool_mean": 6.525908,
+    "real_sd": 0.487023,
+    "diff_in_sd": -0.047733
+   },
+   {
+    "city": "Amritsar",
+    "feature": "t2m|syn",
+    "real_mean": 0.017524,
+    "pool_mean": -0.003162,
+    "real_sd": 1.624531,
+    "diff_in_sd": -0.012734
+   },
+   {
+    "city": "Amritsar",
+    "feature": "t2m|intra",
+    "real_mean": 0.078888,
+    "pool_mean": -0.011248,
+    "real_sd": 2.069488,
+    "diff_in_sd": -0.043555
+   },
+   {
+    "city": "Amritsar",
+    "feature": "t2m|subs",
+    "real_mean": 0.227483,
+    "pool_mean": -0.009584,
+    "real_sd": 3.964655,
+    "diff_in_sd": -0.059795
+   },
+   {
+    "city": "Amritsar",
+    "feature": "t2m|seas",
+    "real_mean": 23.813243,
+    "pool_mean": 23.828463,
+    "real_sd": 6.535729,
+    "diff_in_sd": 0.002329
+   },
+   {
+    "city": "Amritsar",
+    "feature": "rh|syn",
+    "real_mean": -0.018986,
+    "pool_mean": 0.009237,
+    "real_sd": 6.567677,
+    "diff_in_sd": 0.004297
+   },
+   {
+    "city": "Amritsar",
+    "feature": "rh|intra",
+    "real_mean": -0.11426,
+    "pool_mean": 0.027764,
+    "real_sd": 6.759548,
+    "diff_in_sd": 0.021011
+   },
+   {
+    "city": "Amritsar",
+    "feature": "rh|subs",
+    "real_mean": -0.426277,
+    "pool_mean": 0.020141,
+    "real_sd": 9.70575,
+    "diff_in_sd": 0.045995
+   },
+   {
+    "city": "Amritsar",
+    "feature": "rh|seas",
+    "real_mean": 67.861916,
+    "pool_mean": 66.051761,
+    "real_sd": 10.402291,
+    "diff_in_sd": -0.174015
+   },
+   {
+    "city": "Amritsar",
+    "feature": "sprecip|syn",
+    "real_mean": -0.002393,
+    "pool_mean": -0.001237,
+    "real_sd": 0.987656,
+    "diff_in_sd": 0.00117
+   },
+   {
+    "city": "Amritsar",
+    "feature": "sprecip|intra",
+    "real_mean": -0.002731,
+    "pool_mean": -0.000284,
+    "real_sd": 0.508212,
+    "diff_in_sd": 0.004815
+   },
+   {
+    "city": "Amritsar",
+    "feature": "sprecip|subs",
+    "real_mean": -0.005888,
+    "pool_mean": -0.000983,
+    "real_sd": 0.438856,
+    "diff_in_sd": 0.011178
+   },
+   {
+    "city": "Amritsar",
+    "feature": "sprecip|seas",
+    "real_mean": 0.725102,
+    "pool_mean": 0.676879,
+    "real_sd": 0.407713,
+    "diff_in_sd": -0.118277
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "lblh|syn",
+    "real_mean": -0.000848,
+    "pool_mean": -0.000121,
+    "real_sd": 0.158836,
+    "diff_in_sd": 0.00458
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "lblh|intra",
+    "real_mean": -0.001728,
+    "pool_mean": -3.7e-05,
+    "real_sd": 0.155735,
+    "diff_in_sd": 0.010852
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "lblh|subs",
+    "real_mean": -0.001039,
+    "pool_mean": -0.000176,
+    "real_sd": 0.154382,
+    "diff_in_sd": 0.005594
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "lblh|seas",
+    "real_mean": 6.524911,
+    "pool_mean": 6.522049,
+    "real_sd": 0.157738,
+    "diff_in_sd": -0.018144
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "wind|syn",
+    "real_mean": 0.00048,
+    "pool_mean": -0.000481,
+    "real_sd": 0.684418,
+    "diff_in_sd": -0.001404
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "wind|intra",
+    "real_mean": 0.006331,
+    "pool_mean": -0.000354,
+    "real_sd": 0.66422,
+    "diff_in_sd": -0.010065
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "wind|subs",
+    "real_mean": 0.005009,
+    "pool_mean": -0.001859,
+    "real_sd": 0.674971,
+    "diff_in_sd": -0.010175
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "wind|seas",
+    "real_mean": 3.000271,
+    "pool_mean": 3.09495,
+    "real_sd": 0.637405,
+    "diff_in_sd": 0.148538
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "lvent|syn",
+    "real_mean": -0.000554,
+    "pool_mean": -0.000294,
+    "real_sd": 0.413811,
+    "diff_in_sd": 0.000627
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "lvent|intra",
+    "real_mean": -0.00035,
+    "pool_mean": -0.000247,
+    "real_sd": 0.367091,
+    "diff_in_sd": 0.000279
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "lvent|subs",
+    "real_mean": 0.000733,
+    "pool_mean": -0.000805,
+    "real_sd": 0.330125,
+    "diff_in_sd": -0.004659
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "lvent|seas",
+    "real_mean": 7.566015,
+    "pool_mean": 7.609848,
+    "real_sd": 0.271132,
+    "diff_in_sd": 0.161668
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "t2m|syn",
+    "real_mean": -0.004196,
+    "pool_mean": 0.000732,
+    "real_sd": 0.733987,
+    "diff_in_sd": 0.006713
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "t2m|intra",
+    "real_mean": -0.012881,
+    "pool_mean": 0.003871,
+    "real_sd": 0.804698,
+    "diff_in_sd": 0.020818
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "t2m|subs",
+    "real_mean": 0.037356,
+    "pool_mean": 0.008997,
+    "real_sd": 1.28184,
+    "diff_in_sd": -0.022124
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "t2m|seas",
+    "real_mean": 24.102332,
+    "pool_mean": 23.387608,
+    "real_sd": 1.592318,
+    "diff_in_sd": -0.448858
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "rh|syn",
+    "real_mean": 0.04693,
+    "pool_mean": 0.003982,
+    "real_sd": 5.911969,
+    "diff_in_sd": -0.007265
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "rh|intra",
+    "real_mean": 0.194393,
+    "pool_mean": 0.025219,
+    "real_sd": 5.415062,
+    "diff_in_sd": -0.031241
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "rh|subs",
+    "real_mean": 0.21767,
+    "pool_mean": -0.00206,
+    "real_sd": 6.517622,
+    "diff_in_sd": -0.033713
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "rh|seas",
+    "real_mean": 69.011347,
+    "pool_mean": 69.65365,
+    "real_sd": 9.756407,
+    "diff_in_sd": 0.065834
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "sprecip|syn",
+    "real_mean": 0.002949,
+    "pool_mean": 0.000502,
+    "real_sd": 0.965848,
+    "diff_in_sd": -0.002534
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "sprecip|intra",
+    "real_mean": 0.009544,
+    "pool_mean": 0.001152,
+    "real_sd": 0.605217,
+    "diff_in_sd": -0.013865
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "sprecip|subs",
+    "real_mean": 0.011763,
+    "pool_mean": 0.000911,
+    "real_sd": 0.486005,
+    "diff_in_sd": -0.02233
+   },
+   {
+    "city": "Bengaluru",
+    "feature": "sprecip|seas",
+    "real_mean": 0.944722,
+    "pool_mean": 0.976039,
+    "real_sd": 0.638175,
+    "diff_in_sd": 0.049074
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "lblh|syn",
+    "real_mean": -0.000905,
+    "pool_mean": 0.000281,
+    "real_sd": 0.184086,
+    "diff_in_sd": 0.006444
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "lblh|intra",
+    "real_mean": -0.0038,
+    "pool_mean": -0.000189,
+    "real_sd": 0.150105,
+    "diff_in_sd": 0.024052
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "lblh|subs",
+    "real_mean": -5.3e-05,
+    "pool_mean": -0.000301,
+    "real_sd": 0.189655,
+    "diff_in_sd": -0.001308
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "lblh|seas",
+    "real_mean": 6.241382,
+    "pool_mean": 6.232416,
+    "real_sd": 0.273736,
+    "diff_in_sd": -0.032754
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "wind|syn",
+    "real_mean": -0.000632,
+    "pool_mean": 0.000561,
+    "real_sd": 0.558039,
+    "diff_in_sd": 0.002138
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "wind|intra",
+    "real_mean": -0.000389,
+    "pool_mean": 6e-05,
+    "real_sd": 0.352922,
+    "diff_in_sd": 0.001273
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "wind|subs",
+    "real_mean": 0.003706,
+    "pool_mean": 0.000768,
+    "real_sd": 0.21458,
+    "diff_in_sd": -0.013694
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "wind|seas",
+    "real_mean": 2.034941,
+    "pool_mean": 1.995768,
+    "real_sd": 0.293153,
+    "diff_in_sd": -0.133625
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "lvent|syn",
+    "real_mean": -0.001201,
+    "pool_mean": 0.000747,
+    "real_sd": 0.461595,
+    "diff_in_sd": 0.004218
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "lvent|intra",
+    "real_mean": -0.002876,
+    "pool_mean": -0.000247,
+    "real_sd": 0.310062,
+    "diff_in_sd": 0.008481
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "lvent|subs",
+    "real_mean": 0.004054,
+    "pool_mean": -0.000203,
+    "real_sd": 0.292381,
+    "diff_in_sd": -0.01456
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "lvent|seas",
+    "real_mean": 6.889967,
+    "pool_mean": 6.833339,
+    "real_sd": 0.454505,
+    "diff_in_sd": -0.124593
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "t2m|syn",
+    "real_mean": -0.001262,
+    "pool_mean": -1e-06,
+    "real_sd": 1.263812,
+    "diff_in_sd": 0.000997
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "t2m|intra",
+    "real_mean": -0.002996,
+    "pool_mean": -0.002722,
+    "real_sd": 1.514622,
+    "diff_in_sd": 0.000181
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "t2m|subs",
+    "real_mean": 0.090736,
+    "pool_mean": 0.005401,
+    "real_sd": 2.53782,
+    "diff_in_sd": -0.033625
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "t2m|seas",
+    "real_mean": 27.229188,
+    "pool_mean": 26.833215,
+    "real_sd": 3.509485,
+    "diff_in_sd": -0.112829
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "rh|syn",
+    "real_mean": 0.043636,
+    "pool_mean": 0.004146,
+    "real_sd": 6.305169,
+    "diff_in_sd": -0.006263
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "rh|intra",
+    "real_mean": 0.251421,
+    "pool_mean": -0.00543,
+    "real_sd": 6.234501,
+    "diff_in_sd": -0.041198
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "rh|subs",
+    "real_mean": 0.259636,
+    "pool_mean": 0.009746,
+    "real_sd": 8.242411,
+    "diff_in_sd": -0.030318
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "rh|seas",
+    "real_mean": 65.65796,
+    "pool_mean": 64.495633,
+    "real_sd": 12.692433,
+    "diff_in_sd": -0.091576
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "sprecip|syn",
+    "real_mean": 0.003386,
+    "pool_mean": 0.000257,
+    "real_sd": 1.126021,
+    "diff_in_sd": -0.002779
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "sprecip|intra",
+    "real_mean": 0.02035,
+    "pool_mean": 0.000144,
+    "real_sd": 0.687463,
+    "diff_in_sd": -0.029392
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "sprecip|subs",
+    "real_mean": 0.018726,
+    "pool_mean": 0.00065,
+    "real_sd": 0.749199,
+    "diff_in_sd": -0.024127
+   },
+   {
+    "city": "Brajrajnagar",
+    "feature": "sprecip|seas",
+    "real_mean": 1.053592,
+    "pool_mean": 1.027109,
+    "real_sd": 0.996977,
+    "diff_in_sd": -0.026563
+   },
+   {
+    "city": "Chennai",
+    "feature": "lblh|syn",
+    "real_mean": -0.000408,
+    "pool_mean": -9e-05,
+    "real_sd": 0.186058,
+    "diff_in_sd": 0.00171
+   },
+   {
+    "city": "Chennai",
+    "feature": "lblh|intra",
+    "real_mean": 0.001029,
+    "pool_mean": -6.3e-05,
+    "real_sd": 0.136105,
+    "diff_in_sd": -0.008017
+   },
+   {
+    "city": "Chennai",
+    "feature": "lblh|subs",
+    "real_mean": 0.000795,
+    "pool_mean": -0.000242,
+    "real_sd": 0.10262,
+    "diff_in_sd": -0.010111
+   },
+   {
+    "city": "Chennai",
+    "feature": "lblh|seas",
+    "real_mean": 6.351971,
+    "pool_mean": 6.332911,
+    "real_sd": 0.091396,
+    "diff_in_sd": -0.208547
+   },
+   {
+    "city": "Chennai",
+    "feature": "wind|syn",
+    "real_mean": -0.000477,
+    "pool_mean": 0.001423,
+    "real_sd": 0.784795,
+    "diff_in_sd": 0.00242
+   },
+   {
+    "city": "Chennai",
+    "feature": "wind|intra",
+    "real_mean": 0.004499,
+    "pool_mean": 0.002783,
+    "real_sd": 0.562937,
+    "diff_in_sd": -0.003048
+   },
+   {
+    "city": "Chennai",
+    "feature": "wind|subs",
+    "real_mean": 0.014382,
+    "pool_mean": -0.000587,
+    "real_sd": 0.433257,
+    "diff_in_sd": -0.03455
+   },
+   {
+    "city": "Chennai",
+    "feature": "wind|seas",
+    "real_mean": 3.60497,
+    "pool_mean": 3.565661,
+    "real_sd": 0.385202,
+    "diff_in_sd": -0.102046
+   },
+   {
+    "city": "Chennai",
+    "feature": "lvent|syn",
+    "real_mean": -0.00067,
+    "pool_mean": 0.000163,
+    "real_sd": 0.372397,
+    "diff_in_sd": 0.002235
+   },
+   {
+    "city": "Chennai",
+    "feature": "lvent|intra",
+    "real_mean": 0.001464,
+    "pool_mean": 0.000558,
+    "real_sd": 0.270911,
+    "diff_in_sd": -0.003343
+   },
+   {
+    "city": "Chennai",
+    "feature": "lvent|subs",
+    "real_mean": 0.0035,
+    "pool_mean": -0.000461,
+    "real_sd": 0.196468,
+    "diff_in_sd": -0.020165
+   },
+   {
+    "city": "Chennai",
+    "feature": "lvent|seas",
+    "real_mean": 7.617697,
+    "pool_mean": 7.584546,
+    "real_sd": 0.17239,
+    "diff_in_sd": -0.192302
+   },
+   {
+    "city": "Chennai",
+    "feature": "t2m|syn",
+    "real_mean": 0.001227,
+    "pool_mean": -0.000245,
+    "real_sd": 0.658604,
+    "diff_in_sd": -0.002236
+   },
+   {
+    "city": "Chennai",
+    "feature": "t2m|intra",
+    "real_mean": 0.01819,
+    "pool_mean": 0.001443,
+    "real_sd": 0.696299,
+    "diff_in_sd": -0.024051
+   },
+   {
+    "city": "Chennai",
+    "feature": "t2m|subs",
+    "real_mean": 0.075547,
+    "pool_mean": 0.003702,
+    "real_sd": 1.095799,
+    "diff_in_sd": -0.065564
+   },
+   {
+    "city": "Chennai",
+    "feature": "t2m|seas",
+    "real_mean": 28.542288,
+    "pool_mean": 28.103396,
+    "real_sd": 1.73187,
+    "diff_in_sd": -0.253421
+   },
+   {
+    "city": "Chennai",
+    "feature": "rh|syn",
+    "real_mean": 0.007389,
+    "pool_mean": 0.01258,
+    "real_sd": 4.058278,
+    "diff_in_sd": 0.001279
+   },
+   {
+    "city": "Chennai",
+    "feature": "rh|intra",
+    "real_mean": -0.024259,
+    "pool_mean": 0.019273,
+    "real_sd": 3.389284,
+    "diff_in_sd": 0.012844
+   },
+   {
+    "city": "Chennai",
+    "feature": "rh|subs",
+    "real_mean": -0.002521,
+    "pool_mean": 0.001724,
+    "real_sd": 2.993292,
+    "diff_in_sd": 0.001418
+   },
+   {
+    "city": "Chennai",
+    "feature": "rh|seas",
+    "real_mean": 76.206229,
+    "pool_mean": 75.27687,
+    "real_sd": 3.266337,
+    "diff_in_sd": -0.284527
+   },
+   {
+    "city": "Chennai",
+    "feature": "sprecip|syn",
+    "real_mean": 0.003545,
+    "pool_mean": 0.003169,
+    "real_sd": 1.077508,
+    "diff_in_sd": -0.000349
+   },
+   {
+    "city": "Chennai",
+    "feature": "sprecip|intra",
+    "real_mean": 0.008867,
+    "pool_mean": 0.00283,
+    "real_sd": 0.699773,
+    "diff_in_sd": -0.008628
+   },
+   {
+    "city": "Chennai",
+    "feature": "sprecip|subs",
+    "real_mean": 0.003888,
+    "pool_mean": 0.000528,
+    "real_sd": 0.487016,
+    "diff_in_sd": -0.006899
+   },
+   {
+    "city": "Chennai",
+    "feature": "sprecip|seas",
+    "real_mean": 0.846023,
+    "pool_mean": 0.904792,
+    "real_sd": 0.617115,
+    "diff_in_sd": 0.095232
+   },
+   {
+    "city": "Delhi",
+    "feature": "lblh|syn",
+    "real_mean": 0.000695,
+    "pool_mean": -1e-06,
+    "real_sd": 0.220391,
+    "diff_in_sd": -0.003158
+   },
+   {
+    "city": "Delhi",
+    "feature": "lblh|intra",
+    "real_mean": 0.004077,
+    "pool_mean": -0.000596,
+    "real_sd": 0.166208,
+    "diff_in_sd": -0.028114
+   },
+   {
+    "city": "Delhi",
+    "feature": "lblh|subs",
+    "real_mean": 0.011354,
+    "pool_mean": -0.00025,
+    "real_sd": 0.234345,
+    "diff_in_sd": -0.049517
+   },
+   {
+    "city": "Delhi",
+    "feature": "lblh|seas",
+    "real_mean": 6.11355,
+    "pool_mean": 6.160442,
+    "real_sd": 0.326168,
+    "diff_in_sd": 0.143766
+   },
+   {
+    "city": "Delhi",
+    "feature": "wind|syn",
+    "real_mean": -0.000356,
+    "pool_mean": -0.000704,
+    "real_sd": 0.732941,
+    "diff_in_sd": -0.000475
+   },
+   {
+    "city": "Delhi",
+    "feature": "wind|intra",
+    "real_mean": 4.5e-05,
+    "pool_mean": -0.000139,
+    "real_sd": 0.404402,
+    "diff_in_sd": -0.000455
+   },
+   {
+    "city": "Delhi",
+    "feature": "wind|subs",
+    "real_mean": -0.002263,
+    "pool_mean": 0.00194,
+    "real_sd": 0.209019,
+    "diff_in_sd": 0.020104
+   },
+   {
+    "city": "Delhi",
+    "feature": "wind|seas",
+    "real_mean": 2.448363,
+    "pool_mean": 2.539646,
+    "real_sd": 0.229093,
+    "diff_in_sd": 0.398452
+   },
+   {
+    "city": "Delhi",
+    "feature": "lvent|syn",
+    "real_mean": 0.000625,
+    "pool_mean": -0.000261,
+    "real_sd": 0.550359,
+    "diff_in_sd": -0.00161
+   },
+   {
+    "city": "Delhi",
+    "feature": "lvent|intra",
+    "real_mean": 0.003811,
+    "pool_mean": -0.000633,
+    "real_sd": 0.320903,
+    "diff_in_sd": -0.013848
+   },
+   {
+    "city": "Delhi",
+    "feature": "lvent|subs",
+    "real_mean": 0.009829,
+    "pool_mean": 0.000637,
+    "real_sd": 0.292097,
+    "diff_in_sd": -0.03147
+   },
+   {
+    "city": "Delhi",
+    "feature": "lvent|seas",
+    "real_mean": 7.005399,
+    "pool_mean": 7.107917,
+    "real_sd": 0.417591,
+    "diff_in_sd": 0.245498
+   },
+   {
+    "city": "Delhi",
+    "feature": "t2m|syn",
+    "real_mean": 0.013481,
+    "pool_mean": -0.002805,
+    "real_sd": 1.536401,
+    "diff_in_sd": -0.0106
+   },
+   {
+    "city": "Delhi",
+    "feature": "t2m|intra",
+    "real_mean": 0.066107,
+    "pool_mean": -0.009784,
+    "real_sd": 1.958757,
+    "diff_in_sd": -0.038744
+   },
+   {
+    "city": "Delhi",
+    "feature": "t2m|subs",
+    "real_mean": 0.207145,
+    "pool_mean": -0.004479,
+    "real_sd": 3.769073,
+    "diff_in_sd": -0.056147
+   },
+   {
+    "city": "Delhi",
+    "feature": "t2m|seas",
+    "real_mean": 25.062066,
+    "pool_mean": 25.050516,
+    "real_sd": 6.0083,
+    "diff_in_sd": -0.001922
+   },
+   {
+    "city": "Delhi",
+    "feature": "rh|syn",
+    "real_mean": -0.004169,
+    "pool_mean": 0.009554,
+    "real_sd": 7.001778,
+    "diff_in_sd": 0.00196
+   },
+   {
+    "city": "Delhi",
+    "feature": "rh|intra",
+    "real_mean": -0.036611,
+    "pool_mean": 0.026005,
+    "real_sd": 6.984774,
+    "diff_in_sd": 0.008965
+   },
+   {
+    "city": "Delhi",
+    "feature": "rh|subs",
+    "real_mean": -0.304565,
+    "pool_mean": -0.029248,
+    "real_sd": 9.466746,
+    "diff_in_sd": 0.029083
+   },
+   {
+    "city": "Delhi",
+    "feature": "rh|seas",
+    "real_mean": 65.907986,
+    "pool_mean": 62.782549,
+    "real_sd": 10.037717,
+    "diff_in_sd": -0.311369
+   },
+   {
+    "city": "Delhi",
+    "feature": "sprecip|syn",
+    "real_mean": -0.000609,
+    "pool_mean": -0.000148,
+    "real_sd": 0.954105,
+    "diff_in_sd": 0.000482
+   },
+   {
+    "city": "Delhi",
+    "feature": "sprecip|intra",
+    "real_mean": 0.000174,
+    "pool_mean": 0.000442,
+    "real_sd": 0.539485,
+    "diff_in_sd": 0.000497
+   },
+   {
+    "city": "Delhi",
+    "feature": "sprecip|subs",
+    "real_mean": -0.003057,
+    "pool_mean": -0.000547,
+    "real_sd": 0.4909,
+    "diff_in_sd": 0.005113
+   },
+   {
+    "city": "Delhi",
+    "feature": "sprecip|seas",
+    "real_mean": 0.671584,
+    "pool_mean": 0.617615,
+    "real_sd": 0.534905,
+    "diff_in_sd": -0.100894
+   },
+   {
+    "city": "Gurugram",
+    "feature": "lblh|syn",
+    "real_mean": 0.000769,
+    "pool_mean": 3.1e-05,
+    "real_sd": 0.213358,
+    "diff_in_sd": -0.003458
+   },
+   {
+    "city": "Gurugram",
+    "feature": "lblh|intra",
+    "real_mean": 0.004162,
+    "pool_mean": -0.000541,
+    "real_sd": 0.171906,
+    "diff_in_sd": -0.027358
+   },
+   {
+    "city": "Gurugram",
+    "feature": "lblh|subs",
+    "real_mean": 0.012411,
+    "pool_mean": 3.9e-05,
+    "real_sd": 0.248147,
+    "diff_in_sd": -0.049855
+   },
+   {
+    "city": "Gurugram",
+    "feature": "lblh|seas",
+    "real_mean": 6.173472,
+    "pool_mean": 6.197296,
+    "real_sd": 0.331182,
+    "diff_in_sd": 0.071936
+   },
+   {
+    "city": "Gurugram",
+    "feature": "wind|syn",
+    "real_mean": -0.000306,
+    "pool_mean": -0.000701,
+    "real_sd": 0.73,
+    "diff_in_sd": -0.000541
+   },
+   {
+    "city": "Gurugram",
+    "feature": "wind|intra",
+    "real_mean": 0.000723,
+    "pool_mean": -9.9e-05,
+    "real_sd": 0.403445,
+    "diff_in_sd": -0.002037
+   },
+   {
+    "city": "Gurugram",
+    "feature": "wind|subs",
+    "real_mean": -0.001169,
+    "pool_mean": 0.001777,
+    "real_sd": 0.203247,
+    "diff_in_sd": 0.014494
+   },
+   {
+    "city": "Gurugram",
+    "feature": "wind|seas",
+    "real_mean": 2.442125,
+    "pool_mean": 2.51891,
+    "real_sd": 0.224069,
+    "diff_in_sd": 0.342685
+   },
+   {
+    "city": "Gurugram",
+    "feature": "lvent|syn",
+    "real_mean": 0.000765,
+    "pool_mean": -0.000242,
+    "real_sd": 0.530478,
+    "diff_in_sd": -0.0019
+   },
+   {
+    "city": "Gurugram",
+    "feature": "lvent|intra",
+    "real_mean": 0.004265,
+    "pool_mean": -0.00058,
+    "real_sd": 0.31845,
+    "diff_in_sd": -0.015215
+   },
+   {
+    "city": "Gurugram",
+    "feature": "lvent|subs",
+    "real_mean": 0.011518,
+    "pool_mean": 0.000981,
+    "real_sd": 0.304176,
+    "diff_in_sd": -0.034641
+   },
+   {
+    "city": "Gurugram",
+    "feature": "lvent|seas",
+    "real_mean": 7.07729,
+    "pool_mean": 7.146756,
+    "real_sd": 0.420217,
+    "diff_in_sd": 0.16531
+   },
+   {
+    "city": "Gurugram",
+    "feature": "t2m|syn",
+    "real_mean": 0.014054,
+    "pool_mean": -0.002932,
+    "real_sd": 1.571424,
+    "diff_in_sd": -0.010809
+   },
+   {
+    "city": "Gurugram",
+    "feature": "t2m|intra",
+    "real_mean": 0.067092,
+    "pool_mean": -0.009755,
+    "real_sd": 2.006939,
+    "diff_in_sd": -0.038291
+   },
+   {
+    "city": "Gurugram",
+    "feature": "t2m|subs",
+    "real_mean": 0.213797,
+    "pool_mean": -0.003423,
+    "real_sd": 3.838007,
+    "diff_in_sd": -0.056597
+   },
+   {
+    "city": "Gurugram",
+    "feature": "t2m|seas",
+    "real_mean": 25.226481,
+    "pool_mean": 25.145876,
+    "real_sd": 6.070263,
+    "diff_in_sd": -0.013279
+   },
+   {
+    "city": "Gurugram",
+    "feature": "rh|syn",
+    "real_mean": -0.007894,
+    "pool_mean": 0.008601,
+    "real_sd": 7.182384,
+    "diff_in_sd": 0.002297
+   },
+   {
+    "city": "Gurugram",
+    "feature": "rh|intra",
+    "real_mean": -0.041404,
+    "pool_mean": 0.02729,
+    "real_sd": 7.268394,
+    "diff_in_sd": 0.009451
+   },
+   {
+    "city": "Gurugram",
+    "feature": "rh|subs",
+    "real_mean": -0.33107,
+    "pool_mean": -0.035851,
+    "real_sd": 9.760067,
+    "diff_in_sd": 0.030248
+   },
+   {
+    "city": "Gurugram",
+    "feature": "rh|seas",
+    "real_mean": 63.765313,
+    "pool_mean": 61.135114,
+    "real_sd": 9.991475,
+    "diff_in_sd": -0.263244
+   },
+   {
+    "city": "Gurugram",
+    "feature": "sprecip|syn",
+    "real_mean": -0.000817,
+    "pool_mean": -0.000278,
+    "real_sd": 0.929049,
+    "diff_in_sd": 0.00058
+   },
+   {
+    "city": "Gurugram",
+    "feature": "sprecip|intra",
+    "real_mean": -0.000131,
+    "pool_mean": 0.000484,
+    "real_sd": 0.532955,
+    "diff_in_sd": 0.001155
+   },
+   {
+    "city": "Gurugram",
+    "feature": "sprecip|subs",
+    "real_mean": -0.001839,
+    "pool_mean": -0.000309,
+    "real_sd": 0.478483,
+    "diff_in_sd": 0.003197
+   },
+   {
+    "city": "Gurugram",
+    "feature": "sprecip|seas",
+    "real_mean": 0.652109,
+    "pool_mean": 0.607683,
+    "real_sd": 0.517328,
+    "diff_in_sd": -0.085877
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "lblh|syn",
+    "real_mean": -0.000497,
+    "pool_mean": -3.2e-05,
+    "real_sd": 0.173493,
+    "diff_in_sd": 0.002682
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "lblh|intra",
+    "real_mean": -0.000769,
+    "pool_mean": -0.000563,
+    "real_sd": 0.1568,
+    "diff_in_sd": 0.001314
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "lblh|subs",
+    "real_mean": 0.003962,
+    "pool_mean": -0.00163,
+    "real_sd": 0.155002,
+    "diff_in_sd": -0.036075
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "lblh|seas",
+    "real_mean": 6.52338,
+    "pool_mean": 6.531186,
+    "real_sd": 0.228649,
+    "diff_in_sd": 0.034137
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "wind|syn",
+    "real_mean": -0.00014,
+    "pool_mean": 1.2e-05,
+    "real_sd": 0.677165,
+    "diff_in_sd": 0.000225
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "wind|intra",
+    "real_mean": 0.009482,
+    "pool_mean": 0.000197,
+    "real_sd": 0.655197,
+    "diff_in_sd": -0.01417
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "wind|subs",
+    "real_mean": 0.00629,
+    "pool_mean": -0.000308,
+    "real_sd": 0.679847,
+    "diff_in_sd": -0.009705
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "wind|seas",
+    "real_mean": 3.041291,
+    "pool_mean": 3.13093,
+    "real_sd": 0.775777,
+    "diff_in_sd": 0.115547
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "lvent|syn",
+    "real_mean": -0.000391,
+    "pool_mean": -9.1e-05,
+    "real_sd": 0.386123,
+    "diff_in_sd": 0.000776
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "lvent|intra",
+    "real_mean": 0.002216,
+    "pool_mean": -0.000644,
+    "real_sd": 0.32276,
+    "diff_in_sd": -0.008861
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "lvent|subs",
+    "real_mean": 0.005218,
+    "pool_mean": -0.001785,
+    "real_sd": 0.30008,
+    "diff_in_sd": -0.023337
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "lvent|seas",
+    "real_mean": 7.572141,
+    "pool_mean": 7.61877,
+    "real_sd": 0.352479,
+    "diff_in_sd": 0.132288
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "t2m|syn",
+    "real_mean": -0.000862,
+    "pool_mean": -0.000299,
+    "real_sd": 1.105219,
+    "diff_in_sd": 0.000509
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "t2m|intra",
+    "real_mean": -0.001366,
+    "pool_mean": -0.004799,
+    "real_sd": 1.330575,
+    "diff_in_sd": -0.00258
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "t2m|subs",
+    "real_mean": 0.097828,
+    "pool_mean": -0.003662,
+    "real_sd": 1.990995,
+    "diff_in_sd": -0.050974
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "t2m|seas",
+    "real_mean": 27.101219,
+    "pool_mean": 26.560989,
+    "real_sd": 2.72886,
+    "diff_in_sd": -0.197969
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "rh|syn",
+    "real_mean": 0.034399,
+    "pool_mean": -0.001447,
+    "real_sd": 6.805142,
+    "diff_in_sd": -0.005268
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "rh|intra",
+    "real_mean": 0.147368,
+    "pool_mean": 0.023761,
+    "real_sd": 6.658292,
+    "diff_in_sd": -0.018564
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "rh|subs",
+    "real_mean": 0.006881,
+    "pool_mean": 0.090477,
+    "real_sd": 7.258041,
+    "diff_in_sd": 0.011518
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "rh|seas",
+    "real_mean": 62.453461,
+    "pool_mean": 62.35783,
+    "real_sd": 11.350752,
+    "diff_in_sd": -0.008425
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "sprecip|syn",
+    "real_mean": 0.003971,
+    "pool_mean": -0.0,
+    "real_sd": 0.864892,
+    "diff_in_sd": -0.004591
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "sprecip|intra",
+    "real_mean": 0.00911,
+    "pool_mean": 0.000186,
+    "real_sd": 0.65099,
+    "diff_in_sd": -0.013708
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "sprecip|subs",
+    "real_mean": 0.007127,
+    "pool_mean": 0.001896,
+    "real_sd": 0.464259,
+    "diff_in_sd": -0.011268
+   },
+   {
+    "city": "Hyderabad",
+    "feature": "sprecip|seas",
+    "real_mean": 0.718378,
+    "pool_mean": 0.745111,
+    "real_sd": 0.638747,
+    "diff_in_sd": 0.041852
+   },
+   {
+    "city": "Jaipur",
+    "feature": "lblh|syn",
+    "real_mean": 0.000296,
+    "pool_mean": 8.8e-05,
+    "real_sd": 0.212812,
+    "diff_in_sd": -0.000979
+   },
+   {
+    "city": "Jaipur",
+    "feature": "lblh|intra",
+    "real_mean": 0.002437,
+    "pool_mean": -8.9e-05,
+    "real_sd": 0.190265,
+    "diff_in_sd": -0.01328
+   },
+   {
+    "city": "Jaipur",
+    "feature": "lblh|subs",
+    "real_mean": 0.011414,
+    "pool_mean": -0.000141,
+    "real_sd": 0.289946,
+    "diff_in_sd": -0.039853
+   },
+   {
+    "city": "Jaipur",
+    "feature": "lblh|seas",
+    "real_mean": 6.39812,
+    "pool_mean": 6.38418,
+    "real_sd": 0.358713,
+    "diff_in_sd": -0.038862
+   },
+   {
+    "city": "Jaipur",
+    "feature": "wind|syn",
+    "real_mean": 0.000364,
+    "pool_mean": -0.000346,
+    "real_sd": 0.696026,
+    "diff_in_sd": -0.001021
+   },
+   {
+    "city": "Jaipur",
+    "feature": "wind|intra",
+    "real_mean": 0.003811,
+    "pool_mean": -0.000281,
+    "real_sd": 0.460055,
+    "diff_in_sd": -0.008894
+   },
+   {
+    "city": "Jaipur",
+    "feature": "wind|subs",
+    "real_mean": 0.005962,
+    "pool_mean": -0.000252,
+    "real_sd": 0.262163,
+    "diff_in_sd": -0.023704
+   },
+   {
+    "city": "Jaipur",
+    "feature": "wind|seas",
+    "real_mean": 2.566366,
+    "pool_mean": 2.615611,
+    "real_sd": 0.361552,
+    "diff_in_sd": 0.136202
+   },
+   {
+    "city": "Jaipur",
+    "feature": "lvent|syn",
+    "real_mean": 0.000512,
+    "pool_mean": 5e-06,
+    "real_sd": 0.481764,
+    "diff_in_sd": -0.001052
+   },
+   {
+    "city": "Jaipur",
+    "feature": "lvent|intra",
+    "real_mean": 0.003727,
+    "pool_mean": -0.000109,
+    "real_sd": 0.342342,
+    "diff_in_sd": -0.011205
+   },
+   {
+    "city": "Jaipur",
+    "feature": "lvent|subs",
+    "real_mean": 0.014907,
+    "pool_mean": -0.000253,
+    "real_sd": 0.395979,
+    "diff_in_sd": -0.038285
+   },
+   {
+    "city": "Jaipur",
+    "feature": "lvent|seas",
+    "real_mean": 7.322515,
+    "pool_mean": 7.316798,
+    "real_sd": 0.540773,
+    "diff_in_sd": -0.010571
+   },
+   {
+    "city": "Jaipur",
+    "feature": "t2m|syn",
+    "real_mean": 0.010746,
+    "pool_mean": -0.004258,
+    "real_sd": 1.597949,
+    "diff_in_sd": -0.009389
+   },
+   {
+    "city": "Jaipur",
+    "feature": "t2m|intra",
+    "real_mean": 0.055839,
+    "pool_mean": -0.008072,
+    "real_sd": 2.056767,
+    "diff_in_sd": -0.031074
+   },
+   {
+    "city": "Jaipur",
+    "feature": "t2m|subs",
+    "real_mean": 0.208499,
+    "pool_mean": -0.002846,
+    "real_sd": 3.779467,
+    "diff_in_sd": -0.055919
+   },
+   {
+    "city": "Jaipur",
+    "feature": "t2m|seas",
+    "real_mean": 25.418474,
+    "pool_mean": 25.151999,
+    "real_sd": 5.666402,
+    "diff_in_sd": -0.047027
+   },
+   {
+    "city": "Jaipur",
+    "feature": "rh|syn",
+    "real_mean": 0.006629,
+    "pool_mean": 0.003569,
+    "real_sd": 7.585697,
+    "diff_in_sd": -0.000403
+   },
+   {
+    "city": "Jaipur",
+    "feature": "rh|intra",
+    "real_mean": 0.009822,
+    "pool_mean": 0.025663,
+    "real_sd": 8.000316,
+    "diff_in_sd": 0.00198
+   },
+   {
+    "city": "Jaipur",
+    "feature": "rh|subs",
+    "real_mean": -0.259648,
+    "pool_mean": 0.015458,
+    "real_sd": 11.334039,
+    "diff_in_sd": 0.024273
+   },
+   {
+    "city": "Jaipur",
+    "feature": "rh|seas",
+    "real_mean": 54.630097,
+    "pool_mean": 53.478094,
+    "real_sd": 12.2977,
+    "diff_in_sd": -0.093676
+   },
+   {
+    "city": "Jaipur",
+    "feature": "sprecip|syn",
+    "real_mean": -9.7e-05,
+    "pool_mean": -0.00021,
+    "real_sd": 0.7513,
+    "diff_in_sd": -0.000151
+   },
+   {
+    "city": "Jaipur",
+    "feature": "sprecip|intra",
+    "real_mean": 0.001429,
+    "pool_mean": 0.000343,
+    "real_sd": 0.465209,
+    "diff_in_sd": -0.002335
+   },
+   {
+    "city": "Jaipur",
+    "feature": "sprecip|subs",
+    "real_mean": 0.001387,
+    "pool_mean": 0.000292,
+    "real_sd": 0.463047,
+    "diff_in_sd": -0.002366
+   },
+   {
+    "city": "Jaipur",
+    "feature": "sprecip|seas",
+    "real_mean": 0.515166,
+    "pool_mean": 0.514811,
+    "real_sd": 0.521265,
+    "diff_in_sd": -0.00068
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "lblh|syn",
+    "real_mean": -0.000462,
+    "pool_mean": -4.5e-05,
+    "real_sd": 0.208695,
+    "diff_in_sd": 0.001998
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "lblh|intra",
+    "real_mean": -0.002012,
+    "pool_mean": -0.000573,
+    "real_sd": 0.145866,
+    "diff_in_sd": 0.009868
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "lblh|subs",
+    "real_mean": 0.000316,
+    "pool_mean": -0.001131,
+    "real_sd": 0.17836,
+    "diff_in_sd": -0.008112
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "lblh|seas",
+    "real_mean": 6.190048,
+    "pool_mean": 6.168928,
+    "real_sd": 0.258507,
+    "diff_in_sd": -0.081698
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "wind|syn",
+    "real_mean": 6.1e-05,
+    "pool_mean": 7.1e-05,
+    "real_sd": 0.651012,
+    "diff_in_sd": 1.5e-05
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "wind|intra",
+    "real_mean": 0.002578,
+    "pool_mean": 0.001087,
+    "real_sd": 0.36089,
+    "diff_in_sd": -0.004131
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "wind|subs",
+    "real_mean": 0.003278,
+    "pool_mean": 0.000307,
+    "real_sd": 0.199468,
+    "diff_in_sd": -0.014896
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "wind|seas",
+    "real_mean": 2.171371,
+    "pool_mean": 2.187585,
+    "real_sd": 0.254828,
+    "diff_in_sd": 0.063629
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "lvent|syn",
+    "real_mean": -0.000324,
+    "pool_mean": 2.2e-05,
+    "real_sd": 0.504931,
+    "diff_in_sd": 0.000684
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "lvent|intra",
+    "real_mean": -0.001205,
+    "pool_mean": 0.000205,
+    "real_sd": 0.295345,
+    "diff_in_sd": 0.004773
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "lvent|subs",
+    "real_mean": 0.000782,
+    "pool_mean": -3.5e-05,
+    "real_sd": 0.238783,
+    "diff_in_sd": -0.003421
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "lvent|seas",
+    "real_mean": 6.957422,
+    "pool_mean": 6.931184,
+    "real_sd": 0.360172,
+    "diff_in_sd": -0.072848
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "t2m|syn",
+    "real_mean": 0.004456,
+    "pool_mean": 0.000146,
+    "real_sd": 1.388467,
+    "diff_in_sd": -0.003104
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "t2m|intra",
+    "real_mean": 0.017805,
+    "pool_mean": -0.008047,
+    "real_sd": 1.628251,
+    "diff_in_sd": -0.015878
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "t2m|subs",
+    "real_mean": 0.111567,
+    "pool_mean": -0.006156,
+    "real_sd": 2.858655,
+    "diff_in_sd": -0.041181
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "t2m|seas",
+    "real_mean": 25.840062,
+    "pool_mean": 25.552785,
+    "real_sd": 4.273267,
+    "diff_in_sd": -0.067227
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "rh|syn",
+    "real_mean": 0.01085,
+    "pool_mean": 0.004417,
+    "real_sd": 6.782252,
+    "diff_in_sd": -0.000949
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "rh|intra",
+    "real_mean": 0.18013,
+    "pool_mean": -0.00126,
+    "real_sd": 5.567274,
+    "diff_in_sd": -0.032581
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "rh|subs",
+    "real_mean": 0.183095,
+    "pool_mean": 0.011311,
+    "real_sd": 6.290733,
+    "diff_in_sd": -0.027308
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "rh|seas",
+    "real_mean": 71.513909,
+    "pool_mean": 70.263097,
+    "real_sd": 9.2782,
+    "diff_in_sd": -0.134812
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "sprecip|syn",
+    "real_mean": 0.000641,
+    "pool_mean": -0.0,
+    "real_sd": 1.041386,
+    "diff_in_sd": -0.000615
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "sprecip|intra",
+    "real_mean": 0.013784,
+    "pool_mean": -0.000272,
+    "real_sd": 0.582931,
+    "diff_in_sd": -0.024113
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "sprecip|subs",
+    "real_mean": 0.023186,
+    "pool_mean": 0.000105,
+    "real_sd": 0.588738,
+    "diff_in_sd": -0.039203
+   },
+   {
+    "city": "Jorapokhar",
+    "feature": "sprecip|seas",
+    "real_mean": 1.050899,
+    "pool_mean": 1.006213,
+    "real_sd": 0.839701,
+    "diff_in_sd": -0.053216
+   },
+   {
+    "city": "Kolkata",
+    "feature": "lblh|syn",
+    "real_mean": -0.000199,
+    "pool_mean": -0.00017,
+    "real_sd": 0.195857,
+    "diff_in_sd": 0.000152
+   },
+   {
+    "city": "Kolkata",
+    "feature": "lblh|intra",
+    "real_mean": -0.000861,
+    "pool_mean": -0.000696,
+    "real_sd": 0.135549,
+    "diff_in_sd": 0.001222
+   },
+   {
+    "city": "Kolkata",
+    "feature": "lblh|subs",
+    "real_mean": 0.00206,
+    "pool_mean": -0.001182,
+    "real_sd": 0.136725,
+    "diff_in_sd": -0.023708
+   },
+   {
+    "city": "Kolkata",
+    "feature": "lblh|seas",
+    "real_mean": 6.146014,
+    "pool_mean": 6.154435,
+    "real_sd": 0.193831,
+    "diff_in_sd": 0.043443
+   },
+   {
+    "city": "Kolkata",
+    "feature": "wind|syn",
+    "real_mean": 0.000473,
+    "pool_mean": -8.4e-05,
+    "real_sd": 0.782167,
+    "diff_in_sd": -0.000713
+   },
+   {
+    "city": "Kolkata",
+    "feature": "wind|intra",
+    "real_mean": 0.007444,
+    "pool_mean": 0.001247,
+    "real_sd": 0.522014,
+    "diff_in_sd": -0.011871
+   },
+   {
+    "city": "Kolkata",
+    "feature": "wind|subs",
+    "real_mean": 0.018194,
+    "pool_mean": -0.000118,
+    "real_sd": 0.403461,
+    "diff_in_sd": -0.045386
+   },
+   {
+    "city": "Kolkata",
+    "feature": "wind|seas",
+    "real_mean": 2.494173,
+    "pool_mean": 2.533076,
+    "real_sd": 0.50314,
+    "diff_in_sd": 0.077321
+   },
+   {
+    "city": "Kolkata",
+    "feature": "lvent|syn",
+    "real_mean": -0.000121,
+    "pool_mean": -0.000165,
+    "real_sd": 0.483945,
+    "diff_in_sd": -9.2e-05
+   },
+   {
+    "city": "Kolkata",
+    "feature": "lvent|intra",
+    "real_mean": 0.001974,
+    "pool_mean": 0.000122,
+    "real_sd": 0.307311,
+    "diff_in_sd": -0.006024
+   },
+   {
+    "city": "Kolkata",
+    "feature": "lvent|subs",
+    "real_mean": 0.008212,
+    "pool_mean": -0.00101,
+    "real_sd": 0.253974,
+    "diff_in_sd": -0.03631
+   },
+   {
+    "city": "Kolkata",
+    "feature": "lvent|seas",
+    "real_mean": 7.024409,
+    "pool_mean": 7.035896,
+    "real_sd": 0.355515,
+    "diff_in_sd": 0.03231
+   },
+   {
+    "city": "Kolkata",
+    "feature": "t2m|syn",
+    "real_mean": 0.003641,
+    "pool_mean": 0.000528,
+    "real_sd": 1.159031,
+    "diff_in_sd": -0.002686
+   },
+   {
+    "city": "Kolkata",
+    "feature": "t2m|intra",
+    "real_mean": 0.013778,
+    "pool_mean": -0.00878,
+    "real_sd": 1.387275,
+    "diff_in_sd": -0.016261
+   },
+   {
+    "city": "Kolkata",
+    "feature": "t2m|subs",
+    "real_mean": 0.08955,
+    "pool_mean": -0.006176,
+    "real_sd": 2.398842,
+    "diff_in_sd": -0.039905
+   },
+   {
+    "city": "Kolkata",
+    "feature": "t2m|seas",
+    "real_mean": 26.66069,
+    "pool_mean": 26.414414,
+    "real_sd": 3.446398,
+    "diff_in_sd": -0.071459
+   },
+   {
+    "city": "Kolkata",
+    "feature": "rh|syn",
+    "real_mean": 0.008505,
+    "pool_mean": 0.007626,
+    "real_sd": 4.345929,
+    "diff_in_sd": -0.000202
+   },
+   {
+    "city": "Kolkata",
+    "feature": "rh|intra",
+    "real_mean": 0.128682,
+    "pool_mean": 0.01169,
+    "real_sd": 3.486268,
+    "diff_in_sd": -0.033558
+   },
+   {
+    "city": "Kolkata",
+    "feature": "rh|subs",
+    "real_mean": 0.189163,
+    "pool_mean": 0.027034,
+    "real_sd": 3.641719,
+    "diff_in_sd": -0.04452
+   },
+   {
+    "city": "Kolkata",
+    "feature": "rh|seas",
+    "real_mean": 78.249579,
+    "pool_mean": 76.857492,
+    "real_sd": 5.24587,
+    "diff_in_sd": -0.265368
+   },
+   {
+    "city": "Kolkata",
+    "feature": "sprecip|syn",
+    "real_mean": 0.000629,
+    "pool_mean": 0.000544,
+    "real_sd": 1.228125,
+    "diff_in_sd": -6.9e-05
+   },
+   {
+    "city": "Kolkata",
+    "feature": "sprecip|intra",
+    "real_mean": 0.010596,
+    "pool_mean": 0.000126,
+    "real_sd": 0.741634,
+    "diff_in_sd": -0.014118
+   },
+   {
+    "city": "Kolkata",
+    "feature": "sprecip|subs",
+    "real_mean": 0.027273,
+    "pool_mean": 0.000247,
+    "real_sd": 0.678278,
+    "diff_in_sd": -0.039845
+   },
+   {
+    "city": "Kolkata",
+    "feature": "sprecip|seas",
+    "real_mean": 1.314494,
+    "pool_mean": 1.192049,
+    "real_sd": 0.953273,
+    "diff_in_sd": -0.128446
+   },
+   {
+    "city": "Lucknow",
+    "feature": "lblh|syn",
+    "real_mean": -0.000268,
+    "pool_mean": -0.000249,
+    "real_sd": 0.225795,
+    "diff_in_sd": 8.6e-05
+   },
+   {
+    "city": "Lucknow",
+    "feature": "lblh|intra",
+    "real_mean": 2.5e-05,
+    "pool_mean": -0.000771,
+    "real_sd": 0.161573,
+    "diff_in_sd": -0.004926
+   },
+   {
+    "city": "Lucknow",
+    "feature": "lblh|subs",
+    "real_mean": 0.009076,
+    "pool_mean": 0.001146,
+    "real_sd": 0.223817,
+    "diff_in_sd": -0.035433
+   },
+   {
+    "city": "Lucknow",
+    "feature": "lblh|seas",
+    "real_mean": 6.167022,
+    "pool_mean": 6.142773,
+    "real_sd": 0.299842,
+    "diff_in_sd": -0.080874
+   },
+   {
+    "city": "Lucknow",
+    "feature": "wind|syn",
+    "real_mean": 0.000282,
+    "pool_mean": -0.000375,
+    "real_sd": 0.825498,
+    "diff_in_sd": -0.000796
+   },
+   {
+    "city": "Lucknow",
+    "feature": "wind|intra",
+    "real_mean": 0.001274,
+    "pool_mean": 0.000168,
+    "real_sd": 0.411196,
+    "diff_in_sd": -0.002688
+   },
+   {
+    "city": "Lucknow",
+    "feature": "wind|subs",
+    "real_mean": 0.003348,
+    "pool_mean": 0.00376,
+    "real_sd": 0.250294,
+    "diff_in_sd": 0.001649
+   },
+   {
+    "city": "Lucknow",
+    "feature": "wind|seas",
+    "real_mean": 2.559656,
+    "pool_mean": 2.607892,
+    "real_sd": 0.339925,
+    "diff_in_sd": 0.141902
+   },
+   {
+    "city": "Lucknow",
+    "feature": "lvent|syn",
+    "real_mean": 1.6e-05,
+    "pool_mean": -0.00046,
+    "real_sd": 0.577527,
+    "diff_in_sd": -0.000824
+   },
+   {
+    "city": "Lucknow",
+    "feature": "lvent|intra",
+    "real_mean": 0.000466,
+    "pool_mean": -0.000476,
+    "real_sd": 0.313468,
+    "diff_in_sd": -0.003006
+   },
+   {
+    "city": "Lucknow",
+    "feature": "lvent|subs",
+    "real_mean": 0.01069,
+    "pool_mean": 0.004302,
+    "real_sd": 0.317472,
+    "diff_in_sd": -0.02012
+   },
+   {
+    "city": "Lucknow",
+    "feature": "lvent|seas",
+    "real_mean": 7.10883,
+    "pool_mean": 7.089284,
+    "real_sd": 0.457457,
+    "diff_in_sd": -0.042727
+   },
+   {
+    "city": "Lucknow",
+    "feature": "t2m|syn",
+    "real_mean": 0.005542,
+    "pool_mean": -0.003156,
+    "real_sd": 1.450535,
+    "diff_in_sd": -0.005997
+   },
+   {
+    "city": "Lucknow",
+    "feature": "t2m|intra",
+    "real_mean": 0.036873,
+    "pool_mean": -0.009114,
+    "real_sd": 1.922026,
+    "diff_in_sd": -0.023926
+   },
+   {
+    "city": "Lucknow",
+    "feature": "t2m|subs",
+    "real_mean": 0.179552,
+    "pool_mean": 0.001503,
+    "real_sd": 3.629635,
+    "diff_in_sd": -0.049054
+   },
+   {
+    "city": "Lucknow",
+    "feature": "t2m|seas",
+    "real_mean": 25.648658,
+    "pool_mean": 25.394244,
+    "real_sd": 5.606695,
+    "diff_in_sd": -0.045377
+   },
+   {
+    "city": "Lucknow",
+    "feature": "rh|syn",
+    "real_mean": 0.024743,
+    "pool_mean": 0.013866,
+    "real_sd": 6.367511,
+    "diff_in_sd": -0.001708
+   },
+   {
+    "city": "Lucknow",
+    "feature": "rh|intra",
+    "real_mean": 0.102184,
+    "pool_mean": 0.01489,
+    "real_sd": 6.929129,
+    "diff_in_sd": -0.012598
+   },
+   {
+    "city": "Lucknow",
+    "feature": "rh|subs",
+    "real_mean": -0.211986,
+    "pool_mean": -0.054445,
+    "real_sd": 9.398496,
+    "diff_in_sd": 0.016762
+   },
+   {
+    "city": "Lucknow",
+    "feature": "rh|seas",
+    "real_mean": 66.870625,
+    "pool_mean": 65.221621,
+    "real_sd": 10.541733,
+    "diff_in_sd": -0.156426
+   },
+   {
+    "city": "Lucknow",
+    "feature": "sprecip|syn",
+    "real_mean": 0.002457,
+    "pool_mean": 7.4e-05,
+    "real_sd": 0.959093,
+    "diff_in_sd": -0.002485
+   },
+   {
+    "city": "Lucknow",
+    "feature": "sprecip|intra",
+    "real_mean": 0.011068,
+    "pool_mean": 0.001014,
+    "real_sd": 0.651226,
+    "diff_in_sd": -0.015439
+   },
+   {
+    "city": "Lucknow",
+    "feature": "sprecip|subs",
+    "real_mean": 0.003096,
+    "pool_mean": 0.000846,
+    "real_sd": 0.685778,
+    "diff_in_sd": -0.003281
+   },
+   {
+    "city": "Lucknow",
+    "feature": "sprecip|seas",
+    "real_mean": 0.799997,
+    "pool_mean": 0.771022,
+    "real_sd": 0.787649,
+    "diff_in_sd": -0.036787
+   },
+   {
+    "city": "Mumbai",
+    "feature": "lblh|syn",
+    "real_mean": 0.000271,
+    "pool_mean": 5.1e-05,
+    "real_sd": 0.199212,
+    "diff_in_sd": -0.001107
+   },
+   {
+    "city": "Mumbai",
+    "feature": "lblh|intra",
+    "real_mean": 0.002726,
+    "pool_mean": 0.000323,
+    "real_sd": 0.166859,
+    "diff_in_sd": -0.014404
+   },
+   {
+    "city": "Mumbai",
+    "feature": "lblh|subs",
+    "real_mean": 0.007498,
+    "pool_mean": 0.000293,
+    "real_sd": 0.167845,
+    "diff_in_sd": -0.042927
+   },
+   {
+    "city": "Mumbai",
+    "feature": "lblh|seas",
+    "real_mean": 5.989841,
+    "pool_mean": 6.016642,
+    "real_sd": 0.255385,
+    "diff_in_sd": 0.104942
+   },
+   {
+    "city": "Mumbai",
+    "feature": "wind|syn",
+    "real_mean": 0.00119,
+    "pool_mean": 5.1e-05,
+    "real_sd": 0.730961,
+    "diff_in_sd": -0.001558
+   },
+   {
+    "city": "Mumbai",
+    "feature": "wind|intra",
+    "real_mean": 0.008767,
+    "pool_mean": 0.000782,
+    "real_sd": 0.652865,
+    "diff_in_sd": -0.012231
+   },
+   {
+    "city": "Mumbai",
+    "feature": "wind|subs",
+    "real_mean": 0.010067,
+    "pool_mean": -0.001837,
+    "real_sd": 0.69603,
+    "diff_in_sd": -0.017102
+   },
+   {
+    "city": "Mumbai",
+    "feature": "wind|seas",
+    "real_mean": 3.087561,
+    "pool_mean": 3.13259,
+    "real_sd": 0.781989,
+    "diff_in_sd": 0.057582
+   },
+   {
+    "city": "Mumbai",
+    "feature": "lvent|syn",
+    "real_mean": 0.000439,
+    "pool_mean": 7.3e-05,
+    "real_sd": 0.349933,
+    "diff_in_sd": -0.001046
+   },
+   {
+    "city": "Mumbai",
+    "feature": "lvent|intra",
+    "real_mean": 0.004554,
+    "pool_mean": 0.000593,
+    "real_sd": 0.297896,
+    "diff_in_sd": -0.013298
+   },
+   {
+    "city": "Mumbai",
+    "feature": "lvent|subs",
+    "real_mean": 0.010025,
+    "pool_mean": 0.000352,
+    "real_sd": 0.315862,
+    "diff_in_sd": -0.030624
+   },
+   {
+    "city": "Mumbai",
+    "feature": "lvent|seas",
+    "real_mean": 7.111083,
+    "pool_mean": 7.155082,
+    "real_sd": 0.462888,
+    "diff_in_sd": 0.095054
+   },
+   {
+    "city": "Mumbai",
+    "feature": "t2m|syn",
+    "real_mean": -0.000806,
+    "pool_mean": -0.001327,
+    "real_sd": 0.732885,
+    "diff_in_sd": -0.000711
+   },
+   {
+    "city": "Mumbai",
+    "feature": "t2m|intra",
+    "real_mean": 0.00327,
+    "pool_mean": 0.000879,
+    "real_sd": 0.854528,
+    "diff_in_sd": -0.002798
+   },
+   {
+    "city": "Mumbai",
+    "feature": "t2m|subs",
+    "real_mean": 0.07057,
+    "pool_mean": 0.008233,
+    "real_sd": 1.285769,
+    "diff_in_sd": -0.048483
+   },
+   {
+    "city": "Mumbai",
+    "feature": "t2m|seas",
+    "real_mean": 27.039494,
+    "pool_mean": 26.787329,
+    "real_sd": 1.438449,
+    "diff_in_sd": -0.175303
+   },
+   {
+    "city": "Mumbai",
+    "feature": "rh|syn",
+    "real_mean": 0.026254,
+    "pool_mean": -0.007571,
+    "real_sd": 4.400336,
+    "diff_in_sd": -0.007687
+   },
+   {
+    "city": "Mumbai",
+    "feature": "rh|intra",
+    "real_mean": 0.102764,
+    "pool_mean": -0.014743,
+    "real_sd": 3.756088,
+    "diff_in_sd": -0.031285
+   },
+   {
+    "city": "Mumbai",
+    "feature": "rh|subs",
+    "real_mean": 0.172335,
+    "pool_mean": 0.021575,
+    "real_sd": 4.631365,
+    "diff_in_sd": -0.032552
+   },
+   {
+    "city": "Mumbai",
+    "feature": "rh|seas",
+    "real_mean": 75.508965,
+    "pool_mean": 74.233476,
+    "real_sd": 7.566684,
+    "diff_in_sd": -0.168566
+   },
+   {
+    "city": "Mumbai",
+    "feature": "sprecip|syn",
+    "real_mean": 0.004661,
+    "pool_mean": 0.0,
+    "real_sd": 1.029956,
+    "diff_in_sd": -0.004525
+   },
+   {
+    "city": "Mumbai",
+    "feature": "sprecip|intra",
+    "real_mean": 0.017514,
+    "pool_mean": 0.00047,
+    "real_sd": 0.990259,
+    "diff_in_sd": -0.017211
+   },
+   {
+    "city": "Mumbai",
+    "feature": "sprecip|subs",
+    "real_mean": 0.016344,
+    "pool_mean": 0.000763,
+    "real_sd": 0.973084,
+    "diff_in_sd": -0.016012
+   },
+   {
+    "city": "Mumbai",
+    "feature": "sprecip|seas",
+    "real_mean": 1.152307,
+    "pool_mean": 1.214919,
+    "real_sd": 1.321819,
+    "diff_in_sd": 0.047368
+   },
+   {
+    "city": "Patna",
+    "feature": "lblh|syn",
+    "real_mean": -0.000952,
+    "pool_mean": -0.000385,
+    "real_sd": 0.223792,
+    "diff_in_sd": 0.002535
+   },
+   {
+    "city": "Patna",
+    "feature": "lblh|intra",
+    "real_mean": -0.001585,
+    "pool_mean": -0.001271,
+    "real_sd": 0.158825,
+    "diff_in_sd": 0.001978
+   },
+   {
+    "city": "Patna",
+    "feature": "lblh|subs",
+    "real_mean": 0.005857,
+    "pool_mean": -0.001335,
+    "real_sd": 0.205868,
+    "diff_in_sd": -0.034935
+   },
+   {
+    "city": "Patna",
+    "feature": "lblh|seas",
+    "real_mean": 6.179371,
+    "pool_mean": 6.168797,
+    "real_sd": 0.304985,
+    "diff_in_sd": -0.034671
+   },
+   {
+    "city": "Patna",
+    "feature": "wind|syn",
+    "real_mean": -0.001759,
+    "pool_mean": -0.000122,
+    "real_sd": 0.867799,
+    "diff_in_sd": 0.001886
+   },
+   {
+    "city": "Patna",
+    "feature": "wind|intra",
+    "real_mean": -4e-06,
+    "pool_mean": 0.000747,
+    "real_sd": 0.49484,
+    "diff_in_sd": 0.001518
+   },
+   {
+    "city": "Patna",
+    "feature": "wind|subs",
+    "real_mean": 0.007867,
+    "pool_mean": 0.001921,
+    "real_sd": 0.343565,
+    "diff_in_sd": -0.017308
+   },
+   {
+    "city": "Patna",
+    "feature": "wind|seas",
+    "real_mean": 2.588884,
+    "pool_mean": 2.587381,
+    "real_sd": 0.523867,
+    "diff_in_sd": -0.00287
+   },
+   {
+    "city": "Patna",
+    "feature": "lvent|syn",
+    "real_mean": -0.001686,
+    "pool_mean": -0.000445,
+    "real_sd": 0.575411,
+    "diff_in_sd": 0.002157
+   },
+   {
+    "city": "Patna",
+    "feature": "lvent|intra",
+    "real_mean": -0.00181,
+    "pool_mean": -0.000298,
+    "real_sd": 0.336092,
+    "diff_in_sd": 0.004498
+   },
+   {
+    "city": "Patna",
+    "feature": "lvent|subs",
+    "real_mean": 0.007552,
+    "pool_mean": 0.001175,
+    "real_sd": 0.322664,
+    "diff_in_sd": -0.019763
+   },
+   {
+    "city": "Patna",
+    "feature": "lvent|seas",
+    "real_mean": 7.084798,
+    "pool_mean": 7.06377,
+    "real_sd": 0.511467,
+    "diff_in_sd": -0.041114
+   },
+   {
+    "city": "Patna",
+    "feature": "t2m|syn",
+    "real_mean": 0.003712,
+    "pool_mean": -0.001746,
+    "real_sd": 1.372384,
+    "diff_in_sd": -0.003977
+   },
+   {
+    "city": "Patna",
+    "feature": "t2m|intra",
+    "real_mean": 0.023029,
+    "pool_mean": -0.010774,
+    "real_sd": 1.776747,
+    "diff_in_sd": -0.019025
+   },
+   {
+    "city": "Patna",
+    "feature": "t2m|subs",
+    "real_mean": 0.143183,
+    "pool_mean": -0.009184,
+    "real_sd": 3.269783,
+    "diff_in_sd": -0.046598
+   },
+   {
+    "city": "Patna",
+    "feature": "t2m|seas",
+    "real_mean": 26.097748,
+    "pool_mean": 26.010344,
+    "real_sd": 5.031655,
+    "diff_in_sd": -0.017371
+   },
+   {
+    "city": "Patna",
+    "feature": "rh|syn",
+    "real_mean": 0.023999,
+    "pool_mean": 0.010594,
+    "real_sd": 6.343467,
+    "diff_in_sd": -0.002113
+   },
+   {
+    "city": "Patna",
+    "feature": "rh|intra",
+    "real_mean": 0.165318,
+    "pool_mean": 0.022694,
+    "real_sd": 6.048759,
+    "diff_in_sd": -0.023579
+   },
+   {
+    "city": "Patna",
+    "feature": "rh|subs",
+    "real_mean": 0.01041,
+    "pool_mean": 0.039712,
+    "real_sd": 7.109196,
+    "diff_in_sd": 0.004122
+   },
+   {
+    "city": "Patna",
+    "feature": "rh|seas",
+    "real_mean": 70.510909,
+    "pool_mean": 68.42992,
+    "real_sd": 9.097071,
+    "diff_in_sd": -0.228754
+   },
+   {
+    "city": "Patna",
+    "feature": "sprecip|syn",
+    "real_mean": 0.003468,
+    "pool_mean": 0.000166,
+    "real_sd": 0.981358,
+    "diff_in_sd": -0.003365
+   },
+   {
+    "city": "Patna",
+    "feature": "sprecip|intra",
+    "real_mean": 0.019408,
+    "pool_mean": 0.00071,
+    "real_sd": 0.654354,
+    "diff_in_sd": -0.028575
+   },
+   {
+    "city": "Patna",
+    "feature": "sprecip|subs",
+    "real_mean": 0.0156,
+    "pool_mean": 0.000743,
+    "real_sd": 0.644841,
+    "diff_in_sd": -0.02304
+   },
+   {
+    "city": "Patna",
+    "feature": "sprecip|seas",
+    "real_mean": 0.868308,
+    "pool_mean": 0.914833,
+    "real_sd": 0.816565,
+    "diff_in_sd": 0.056977
+   },
+   {
+    "city": "Talcher",
+    "feature": "lblh|syn",
+    "real_mean": -0.001069,
+    "pool_mean": 0.000276,
+    "real_sd": 0.190875,
+    "diff_in_sd": 0.007046
+   },
+   {
+    "city": "Talcher",
+    "feature": "lblh|intra",
+    "real_mean": -0.003931,
+    "pool_mean": -0.000114,
+    "real_sd": 0.143762,
+    "diff_in_sd": 0.026551
+   },
+   {
+    "city": "Talcher",
+    "feature": "lblh|subs",
+    "real_mean": -0.003517,
+    "pool_mean": 0.000329,
+    "real_sd": 0.145373,
+    "diff_in_sd": 0.026452
+   },
+   {
+    "city": "Talcher",
+    "feature": "lblh|seas",
+    "real_mean": 6.124902,
+    "pool_mean": 6.158615,
+    "real_sd": 0.217228,
+    "diff_in_sd": 0.155198
+   },
+   {
+    "city": "Talcher",
+    "feature": "wind|syn",
+    "real_mean": -0.001471,
+    "pool_mean": 0.000502,
+    "real_sd": 0.571357,
+    "diff_in_sd": 0.003454
+   },
+   {
+    "city": "Talcher",
+    "feature": "wind|intra",
+    "real_mean": -0.001481,
+    "pool_mean": -2.7e-05,
+    "real_sd": 0.349267,
+    "diff_in_sd": 0.004163
+   },
+   {
+    "city": "Talcher",
+    "feature": "wind|subs",
+    "real_mean": 0.00429,
+    "pool_mean": 0.00025,
+    "real_sd": 0.213199,
+    "diff_in_sd": -0.018946
+   },
+   {
+    "city": "Talcher",
+    "feature": "wind|seas",
+    "real_mean": 1.759927,
+    "pool_mean": 1.748766,
+    "real_sd": 0.298748,
+    "diff_in_sd": -0.037358
+   },
+   {
+    "city": "Talcher",
+    "feature": "lvent|syn",
+    "real_mean": -0.001913,
+    "pool_mean": 0.000754,
+    "real_sd": 0.498965,
+    "diff_in_sd": 0.005344
+   },
+   {
+    "city": "Talcher",
+    "feature": "lvent|intra",
+    "real_mean": -0.003369,
+    "pool_mean": -0.000525,
+    "real_sd": 0.302512,
+    "diff_in_sd": 0.0094
+   },
+   {
+    "city": "Talcher",
+    "feature": "lvent|subs",
+    "real_mean": 0.000219,
+    "pool_mean": 0.000582,
+    "real_sd": 0.247847,
+    "diff_in_sd": 0.001465
+   },
+   {
+    "city": "Talcher",
+    "feature": "lvent|seas",
+    "real_mean": 6.631061,
+    "pool_mean": 6.652824,
+    "real_sd": 0.381077,
+    "diff_in_sd": 0.05711
+   },
+   {
+    "city": "Talcher",
+    "feature": "t2m|syn",
+    "real_mean": -2e-06,
+    "pool_mean": 0.000146,
+    "real_sd": 1.108018,
+    "diff_in_sd": 0.000134
+   },
+   {
+    "city": "Talcher",
+    "feature": "t2m|intra",
+    "real_mean": -0.000503,
+    "pool_mean": -0.002755,
+    "real_sd": 1.234586,
+    "diff_in_sd": -0.001824
+   },
+   {
+    "city": "Talcher",
+    "feature": "t2m|subs",
+    "real_mean": 0.065713,
+    "pool_mean": 0.007184,
+    "real_sd": 2.078796,
+    "diff_in_sd": -0.028155
+   },
+   {
+    "city": "Talcher",
+    "feature": "t2m|seas",
+    "real_mean": 27.25403,
+    "pool_mean": 26.974803,
+    "real_sd": 2.949254,
+    "diff_in_sd": -0.094677
+   },
+   {
+    "city": "Talcher",
+    "feature": "rh|syn",
+    "real_mean": 0.025488,
+    "pool_mean": -0.000949,
+    "real_sd": 4.84059,
+    "diff_in_sd": -0.005461
+   },
+   {
+    "city": "Talcher",
+    "feature": "rh|intra",
+    "real_mean": 0.153008,
+    "pool_mean": -0.012742,
+    "real_sd": 3.904984,
+    "diff_in_sd": -0.042446
+   },
+   {
+    "city": "Talcher",
+    "feature": "rh|subs",
+    "real_mean": 0.248099,
+    "pool_mean": -0.002638,
+    "real_sd": 4.299552,
+    "diff_in_sd": -0.058317
+   },
+   {
+    "city": "Talcher",
+    "feature": "rh|seas",
+    "real_mean": 74.660278,
+    "pool_mean": 72.798046,
+    "real_sd": 6.630311,
+    "diff_in_sd": -0.280866
+   },
+   {
+    "city": "Talcher",
+    "feature": "sprecip|syn",
+    "real_mean": 0.003076,
+    "pool_mean": 0.000299,
+    "real_sd": 1.14639,
+    "diff_in_sd": -0.002422
+   },
+   {
+    "city": "Talcher",
+    "feature": "sprecip|intra",
+    "real_mean": 0.012572,
+    "pool_mean": -0.000109,
+    "real_sd": 0.624539,
+    "diff_in_sd": -0.020305
+   },
+   {
+    "city": "Talcher",
+    "feature": "sprecip|subs",
+    "real_mean": 0.016535,
+    "pool_mean": 0.000687,
+    "real_sd": 0.605775,
+    "diff_in_sd": -0.026162
+   },
+   {
+    "city": "Talcher",
+    "feature": "sprecip|seas",
+    "real_mean": 1.019967,
+    "pool_mean": 1.000037,
+    "real_sd": 0.836315,
+    "diff_in_sd": -0.023831
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "lblh|syn",
+    "real_mean": 0.000953,
+    "pool_mean": -0.000276,
+    "real_sd": 0.188567,
+    "diff_in_sd": -0.006517
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "lblh|intra",
+    "real_mean": 0.003433,
+    "pool_mean": -0.000933,
+    "real_sd": 0.152468,
+    "diff_in_sd": -0.028637
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "lblh|subs",
+    "real_mean": 0.001769,
+    "pool_mean": -0.00087,
+    "real_sd": 0.162919,
+    "diff_in_sd": -0.016199
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "lblh|seas",
+    "real_mean": 6.093551,
+    "pool_mean": 6.099167,
+    "real_sd": 0.192478,
+    "diff_in_sd": 0.029179
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "wind|syn",
+    "real_mean": 0.004676,
+    "pool_mean": 0.000122,
+    "real_sd": 0.669501,
+    "diff_in_sd": -0.006802
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "wind|intra",
+    "real_mean": 0.017433,
+    "pool_mean": -0.000933,
+    "real_sd": 0.599246,
+    "diff_in_sd": -0.030648
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "wind|subs",
+    "real_mean": 0.025224,
+    "pool_mean": 0.000281,
+    "real_sd": 0.725997,
+    "diff_in_sd": -0.034358
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "wind|seas",
+    "real_mean": 2.95956,
+    "pool_mean": 3.093518,
+    "real_sd": 1.116974,
+    "diff_in_sd": 0.11993
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "lvent|syn",
+    "real_mean": 0.002565,
+    "pool_mean": -0.000116,
+    "real_sd": 0.390437,
+    "diff_in_sd": -0.006868
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "lvent|intra",
+    "real_mean": 0.008917,
+    "pool_mean": -0.001508,
+    "real_sd": 0.329296,
+    "diff_in_sd": -0.031659
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "lvent|subs",
+    "real_mean": 0.010441,
+    "pool_mean": -0.000389,
+    "real_sd": 0.376942,
+    "diff_in_sd": -0.02873
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "lvent|seas",
+    "real_mean": 7.108914,
+    "pool_mean": 7.149663,
+    "real_sd": 0.545657,
+    "diff_in_sd": 0.074679
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "t2m|syn",
+    "real_mean": -0.001395,
+    "pool_mean": -4e-06,
+    "real_sd": 0.447033,
+    "diff_in_sd": 0.003112
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "t2m|intra",
+    "real_mean": -0.002114,
+    "pool_mean": 0.001008,
+    "real_sd": 0.35899,
+    "diff_in_sd": 0.008697
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "t2m|subs",
+    "real_mean": 0.010628,
+    "pool_mean": 0.000973,
+    "real_sd": 0.449427,
+    "diff_in_sd": -0.021484
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "t2m|seas",
+    "real_mean": 27.551705,
+    "pool_mean": 27.140587,
+    "real_sd": 0.595941,
+    "diff_in_sd": -0.689863
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "rh|syn",
+    "real_mean": 0.005707,
+    "pool_mean": 0.008774,
+    "real_sd": 3.199525,
+    "diff_in_sd": 0.000958
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "rh|intra",
+    "real_mean": 0.023009,
+    "pool_mean": 0.022919,
+    "real_sd": 2.650258,
+    "diff_in_sd": -3.4e-05
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "rh|subs",
+    "real_mean": 0.161651,
+    "pool_mean": 0.015862,
+    "real_sd": 3.111406,
+    "diff_in_sd": -0.046856
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "rh|seas",
+    "real_mean": 83.53095,
+    "pool_mean": 84.183175,
+    "real_sd": 4.21695,
+    "diff_in_sd": 0.154667
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "sprecip|syn",
+    "real_mean": -0.000588,
+    "pool_mean": 0.00066,
+    "real_sd": 1.153377,
+    "diff_in_sd": 0.001082
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "sprecip|intra",
+    "real_mean": 0.002041,
+    "pool_mean": 0.004063,
+    "real_sd": 0.762404,
+    "diff_in_sd": 0.002653
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "sprecip|subs",
+    "real_mean": 0.025861,
+    "pool_mean": 0.007971,
+    "real_sd": 0.659594,
+    "diff_in_sd": -0.027124
+   },
+   {
+    "city": "Thiruvananthapuram",
+    "feature": "sprecip|seas",
+    "real_mean": 1.767753,
+    "pool_mean": 1.832642,
+    "real_sd": 0.704122,
+    "diff_in_sd": 0.092156
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "lblh|syn",
+    "real_mean": -0.000422,
+    "pool_mean": 0.000351,
+    "real_sd": 0.226704,
+    "diff_in_sd": 0.003409
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "lblh|intra",
+    "real_mean": 0.001077,
+    "pool_mean": 0.000779,
+    "real_sd": 0.169266,
+    "diff_in_sd": -0.001765
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "lblh|subs",
+    "real_mean": 0.004053,
+    "pool_mean": -9e-05,
+    "real_sd": 0.114665,
+    "diff_in_sd": -0.036132
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "lblh|seas",
+    "real_mean": 6.106787,
+    "pool_mean": 6.070986,
+    "real_sd": 0.10372,
+    "diff_in_sd": -0.34517
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "wind|syn",
+    "real_mean": -0.00068,
+    "pool_mean": 0.002617,
+    "real_sd": 0.969411,
+    "diff_in_sd": 0.003401
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "wind|intra",
+    "real_mean": 0.006097,
+    "pool_mean": 0.003718,
+    "real_sd": 0.791491,
+    "diff_in_sd": -0.003006
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "wind|subs",
+    "real_mean": 0.019096,
+    "pool_mean": 0.00067,
+    "real_sd": 0.600853,
+    "diff_in_sd": -0.030666
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "wind|seas",
+    "real_mean": 3.540138,
+    "pool_mean": 3.501654,
+    "real_sd": 0.720657,
+    "diff_in_sd": -0.053401
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "lvent|syn",
+    "real_mean": -0.000583,
+    "pool_mean": 0.000978,
+    "real_sd": 0.463448,
+    "diff_in_sd": 0.003368
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "lvent|intra",
+    "real_mean": 0.002598,
+    "pool_mean": 0.001938,
+    "real_sd": 0.353676,
+    "diff_in_sd": -0.001866
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "lvent|subs",
+    "real_mean": 0.008084,
+    "pool_mean": 3.8e-05,
+    "real_sd": 0.256056,
+    "diff_in_sd": -0.031422
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "lvent|seas",
+    "real_mean": 7.371621,
+    "pool_mean": 7.318068,
+    "real_sd": 0.273448,
+    "diff_in_sd": -0.195846
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "t2m|syn",
+    "real_mean": 0.001082,
+    "pool_mean": -0.000609,
+    "real_sd": 0.760454,
+    "diff_in_sd": -0.002223
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "t2m|intra",
+    "real_mean": 0.011495,
+    "pool_mean": -0.00068,
+    "real_sd": 0.83997,
+    "diff_in_sd": -0.014496
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "t2m|subs",
+    "real_mean": 0.075796,
+    "pool_mean": 0.003844,
+    "real_sd": 1.370736,
+    "diff_in_sd": -0.052492
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "t2m|seas",
+    "real_mean": 27.711086,
+    "pool_mean": 27.316886,
+    "real_sd": 1.97327,
+    "diff_in_sd": -0.19977
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "rh|syn",
+    "real_mean": 0.012969,
+    "pool_mean": -7.2e-05,
+    "real_sd": 3.973761,
+    "diff_in_sd": -0.003282
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "rh|intra",
+    "real_mean": 0.040025,
+    "pool_mean": -0.015658,
+    "real_sd": 3.128184,
+    "diff_in_sd": -0.0178
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "rh|subs",
+    "real_mean": 0.068136,
+    "pool_mean": 0.015084,
+    "real_sd": 2.279726,
+    "diff_in_sd": -0.023271
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "rh|seas",
+    "real_mean": 78.203062,
+    "pool_mean": 78.523715,
+    "real_sd": 2.999755,
+    "diff_in_sd": 0.106893
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "sprecip|syn",
+    "real_mean": 0.001936,
+    "pool_mean": 0.002091,
+    "real_sd": 1.110077,
+    "diff_in_sd": 0.00014
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "sprecip|intra",
+    "real_mean": 0.008544,
+    "pool_mean": 0.000478,
+    "real_sd": 0.731162,
+    "diff_in_sd": -0.011033
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "sprecip|subs",
+    "real_mean": 0.009889,
+    "pool_mean": 0.001565,
+    "real_sd": 0.508488,
+    "diff_in_sd": -0.016369
+   },
+   {
+    "city": "Visakhapatnam",
+    "feature": "sprecip|seas",
+    "real_mean": 0.828627,
+    "pool_mean": 0.875206,
+    "real_sd": 0.680504,
+    "diff_in_sd": 0.068447
+   }
+  ]
+ },
+ "descriptive": {
+  "per_period": {
+   "pre": {
+    "MET_PP_vs_POOL_PP_mae": {
+     "real_mean": 24.197876242159317,
+     "null_means": [
+      25.256212634015007,
+      25.26599742913977,
+      25.50717475008615,
+      25.12946773333742,
+      25.310349984446507,
+      25.4468270788824,
+      25.43748937506826,
+      25.384706586501373,
+      25.620277912232257,
+      25.46186890034398
+     ],
+     "null_mean": 25.382037238405314,
+     "null_sd": 0.14309995874159792,
+     "K": 10,
+     "effect": 1.1841609962459962,
+     "se": 0.15008450290097153,
+     "df": 9,
+     "lo": 0.9090391529869428,
+     "hi": 1.4592828395050497,
+     "below_every_null": true,
+     "pct": 4.665350480434461,
+     "pct_lo": 3.58142707162798,
+     "pct_hi": 5.749273889240944,
+     "rel_se_null_mean": 0.0017828427184515571
+    },
+    "MET_PP_vs_POOL_PP_short": {
+     "real_mean": 4.279829085949896,
+     "null_means": [
+      0.5820835221707785,
+      0.8369034066420606,
+      0.7642282298530116,
+      0.6359296740766381,
+      0.685309642653695,
+      0.5801505517072124,
+      0.7323086531559181,
+      0.5543381051707075,
+      0.623938945824497,
+      0.6417287990308918
+     ],
+     "null_mean": 0.6636919530285411,
+     "null_sd": 0.09050237459913482,
+     "K": 10,
+     "effect": 3.6161371329213554,
+     "se": 0.09491969125998218,
+     "df": 9,
+     "lo": 3.442138619308945,
+     "hi": 3.790135646533766
+    },
+    "MET_vs_POOL_mae": {
+     "real_mean": 24.681970725531897,
+     "null_means": [
+      25.630932996538895,
+      25.14207532517066,
+      25.608228918755128,
+      25.60776332563318,
+      25.249804095171232,
+      25.639979223334382,
+      25.60239566364907,
+      25.487421213177136,
+      25.519723406647216,
+      25.120106452181837
+     ],
+     "null_mean": 25.460843062025873,
+     "null_sd": 0.2083775125796044,
+     "K": 10,
+     "effect": 0.7788723364939756,
+     "se": 0.2185481789531762,
+     "df": 9,
+     "lo": 0.3782488432464387,
+     "hi": 1.1794958297415126,
+     "below_every_null": true,
+     "pct": 3.059098768240089,
+     "pct_lo": 1.485610049616095,
+     "pct_hi": 4.632587486864082,
+     "rel_se_null_mean": 0.0025880822222055172
+    },
+    "MET_vs_POOL_short": {
+     "real_mean": 3.7646593901727767,
+     "null_means": [
+      0.5692520333795799,
+      0.743729336379381,
+      0.6402374071391148,
+      0.6526836359415255,
+      0.6868945350282489,
+      0.6476115532154527,
+      0.6951587334454941,
+      0.5567030627408618,
+      0.8148411857428034,
+      0.6601724000665867
+     ],
+     "null_mean": 0.6667283883079049,
+     "null_sd": 0.07600890175968672,
+     "K": 10,
+     "effect": 3.097931001864872,
+     "se": 0.07971880870525525,
+     "df": 9,
+     "lo": 2.9517974226513197,
+     "hi": 3.244064581078424
+    }
+   },
+   "lock": {
+    "MET_PP_vs_POOL_PP_mae": {
+     "real_mean": 16.032419607266473,
+     "null_means": [
+      16.85118339863132,
+      16.779355950809794,
+      17.17941984721756,
+      16.879821478841972,
+      17.059207052467393,
+      17.307777415356142,
+      16.90553514544588,
+      16.945355340433093,
+      17.40678269715992,
+      17.16594533171748
+     ],
+     "null_mean": 17.048038365808054,
+     "null_sd": 0.21016918205526514,
+     "K": 10,
+     "effect": 1.0156187585415815,
+     "se": 0.22042729775224554,
+     "df": 9,
+     "lo": 0.6115506283214731,
+     "hi": 1.4196868887616898,
+     "below_every_null": true,
+     "pct": 5.9573936704561286,
+     "pct_lo": 3.5872199205511723,
+     "pct_hi": 8.327567420361085,
+     "rel_se_null_mean": 0.0038984738009634583
+    },
+    "MET_PP_vs_POOL_PP_short": {
+     "real_mean": 3.418440275618783,
+     "null_means": [
+      0.321195392793857,
+      0.45428372609635853,
+      0.4443133201999581,
+      0.3315841673802381,
+      0.3748459021024263,
+      0.4006762071500226,
+      0.35927693171883684,
+      0.35674132463859537,
+      0.3445052211272094,
+      0.42601728210561796
+     ],
+     "null_mean": 0.38134394753131196,
+     "null_sd": 0.047422731575319496,
+     "K": 10,
+     "effect": 3.037096328087471,
+     "se": 0.04973738048059312,
+     "df": 9,
+     "lo": 2.9459220926920517,
+     "hi": 3.1282705634828902
+    },
+    "MET_vs_POOL_mae": {
+     "real_mean": 16.34850582707921,
+     "null_means": [
+      17.425636805482366,
+      16.640352960829965,
+      17.220972358401912,
+      17.519666828774923,
+      16.902779446596725,
+      17.603786778435726,
+      17.102711652466603,
+      17.0343676187665,
+      17.30874558112234,
+      16.74688274064701
+     ],
+     "null_mean": 17.150590277152407,
+     "null_sd": 0.3245088717804834,
+     "K": 10,
+     "effect": 0.8020844500731954,
+     "se": 0.3403477760330842,
+     "df": 9,
+     "lo": 0.17818854022616026,
+     "hi": 1.4259803599202305,
+     "below_every_null": true,
+     "pct": 4.676716294375667,
+     "pct_lo": 1.0389644749635156,
+     "pct_hi": 8.314468113787818,
+     "rel_se_null_mean": 0.005983392636490936
+    },
+    "MET_vs_POOL_short": {
+     "real_mean": 3.19499342854639,
+     "null_means": [
+      0.294993651189258,
+      0.36264629655466474,
+      0.3449590311801162,
+      0.3179346535996479,
+      0.3549815148020703,
+      0.4161816929822555,
+      0.36676575391394906,
+      0.33885601289744294,
+      0.45057586856579884,
+      0.40342242261343
+     ],
+     "null_mean": 0.3651316898298634,
+     "null_sd": 0.04682012407501933,
+     "K": 10,
+     "effect": 2.829861738716527,
+     "se": 0.04910536040230461,
+     "df": 9,
+     "lo": 2.739846067500317,
+     "hi": 2.9198774099327367
+    }
+   }
+  },
+  "per_city": {
+   "Ahmedabad": {
+    "MET_PP_vs_POOL_PP_mae": {
+     "real_mean": 91.74931785813692,
+     "null_means": [
+      93.02869086978079,
+      92.9179031679,
+      91.57753476877322,
+      93.2761387205672,
+      92.1964771994229,
+      92.27928555148772,
+      93.08267948216405,
+      92.09986000280271,
+      91.98094638298298,
+      92.19572459582625
+     ],
+     "null_mean": 92.46352407417079,
+     "null_sd": 0.5673186554831828,
+     "K": 10,
+     "effect": 0.7142062160338725,
+     "se": 0.595008825602756,
+     "df": 9,
+     "lo": -0.37651215722313913,
+     "hi": 1.804924589290884,
+     "below_every_null": false,
+     "pct": 0.7724194196415907,
+     "pct_lo": -0.40720074320454747,
+     "pct_hi": 1.9520395824877286,
+     "rel_se_null_mean": 0.0019402452246922094
+    },
+    "MET_PP_vs_POOL_PP_short": {
+     "real_mean": 4.273976698633055,
+     "null_means": [
+      1.167531550747264,
+      1.6105890093535329,
+      1.5138601770344011,
+      1.5026073814418173,
+      1.3892134755567085,
+      1.069636186877915,
+      1.653736815112898,
+      1.0403565844001483,
+      1.354880994175374,
+      1.1891338220381584
+     ],
+     "null_mean": 1.3491545996738217,
+     "null_sd": 0.2224889019975715,
+     "K": 10,
+     "effect": 2.924822098959233,
+     "se": 0.2333483290347147,
+     "df": 9,
+     "lo": 2.4970682591919746,
+     "hi": 3.3525759387264915
+    },
+    "MET_vs_POOL_mae": {
+     "real_mean": 93.26836933377146,
+     "null_means": [
+      91.46140798864693,
+      92.56501359775149,
+      92.2279060051359,
+      92.2910205139511,
+      92.96185074839099,
+      91.24921974149244,
+      92.78024581985912,
+      92.05651988599492,
+      91.14335218517259,
+      91.87991298423415
+     ],
+     "null_mean": 92.06164494706296,
+     "null_sd": 0.6286694130145436,
+     "K": 10,
+     "effect": -1.2067243867085011,
+     "se": 0.6593540429435888,
+     "df": 9,
+     "lo": -2.4153948100275695,
+     "hi": 0.0019460366105672477,
+     "below_every_null": false,
+     "pct": -1.3107786498952834,
+     "pct_lo": -2.6236711405889643,
+     "pct_hi": 0.0021138407983979134,
+     "rel_se_null_mean": 0.0021594522252456052
+    },
+    "MET_vs_POOL_short": {
+     "real_mean": 3.1619232692341006,
+     "null_means": [
+      1.0764035254307232,
+      1.2893684817150135,
+      1.2396865272771307,
+      1.6168861455254082,
+      1.4667951872982319,
+      1.2449997207830348,
+      1.4383929226542524,
+      1.0658055148061039,
+      1.942438380808018,
+      1.2705896912390042
+     ],
+     "null_mean": 1.365136609753692,
+     "null_sd": 0.2646113586394434,
+     "K": 10,
+     "effect": 1.7967866594804085,
+     "se": 0.27752673426737356,
+     "df": 9,
+     "lo": 1.2880488137370352,
+     "hi": 2.305524505223782
+    }
+   },
+   "Amaravati": {
+    "MET_PP_vs_POOL_PP_mae": {
+     "real_mean": 18.541883756918985,
+     "null_means": [
+      19.60382381314137,
+      19.70115086446043,
+      20.474106010687155,
+      19.835974890912166,
+      20.185231701272432,
+      20.699156837463377,
+      20.039325136278496,
+      20.07790879796763,
+      20.448056541505405,
+      20.136075008579944
+     ],
+     "null_mean": 20.12008096022684,
+     "null_sd": 0.3502017099005666,
+     "K": 10,
+     "effect": 1.5781972033078553,
+     "se": 0.36729465198803085,
+     "df": 9,
+     "lo": 0.9049046266531241,
+     "hi": 2.2514897799625864,
+     "below_every_null": true,
+     "pct": 7.843890918866671,
+     "pct_lo": 4.497519808404001,
+     "pct_hi": 11.19026202932934,
+     "rel_se_null_mean": 0.005504128169068976
+    },
+    "MET_PP_vs_POOL_PP_short": {
+     "real_mean": 2.544405928449611,
+     "null_means": [
+      0.26674806327340583,
+      0.389291003731035,
+      0.3886426150575038,
+      0.2493186500537113,
+      0.29631948404364916,
+      0.26746195720839455,
+      0.3063142380241689,
+      0.28956456496177657,
+      0.3124689792168122,
+      0.2946862646572286
+     ],
+     "null_mean": 0.3060815820227686,
+     "null_sd": 0.04777212139087206,
+     "K": 10,
+     "effect": 2.2383243464268427,
+     "se": 0.05010382361060518,
+     "df": 9,
+     "lo": 2.1464783793907154,
+     "hi": 2.33017031346297
+    },
+    "MET_vs_POOL_mae": {
+     "real_mean": 18.90228075715362,
+     "null_means": [
+      20.514582289398692,
+      19.444313685307737,
+      20.589449910023173,
+      20.831368414456726,
+      19.905027290719453,
+      21.125080611119508,
+      20.306602028706035,
+      20.176391510572593,
+      20.392782066532824,
+      19.47713236949483
+     ],
+     "null_mean": 20.276273017633155,
+     "null_sd": 0.5453390712833966,
+     "K": 10,
+     "effect": 1.373992260479536,
+     "se": 0.5719564432149195,
+     "df": 9,
+     "lo": 0.32553150750620463,
+     "hi": 2.4224530134528672,
+     "below_every_null": true,
+     "pct": 6.776355098812543,
+     "pct_lo": 1.6054799973501432,
+     "pct_hi": 11.947230200274939,
+     "rel_se_null_mean": 0.008505081583961424
+    },
+    "MET_vs_POOL_short": {
+     "real_mean": 2.522419522098793,
+     "null_means": [
+      0.2559340893190256,
+      0.29909805649111215,
+      0.2879492067519064,
+      0.253404567615223,
+      0.27500209886954924,
+      0.3014879392170638,
+      0.31886567029375795,
+      0.27488952409892625,
+      0.422228922339567,
+      0.3081750458723159
+     ],
+     "null_mean": 0.2997035120868447,
+     "null_sd": 0.04816452618473708,
+     "K": 10,
+     "effect": 2.2227160100119483,
+     "se": 0.050515381230475206,
+     "df": 9,
+     "lo": 2.130115611380304,
+     "hi": 2.3153164086435924
+    }
+   },
+   "Amritsar": {
+    "MET_PP_vs_POOL_PP_mae": {
+     "real_mean": 22.65307009805952,
+     "null_means": [
+      23.919287070410594,
+      23.790739342825752,
+      24.412512922286986,
+      23.786157472610473,
+      23.57920958491734,
+      24.166839935302733,
+      23.942484840665543,
+      23.81236463873727,
+      24.432926948002407,
+      24.32201466178894
+     ],
+     "null_mean": 24.016453741754805,
+     "null_sd": 0.29777456527848184,
+     "K": 10,
+     "effect": 1.3633836436952862,
+     "se": 0.3123085988240922,
+     "df": 9,
+     "lo": 0.7908867122110944,
+     "hi": 1.9358805751794779,
+     "below_every_null": true,
+     "pct": 5.676873273446358,
+     "pct_lo": 3.293103639343994,
+     "pct_hi": 8.06064290754872,
+     "rel_se_null_mean": 0.0039208363802244305
+    },
+    "MET_PP_vs_POOL_PP_short": {
+     "real_mean": 4.0630000369173676,
+     "null_means": [
+      0.41054018556366234,
+      0.5284962654782934,
+      0.5435377329549278,
+      0.3928011043494347,
+      0.4350287969979522,
+      0.47955623239078254,
+      0.42262892701450083,
+      0.40326805415648365,
+      0.38658930223426236,
+      0.4983329937710564
+     ],
+     "null_mean": 0.4500779594911356,
+     "null_sd": 0.05785753969087829,
+     "K": 10,
+     "effect": 3.612922077426232,
+     "se": 0.06068149956114889,
+     "df": 9,
+     "lo": 3.501686035807716,
+     "hi": 3.7241581190447475
+    },
+    "MET_vs_POOL_mae": {
+     "real_mean": 22.99888488142831,
+     "null_means": [
+      24.699588330677578,
+      23.641388068335395,
+      24.456005908966063,
+      24.488972284861973,
+      23.399704312733242,
+      24.606927011762348,
+      24.214715277808054,
+      23.990134183066232,
+      24.379862681252614,
+      23.8141973866054
+     ],
+     "null_mean": 24.16914954460689,
+     "null_sd": 0.43877094914201625,
+     "K": 10,
+     "effect": 1.1702646631785782,
+     "se": 0.4601868537801623,
+     "df": 9,
+     "lo": 0.32669019007577804,
+     "hi": 2.0138391362813786,
+     "below_every_null": true,
+     "pct": 4.841977004688241,
+     "pct_lo": 1.3516826046064818,
+     "pct_hi": 8.332271404770001,
+     "rel_se_null_mean": 0.005740853925546109
+    },
+    "MET_vs_POOL_short": {
+     "real_mean": 3.8326750064273085,
+     "null_means": [
+      0.36423062958937047,
+      0.4960692411431313,
+      0.4353323527353137,
+      0.38198524773032627,
+      0.408268583460072,
+      0.4726161773735139,
+      0.41722988229826885,
+      0.3923146813428201,
+      0.4663033494237177,
+      0.46315019988533945
+     ],
+     "null_mean": 0.4297500344981874,
+     "null_sd": 0.04385899302451642,
+     "K": 10,
+     "effect": 3.4029249719291212,
+     "se": 0.045999699955945786,
+     "df": 9,
+     "lo": 3.3186023270415705,
+     "hi": 3.487247616816672
+    }
+   },
+   "Bengaluru": {
+    "MET_PP_vs_POOL_PP_mae": {
+     "real_mean": 8.058317490299652,
+     "null_means": [
+      9.018287335169738,
+      8.963328263025518,
+      9.538575580139575,
+      8.641940927375565,
+      8.836281848668403,
+      9.10918659475259,
+      9.059662229813412,
+      9.08287464422491,
+      9.62629528721282,
+      9.308294973191513
+     ],
+     "null_mean": 9.118472768357405,
+     "null_sd": 0.30111569217383954,
+     "K": 10,
+     "effect": 1.0601552780577528,
+     "se": 0.3158128022748026,
+     "df": 9,
+     "lo": 0.4812347459094052,
+     "hi": 1.6390758102061005,
+     "below_every_null": true,
+     "pct": 11.62645658971166,
+     "pct_lo": 5.277580556903878,
+     "pct_hi": 17.975332622519446,
+     "rel_se_null_mean": 0.010442663488471457
+    },
+    "MET_PP_vs_POOL_PP_short": {
+     "real_mean": 2.8088421275639184,
+     "null_means": [
+      0.27793324104794825,
+      0.3949224219667147,
+      0.363876289912647,
+      0.2587985621998449,
+      0.29087573910911735,
+      0.268083054738368,
+      0.31750480212546056,
+      0.24705171116344546,
+      0.3193194438117526,
+      0.32397742597311296
+     ],
+     "null_mean": 0.30623426920484115,
+     "null_sd": 0.04719501691280138,
+     "K": 10,
+     "effect": 2.5026078583590774,
+     "se": 0.04949855132768605,
+     "df": 9,
+     "lo": 2.4118714237725474,
+     "hi": 2.5933442929456074
+    },
+    "MET_vs_POOL_mae": {
+     "real_mean": 8.385314772759212,
+     "null_means": [
+      9.762080702404884,
+      8.8032830726873,
+      9.579693699402771,
+      9.556139234236216,
+      8.663552770172867,
+      9.60833682546174,
+      9.341403457839093,
+      9.271291983030148,
+      9.521072331306396,
+      8.815230719075217
+     ],
+     "null_mean": 9.292208479561662,
+     "null_sd": 0.3929976503399761,
+     "K": 10,
+     "effect": 0.9068937068024496,
+     "se": 0.4121794129866463,
+     "df": 9,
+     "lo": 0.1513222942819722,
+     "hi": 1.6624651193229272,
+     "below_every_null": true,
+     "pct": 9.759721908921593,
+     "pct_lo": 1.6284857858582018,
+     "pct_hi": 17.890958031984987,
+     "rel_se_null_mean": 0.013374298401744372
+    },
+    "MET_vs_POOL_short": {
+     "real_mean": 2.689572067413148,
+     "null_means": [
+      0.28041332940077573,
+      0.31515465991324765,
+      0.27099458142170924,
+      0.26745550047839073,
+      0.2740046895538909,
+      0.32154141988391244,
+      0.3234502876609828,
+      0.2565757278099036,
+      0.4221885614355873,
+      0.3526381013219463
+     ],
+     "null_mean": 0.30844168588803467,
+     "null_sd": 0.05063741055654073,
+     "K": 10,
+     "effect": 2.3811303815251135,
+     "se": 0.05310896424012456,
+     "df": 9,
+     "lo": 2.2837756523365633,
+     "hi": 2.4784851107136636
+    }
+   },
+   "Brajrajnagar": {
+    "MET_PP_vs_POOL_PP_mae": {
+     "real_mean": 18.834459741372036,
+     "null_means": [
+      19.092816415535975,
+      19.160099543233315,
+      19.30175567680146,
+      19.195076475485386,
+      19.645624188122998,
+      19.160291655415087,
+      19.29736858383118,
+      19.09854490994457,
+      19.17345148519691,
+      19.182230906467517
+     ],
+     "null_mean": 19.23072598400344,
+     "null_sd": 0.16157900563657374,
+     "K": 10,
+     "effect": 0.39626624263140187,
+     "se": 0.16946549079017334,
+     "df": 9,
+     "lo": 0.08561685982499867,
+     "hi": 0.7069156254378051,
+     "below_every_null": true,
+     "pct": 2.0605890956016184,
+     "pct_lo": 0.4452086722894224,
+     "pct_hi": 3.6759695189138144,
+     "rel_se_null_mean": 0.0026569859104736042
+    },
+    "MET_PP_vs_POOL_PP_short": {
+     "real_mean": 4.530813628074148,
+     "null_means": [
+      0.4289456942663262,
+      0.613357292709299,
+      0.5177335294805243,
+      0.38432715720289157,
+      0.44391517438353756,
+      0.4225898365769223,
+      0.4666511599407227,
+      0.3658671884365622,
+      0.48885188031455196,
+      0.46699605386161236
+     ],
+     "null_mean": 0.459923496717295,
+     "null_sd": 0.07070058307055328,
+     "K": 10,
+     "effect": 4.070890131356853,
+     "se": 0.07415139709518512,
+     "df": 9,
+     "lo": 3.934962246367141,
+     "hi": 4.206818016346565
+    },
+    "MET_vs_POOL_mae": {
+     "real_mean": 19.06300615903391,
+     "null_means": [
+      18.976376987168514,
+      19.087432495816294,
+      19.20262852398998,
+      19.154144276470777,
+      19.647298525244118,
+      19.114284635065086,
+      19.34516938198135,
+      19.08144095979364,
+      19.152118082540444,
+      19.17399595648169
+     ],
+     "null_mean": 19.19348898245519,
+     "null_sd": 0.18555825564434236,
+     "K": 10,
+     "effect": 0.13048282342127848,
+     "se": 0.19461514037080524,
+     "df": 9,
+     "lo": -0.22626870728315351,
+     "hi": 0.4872343541257105,
+     "below_every_null": false,
+     "pct": 0.6798285790590398,
+     "pct_lo": -1.1788826278014708,
+     "pct_hi": 2.5385397859195504,
+     "rel_se_null_mean": 0.003057217616975736
+    },
+    "MET_vs_POOL_short": {
+     "real_mean": 4.353336483961205,
+     "null_means": [
+      0.3965127195459687,
+      0.5200318435058553,
+      0.4272451333964818,
+      0.38308433701461897,
+      0.4363295734658559,
+      0.46817354430509683,
+      0.48885518167765446,
+      0.3691532039493836,
+      0.5746091860394577,
+      0.4862428531368628
+     ],
+     "null_mean": 0.45502375760372366,
+     "null_sd": 0.0649038076913389,
+     "K": 10,
+     "effect": 3.8983127263574815,
+     "se": 0.06807168778661017,
+     "df": 9,
+     "lo": 3.7735296351281087,
+     "hi": 4.023095817586854
+    }
+   },
+   "Chennai": {
+    "MET_PP_vs_POOL_PP_mae": {
+     "real_mean": 15.299722468820514,
+     "null_means": [
+      15.567997426492965,
+      15.594888737026286,
+      15.978886038341056,
+      15.628746585949889,
+      15.699894825314306,
+      15.901332178037887,
+      15.676244227178092,
+      15.71540463782786,
+      16.13564027245753,
+      15.872915345901365
+     ],
+     "null_mean": 15.777195027452724,
+     "null_sd": 0.186415088265329,
+     "K": 10,
+     "effect": 0.4774725586322095,
+     "se": 0.19551379400509686,
+     "df": 9,
+     "lo": 0.11907369432877901,
+     "hi": 0.83587142293564,
+     "below_every_null": true,
+     "pct": 3.0263463042790244,
+     "pct_lo": 0.7547203043480653,
+     "pct_hi": 5.297972304209983,
+     "rel_se_null_mean": 0.003736381962155046
+    },
+    "MET_PP_vs_POOL_PP_short": {
+     "real_mean": 2.7741658244297356,
+     "null_means": [
+      0.3190469325529796,
+      0.426416129570988,
+      0.38042821395829585,
+      0.28002870375924743,
+      0.35230823487359686,
+      0.279783880947515,
+      0.3547932614825443,
+      0.2641673063457731,
+      0.31312320459042675,
+      0.32852509110155703
+     ],
+     "null_mean": 0.3298620959182924,
+     "null_sd": 0.05023384391217299,
+     "K": 10,
+     "effect": 2.4443037285114433,
+     "se": 0.05268569997268534,
+     "df": 9,
+     "lo": 2.3477248905254675,
+     "hi": 2.540882566497419
+    },
+    "MET_vs_POOL_mae": {
+     "real_mean": 15.520628845204447,
+     "null_means": [
+      15.933408867370854,
+      15.244009901457327,
+      16.029353009517575,
+      16.069861584073514,
+      15.641290221617073,
+      16.142054764126563,
+      15.833772093853446,
+      15.796580404026958,
+      16.02308627266325,
+      15.568337140096308
+     ],
+     "null_mean": 15.828175425880286,
+     "null_sd": 0.2771261477607037,
+     "K": 10,
+     "effect": 0.3075465806758384,
+     "se": 0.2906523558307349,
+     "df": 9,
+     "lo": -0.22525201170448417,
+     "hi": 0.840345173056161,
+     "below_every_null": false,
+     "pct": 1.9430324241477388,
+     "pct_lo": -1.4231078797381773,
+     "pct_hi": 5.309172728033655,
+     "rel_se_null_mean": 0.005536644638644169
+    },
+    "MET_vs_POOL_short": {
+     "real_mean": 2.760014206101917,
+     "null_means": [
+      0.3365905303147704,
+      0.4879202943237891,
+      0.3101376496540671,
+      0.2856393349748013,
+      0.31432673353770657,
+      0.3271168336133468,
+      0.35513885749453183,
+      0.2770706252798565,
+      0.40547625072862276,
+      0.34684351347673764
+     ],
+     "null_mean": 0.344626062339823,
+     "null_sd": 0.06224792025164692,
+     "K": 10,
+     "effect": 2.415388143762094,
+     "se": 0.06528616954011726,
+     "df": 9,
+     "lo": 2.2957112220545173,
+     "hi": 2.5350650654696705
+    }
+   },
+   "Delhi": {
+    "MET_PP_vs_POOL_PP_mae": {
+     "real_mean": 23.209715630637852,
+     "null_means": [
+      25.059070009236766,
+      24.908711845023753,
+      24.991530420994565,
+      25.101103336219893,
+      24.908829035486125,
+      25.308058511073973,
+      25.05881981862663,
+      25.14044908424814,
+      25.165112877931517,
+      25.210428839743297
+     ],
+     "null_mean": 25.085211377858464,
+     "null_sd": 0.12799613224520628,
+     "K": 10,
+     "effect": 1.8754957472206115,
+     "se": 0.1342434760303292,
+     "df": 9,
+     "lo": 1.6294122951846874,
+     "hi": 2.1215791992565354,
+     "below_every_null": true,
+     "pct": 7.476499675326728,
+     "pct_lo": 6.495509528067572,
+     "pct_hi": 8.457489822585883,
+     "rel_se_null_mean": 0.0016135375679721614
+    },
+    "MET_PP_vs_POOL_PP_short": {
+     "real_mean": 5.479878378776282,
+     "null_means": [
+      0.5834683590293593,
+      0.8353592079606867,
+      0.7518856577061206,
+      0.6303556040787741,
+      0.6991302458130976,
+      0.7496964291406126,
+      0.6900399549227887,
+      0.6627362101522227,
+      0.5745781220572199,
+      0.7275226631017432
+     ],
+     "null_mean": 0.6904772453962625,
+     "null_sd": 0.0809552701309615,
+     "K": 10,
+     "effect": 4.789401133380019,
+     "se": 0.08490660361935722,
+     "df": 9,
+     "lo": 4.633757740217458,
+     "hi": 4.9450445265425795
+    },
+    "MET_vs_POOL_mae": {
+     "real_mean": 23.711976939520977,
+     "null_means": [
+      25.388908661678634,
+      24.984808205129017,
+      25.15506063663992,
+      25.365158943779136,
+      24.76877352951008,
+      25.436165073197284,
+      25.27875095648077,
+      25.251139905342292,
+      25.219749074411006,
+      25.08720459015558
+     ],
+     "null_mean": 25.193571957632372,
+     "null_sd": 0.20399832814572139,
+     "K": 10,
+     "effect": 1.4815950181113955,
+     "se": 0.21395525157115067,
+     "df": 9,
+     "lo": 1.0893908794466005,
+     "hi": 1.8737991567761905,
+     "below_every_null": true,
+     "pct": 5.88084540216437,
+     "pct_lo": 4.324082671876031,
+     "pct_hi": 7.437608132452708,
+     "rel_se_null_mean": 0.0025605712317878795
+    },
+    "MET_vs_POOL_short": {
+     "real_mean": 4.899311594529928,
+     "null_means": [
+      0.5488822506905114,
+      0.7768042007423055,
+      0.6457524925548113,
+      0.5893599772648319,
+      0.6817342424094408,
+      0.773698216132322,
+      0.6789456111892294,
+      0.6603208893611237,
+      0.6931299656263695,
+      0.6975515077598137
+     ],
+     "null_mean": 0.6746179353730759,
+     "null_sd": 0.0709561293358294,
+     "K": 10,
+     "effect": 4.224693659156852,
+     "se": 0.07441941627932354,
+     "df": 9,
+     "lo": 4.0882744647344955,
+     "hi": 4.3611128535792085
+    }
+   },
+   "Gurugram": {
+    "MET_PP_vs_POOL_PP_mae": {
+     "real_mean": 25.564486063403717,
+     "null_means": [
+      27.378955218707507,
+      26.973196924869633,
+      27.371605747597094,
+      26.73777149340762,
+      26.941548890054065,
+      27.197229996559077,
+      27.15588845479066,
+      27.632823755955496,
+      27.229996898453635,
+      27.305138588731232
+     ],
+     "null_mean": 27.1924155969126,
+     "null_sd": 0.25691198589163633,
+     "K": 10,
+     "effect": 1.6279295335088833,
+     "se": 0.26945156400411335,
+     "df": 9,
+     "lo": 1.1339943868084932,
+     "hi": 2.1218646802092733,
+     "below_every_null": true,
+     "pct": 5.986704372426982,
+     "pct_lo": 4.170259838692837,
+     "pct_hi": 7.803148906161127,
+     "rel_se_null_mean": 0.0029876971787194126
+    },
+    "MET_PP_vs_POOL_PP_short": {
+     "real_mean": 5.548989898814165,
+     "null_means": [
+      0.6041467119912443,
+      0.8892284535692336,
+      0.800986616661481,
+      0.6532100720182622,
+      0.7510042771854705,
+      0.7617752305851717,
+      0.693706921195981,
+      0.7016080592605729,
+      0.62282669097772,
+      0.8017020304057854
+     ],
+     "null_mean": 0.7280195063850922,
+     "null_sd": 0.08962313311336911,
+     "K": 10,
+     "effect": 4.820970392429073,
+     "se": 0.09399753501003283,
+     "df": 9,
+     "lo": 4.648662295364375,
+     "hi": 4.993278489493772
+    },
+    "MET_vs_POOL_mae": {
+     "real_mean": 26.120669290870023,
+     "null_means": [
+      27.75719580065652,
+      26.95970982725679,
+      27.419255077611524,
+      27.23931980159042,
+      26.883907075928732,
+      27.3710462993757,
+      27.313796009614613,
+      27.605884817055845,
+      27.167836706125115,
+      26.9316240141762
+     ],
+     "null_mean": 27.264957542939147,
+     "null_sd": 0.2897420838403517,
+     "K": 10,
+     "effect": 1.1442882520691242,
+     "se": 0.3038840612190188,
+     "df": 9,
+     "lo": 0.5872344494204412,
+     "hi": 1.701342054717807,
+     "below_every_null": true,
+     "pct": 4.196919251632807,
+     "pct_lo": 2.153806579363328,
+     "pct_hi": 6.240031923902286,
+     "rel_se_null_mean": 0.0033605220822222016
+    },
+    "MET_vs_POOL_short": {
+     "real_mean": 4.945315771644722,
+     "null_means": [
+      0.6227687002965178,
+      0.8280749097727169,
+      0.7008160840221709,
+      0.5930161718674659,
+      0.7285922764256364,
+      0.7701697233654228,
+      0.6937269053252959,
+      0.646810055035357,
+      0.6929820336283367,
+      0.7200157660297472
+     ],
+     "null_mean": 0.6996972625768667,
+     "null_sd": 0.06901920682357496,
+     "K": 10,
+     "effect": 4.245618509067856,
+     "se": 0.07238795481025112,
+     "df": 9,
+     "lo": 4.112923212936649,
+     "hi": 4.378313805199062
+    }
+   },
+   "Hyderabad": {
+    "MET_PP_vs_POOL_PP_mae": {
+     "real_mean": 12.926504641332809,
+     "null_means": [
+      14.142430162819597,
+      14.297347532111228,
+      14.911369843703849,
+      14.095536050354752,
+      14.546004901854804,
+      14.83629038522289,
+      14.414035550774932,
+      14.501565673630633,
+      15.137952680613754,
+      14.73069251863443
+     ],
+     "null_mean": 14.561322529972088,
+     "null_sd": 0.3410667240293647,
+     "K": 10,
+     "effect": 1.6348178886392795,
+     "se": 0.35771379797840497,
+     "df": 9,
+     "lo": 0.9790880993754848,
+     "hi": 2.2905476779030742,
+     "below_every_null": true,
+     "pct": 11.227125044955741,
+     "pct_lo": 6.7238954247472575,
+     "pct_hi": 15.73035466516423,
+     "rel_se_null_mean": 0.007406934911336939
+    },
+    "MET_PP_vs_POOL_PP_short": {
+     "real_mean": 3.066989685778377,
+     "null_means": [
+      0.3104195742206028,
+      0.4432828465608519,
+      0.41002525346054164,
+      0.28833924810777434,
+      0.31712570053863365,
+      0.31800360674341727,
+      0.33729372054791507,
+      0.31754879138528025,
+      0.3287998616636262,
+      0.38077873223742476
+     ],
+     "null_mean": 0.3451617335466068,
+     "null_sd": 0.04961528233400905,
+     "K": 10,
+     "effect": 2.7218279522317705,
+     "se": 0.05203694711636891,
+     "df": 9,
+     "lo": 2.626438351496806,
+     "hi": 2.817217552966735
+    },
+    "MET_vs_POOL_mae": {
+     "real_mean": 13.450992176253402,
+     "null_means": [
+      15.09955536844945,
+      14.069325036508838,
+      15.001316047689247,
+      15.183084450495665,
+      14.270797613855928,
+      15.31984863359207,
+      14.797261045284426,
+      14.63077424514521,
+      15.064478101132675,
+      14.058884407843816
+     ],
+     "null_mean": 14.74953249499973,
+     "null_sd": 0.46946483597365607,
+     "K": 10,
+     "effect": 1.298540318746328,
+     "se": 0.4923788738739194,
+     "df": 9,
+     "lo": 0.3959542372813323,
+     "hi": 2.201126400211324,
+     "below_every_null": true,
+     "pct": 8.803942221128356,
+     "pct_lo": 2.68452059355485,
+     "pct_hi": 14.923363848701864,
+     "rel_se_null_mean": 0.010065255719375478
+    },
+    "MET_vs_POOL_short": {
+     "real_mean": 2.9311096486546226,
+     "null_means": [
+      0.28928716193706705,
+      0.34730642205388246,
+      0.3333326195369488,
+      0.2829509913337138,
+      0.3108509209086635,
+      0.34663601829900526,
+      0.35438714458801046,
+      0.2977669044434772,
+      0.4208965413932676,
+      0.3799023278003573
+     ],
+     "null_mean": 0.33633170522943934,
+     "null_sd": 0.043218349045714394,
+     "K": 10,
+     "effect": 2.5947779434251834,
+     "se": 0.04532778688245129,
+     "df": 9,
+     "lo": 2.5116869910822763,
+     "hi": 2.6778688957680905
+    }
+   },
+   "Jaipur": {
+    "MET_PP_vs_POOL_PP_mae": {
+     "real_mean": 12.602426963930885,
+     "null_means": [
+      13.42995768450911,
+      13.079071728085301,
+      13.437199624552715,
+      12.89587636682578,
+      13.09021123527506,
+      13.284998230843192,
+      13.250887496075123,
+      13.205639306466,
+      13.467785195498767,
+      13.44995551668006
+     ],
+     "null_mean": 13.25915823848111,
+     "null_sd": 0.1936056531376906,
+     "K": 10,
+     "effect": 0.656731274550225,
+     "se": 0.20305532206657118,
+     "df": 9,
+     "lo": 0.28450793762531595,
+     "hi": 1.028954611475134,
+     "below_every_null": true,
+     "pct": 4.953038969278159,
+     "pct_lo": 2.145746604031083,
+     "pct_hi": 7.760331334525237,
+     "rel_se_null_mean": 0.004617448715732056
+    },
+    "MET_PP_vs_POOL_PP_short": {
+     "real_mean": 4.036059736342591,
+     "null_means": [
+      0.3952970972493728,
+      0.575906765860759,
+      0.5047081967950062,
+      0.38101580138503377,
+      0.4311236135828177,
+      0.5105253337908169,
+      0.42759361141449476,
+      0.35200576871370387,
+      0.3692679705434896,
+      0.4803812800621398
+     ],
+     "null_mean": 0.4427825439397635,
+     "null_sd": 0.07275609433200975,
+     "K": 10,
+     "effect": 3.5932771924028275,
+     "se": 0.07630723549371404,
+     "df": 9,
+     "lo": 3.453397412164055,
+     "hi": 3.7331569726416
+    },
+    "MET_vs_POOL_mae": {
+     "real_mean": 12.634490965237735,
+     "null_means": [
+      13.953654067847646,
+      12.973150010589682,
+      13.44974818814353,
+      13.451831548415347,
+      12.921264747442928,
+      13.585384534425241,
+      13.413023880846822,
+      13.298481093570384,
+      13.41868294214358,
+      13.18223280270028
+     ],
+     "null_mean": 13.364745381612545,
+     "null_sd": 0.29875081269790327,
+     "K": 10,
+     "effect": 0.7302544163748106,
+     "se": 0.31333249575558464,
+     "df": 9,
+     "lo": 0.15588056618379287,
+     "hi": 1.3046282665658282,
+     "below_every_null": true,
+     "pct": 5.464035382069513,
+     "pct_lo": 1.1663564230580563,
+     "pct_hi": 9.761714341080967,
+     "rel_se_null_mean": 0.0070688441416288245
+    },
+    "MET_vs_POOL_short": {
+     "real_mean": 3.5587755774610663,
+     "null_means": [
+      0.34602323141384217,
+      0.4684495911534447,
+      0.39462303892373496,
+      0.3741234322136223,
+      0.4004602494106367,
+      0.5244751335550455,
+      0.4412560206929143,
+      0.3544944257000258,
+      0.4983476657035846,
+      0.4711932547468537
+     ],
+     "null_mean": 0.42734460435137045,
+     "null_sd": 0.062207451130347924,
+     "K": 10,
+     "effect": 3.131430973109696,
+     "se": 0.0652437251676212,
+     "df": 9,
+     "lo": 3.0118318567302604,
+     "hi": 3.2510300894891313
+    }
+   },
+   "Jorapokhar": {
+    "MET_PP_vs_POOL_PP_mae": {
+     "real_mean": 22.217977372805276,
+     "null_means": [
+      22.665787488222122,
+      22.555434211757447,
+      22.61915673878458,
+      22.51728975441721,
+      22.533032999767197,
+      22.5403180691931,
+      22.608619516425666,
+      22.598430820968417,
+      22.610411369800566,
+      22.6284127023485
+     ],
+     "null_mean": 22.58768936716848,
+     "null_sd": 0.04835689114799465,
+     "K": 10,
+     "effect": 0.3697119943632039,
+     "se": 0.05071713530601767,
+     "df": 9,
+     "lo": 0.2767417577264667,
+     "hi": 0.4626822309999411,
+     "below_every_null": true,
+     "pct": 1.6367853672566677,
+     "pct_lo": 1.2251884344076145,
+     "pct_hi": 2.048382300105721,
+     "rel_se_null_mean": 0.0006769967220054205
+    },
+    "MET_PP_vs_POOL_PP_short": {
+     "real_mean": 5.826913152873909,
+     "null_means": [
+      0.5343908101625207,
+      0.7272174837599618,
+      0.7028944888176355,
+      0.5557221976551846,
+      0.6674666545588555,
+      0.6137791525562007,
+      0.5772066912383914,
+      0.5061829625083452,
+      0.5617971338247384,
+      0.7222339357895828
+     ],
+     "null_mean": 0.6168891510871417,
+     "null_sd": 0.08208911102751759,
+     "K": 10,
+     "effect": 5.210024001786768,
+     "se": 0.08609578598408242,
+     "df": 9,
+     "lo": 5.052200703052143,
+     "hi": 5.367847300521393
+    },
+    "MET_vs_POOL_mae": {
+     "real_mean": 22.297995219628014,
+     "null_means": [
+      22.829433293806183,
+      22.52442049649027,
+      22.658487344450418,
+      22.76496318909857,
+      22.52146339085367,
+      22.553808361291885,
+      22.546899637248778,
+      22.677253454261358,
+      22.618496553765404,
+      22.529838719964026
+     ],
+     "null_mean": 22.622506444123054,
+     "null_sd": 0.10866577683949183,
+     "K": 10,
+     "effect": 0.32451122449504055,
+     "se": 0.11396962824254217,
+     "df": 9,
+     "lo": 0.11559202503361299,
+     "hi": 0.5334304239564681,
+     "below_every_null": true,
+     "pct": 1.4344618501781579,
+     "pct_lo": 0.5109602922166118,
+     "pct_hi": 2.357963408139704,
+     "rel_se_null_mean": 0.0015189800448200872
+    },
+    "MET_vs_POOL_short": {
+     "real_mean": 5.343942126938183,
+     "null_means": [
+      0.5313282309290946,
+      0.6891216988457218,
+      0.6213962284998319,
+      0.513582095514767,
+      0.668380876520309,
+      0.6190871748763693,
+      0.5775068498920761,
+      0.48246199531831435,
+      0.656999545556981,
+      0.7053453221997016
+     ],
+     "null_mean": 0.6065210018153167,
+     "null_sd": 0.07736427628304597,
+     "K": 10,
+     "effect": 4.737421125122866,
+     "se": 0.08114033749793882,
+     "df": 9,
+     "lo": 4.588681723095303,
+     "hi": 4.886160527150429
+    }
+   },
+   "Kolkata": {
+    "MET_PP_vs_POOL_PP_mae": {
+     "real_mean": 20.016213779553407,
+     "null_means": [
+      21.182259930446946,
+      21.486209215325296,
+      21.824066281903345,
+      21.304429511348296,
+      21.810294079065972,
+      21.99785561574577,
+      21.586488246917725,
+      21.777150007814413,
+      22.187558604715957,
+      21.757938227016854
+     ],
+     "null_mean": 21.69142497203006,
+     "null_sd": 0.3065370100307895,
+     "K": 10,
+     "effect": 1.6752111924766524,
+     "se": 0.3214987284119145,
+     "df": 9,
+     "lo": 1.0858677155922367,
+     "hi": 2.2645546693610683,
+     "below_every_null": true,
+     "pct": 7.722919055049395,
+     "pct_lo": 5.005976864094477,
+     "pct_hi": 10.439861246004314,
+     "rel_se_null_mean": 0.004468840290968011
+    },
+    "MET_PP_vs_POOL_PP_short": {
+     "real_mean": 4.355575468683172,
+     "null_means": [
+      0.38859988106845567,
+      0.5954711228225376,
+      0.5607902681561306,
+      0.38870829742703855,
+      0.504843032658996,
+      0.387279801457448,
+      0.513362804311298,
+      0.3980844341159938,
+      0.4140703598085089,
+      0.48616780019789535
+     ],
+     "null_mean": 0.4637377802024303,
+     "null_sd": 0.07840522499361934,
+     "K": 10,
+     "effect": 3.891837688480742,
+     "se": 0.08223209371607948,
+     "df": 9,
+     "lo": 3.741096974010397,
+     "hi": 4.0425784029510865
+    },
+    "MET_vs_POOL_mae": {
+     "real_mean": 20.56124433288782,
+     "null_means": [
+      22.004049951309078,
+      21.28354655351561,
+      21.960296061513212,
+      22.138628252585512,
+      21.598421992528017,
+      22.4439684795099,
+      21.921896803281612,
+      21.90060964631125,
+      22.133328938549155,
+      21.258406121724306
+     ],
+     "null_mean": 21.864315280082764,
+     "null_sd": 0.3789022522467872,
+     "K": 10,
+     "effect": 1.3030709471949429,
+     "se": 0.39739603474802915,
+     "df": 9,
+     "lo": 0.5745991365120233,
+     "hi": 2.0315427578778626,
+     "below_every_null": true,
+     "pct": 5.959806792495219,
+     "pct_lo": 2.62802255250798,
+     "pct_hi": 9.291591032482462,
+     "rel_se_null_mean": 0.00548013561055347
+    },
+    "MET_vs_POOL_short": {
+     "real_mean": 3.7999788137355686,
+     "null_means": [
+      0.4220225653534645,
+      0.5140018255546533,
+      0.48832802589938673,
+      0.3720625846727138,
+      0.5264705852036939,
+      0.4069893774890751,
+      0.5057707282289516,
+      0.38856730570537307,
+      0.4793631100635592,
+      0.45585282341559336
+     ],
+     "null_mean": 0.45594289315864656,
+     "null_sd": 0.05532482955761938,
+     "K": 10,
+     "effect": 3.344035920576922,
+     "se": 0.05802517076353674,
+     "df": 9,
+     "lo": 3.237669229630696,
+     "hi": 3.450402611523148
+    }
+   },
+   "Lucknow": {
+    "MET_PP_vs_POOL_PP_mae": {
+     "real_mean": 22.943306891729787,
+     "null_means": [
+      24.481322184050764,
+      24.4904498128865,
+      24.788873349223543,
+      24.270685225546522,
+      24.648660651994337,
+      24.733124519888644,
+      24.6337518899902,
+      24.599014393445255,
+      25.034522168318,
+      24.938823233248428
+     ],
+     "null_mean": 24.661922742859222,
+     "null_sd": 0.2252661699408152,
+     "K": 10,
+     "effect": 1.7186158511294352,
+     "se": 0.23626115222732802,
+     "df": 9,
+     "lo": 1.2855224774972562,
+     "hi": 2.151709224761614,
+     "below_every_null": true,
+     "pct": 6.968701787970099,
+     "pct_lo": 5.212580101320262,
+     "pct_hi": 8.724823474619937,
+     "rel_se_null_mean": 0.0028884778539896823
+    },
+    "MET_PP_vs_POOL_PP_short": {
+     "real_mean": 5.495943344076977,
+     "null_means": [
+      0.4891570914511568,
+      0.8070159047808939,
+      0.7169752729219212,
+      0.49377330514086804,
+      0.6213727129365626,
+      0.5935479199911391,
+      0.5817611796755681,
+      0.5855302613657745,
+      0.5076146477145418,
+      0.60337905408162
+     ],
+     "null_mean": 0.6000127350060046,
+     "null_sd": 0.09983095722433473,
+     "K": 10,
+     "effect": 4.895930609070972,
+     "se": 0.10470359125817819,
+     "df": 9,
+     "lo": 4.703997101840053,
+     "hi": 5.087864116301891
+    },
+    "MET_vs_POOL_mae": {
+     "real_mean": 23.504918907123947,
+     "null_means": [
+      25.16417228116651,
+      24.5962848237165,
+      24.891198592744665,
+      24.858321218984326,
+      24.623962339458412,
+      25.02699849495121,
+      24.83873396465499,
+      24.762902287371478,
+      25.027417881417342,
+      24.598281115602084
+     ],
+     "null_mean": 24.83882730000675,
+     "null_sd": 0.1967987734584761,
+     "K": 10,
+     "effect": 1.333908392882801,
+     "se": 0.20640429491228293,
+     "df": 9,
+     "lo": 0.9555460105233033,
+     "hi": 1.7122707752422988,
+     "below_every_null": true,
+     "pct": 5.3702551121744735,
+     "pct_lo": 3.8469852017653174,
+     "pct_hi": 6.893525022583629,
+     "rel_se_null_mean": 0.0025054820718372144
+    },
+    "MET_vs_POOL_short": {
+     "real_mean": 4.712186962833879,
+     "null_means": [
+      0.5402172124572168,
+      0.8043023411004191,
+      0.6345419146560138,
+      0.508303748266137,
+      0.5914095084984599,
+      0.6336170226378471,
+      0.6010162491127529,
+      0.5387912089962816,
+      0.5948438923756529,
+      0.5970526542175428
+     ],
+     "null_mean": 0.6044095752318325,
+     "null_sd": 0.08145008906962717,
+     "K": 10,
+     "effect": 4.107777387602047,
+     "se": 0.08542557410047193,
+     "df": 9,
+     "lo": 3.951182662938888,
+     "hi": 4.264372112265206
+    }
+   },
+   "Mumbai": {
+    "MET_PP_vs_POOL_PP_mae": {
+     "real_mean": 12.058014947127257,
+     "null_means": [
+      12.887259122656218,
+      12.96441934803851,
+      13.34269538354484,
+      12.83677633685702,
+      13.40644878652505,
+      13.305895951398387,
+      13.19429806129809,
+      13.210210332428726,
+      13.584378531973107,
+      13.203246477579228
+     ],
+     "null_mean": 13.193562833229915,
+     "null_sd": 0.23732615699920206,
+     "K": 10,
+     "effect": 1.1355478861026587,
+     "se": 0.24890977336298167,
+     "df": 9,
+     "lo": 0.679268161486444,
+     "hi": 1.5918276107188734,
+     "below_every_null": true,
+     "pct": 8.606832744545812,
+     "pct_lo": 5.148481650275753,
+     "pct_hi": 12.065183838815873,
+     "rel_se_null_mean": 0.005688313414189899
+    },
+    "MET_PP_vs_POOL_PP_short": {
+     "real_mean": 3.3188002048615046,
+     "null_means": [
+      0.3228399624682997,
+      0.4944076705385836,
+      0.40179004816155606,
+      0.2953419658804147,
+      0.3484819902253955,
+      0.3297930039028364,
+      0.384543305431689,
+      0.3229395643496023,
+      0.3761279395567893,
+      0.3774939815859462
+     ],
+     "null_mean": 0.36537594321011124,
+     "null_sd": 0.056442181681892925,
+     "K": 10,
+     "effect": 2.9534242616513935,
+     "se": 0.05919705955799655,
+     "df": 9,
+     "lo": 2.8449093662004086,
+     "hi": 3.0619391571023784
+    },
+    "MET_vs_POOL_mae": {
+     "real_mean": 12.503599090472228,
+     "null_means": [
+      13.475018467760213,
+      12.801397214988274,
+      13.315116784618079,
+      13.560230389213041,
+      13.213652519309226,
+      13.660624660782982,
+      13.342670100781183,
+      13.32964908199674,
+      13.477856459604624,
+      12.861972832484858
+     ],
+     "null_mean": 13.303818851153924,
+     "null_sd": 0.28101903777724235,
+     "K": 10,
+     "effect": 0.8002197606816956,
+     "se": 0.29473525332503386,
+     "df": 9,
+     "lo": 0.25993675610186395,
+     "hi": 1.3405027652615273,
+     "below_every_null": true,
+     "pct": 6.014962843637092,
+     "pct_lo": 1.953850687611535,
+     "pct_hi": 10.076074999662652,
+     "rel_se_null_mean": 0.006679737864650105
+    },
+    "MET_vs_POOL_short": {
+     "real_mean": 2.966092004768828,
+     "null_means": [
+      0.3039358150747586,
+      0.43549326996183335,
+      0.31539122348070625,
+      0.2988090992575822,
+      0.35215953349426377,
+      0.3724217679486345,
+      0.4283022828843893,
+      0.3218628872901808,
+      0.4834611639565238,
+      0.3999247165714994
+     ],
+     "null_mean": 0.37117617599203717,
+     "null_sd": 0.06368296760332985,
+     "K": 10,
+     "effect": 2.594915828776791,
+     "se": 0.06679125990010547,
+     "df": 9,
+     "lo": 2.472479906465504,
+     "hi": 2.7173517510880782
+    }
+   },
+   "Patna": {
+    "MET_PP_vs_POOL_PP_mae": {
+     "real_mean": 20.31826186733351,
+     "null_means": [
+      21.16110880888628,
+      21.162448577986236,
+      21.31099495071074,
+      21.026792076279445,
+      21.250706002461975,
+      21.37038123093916,
+      21.29195713285583,
+      21.321319036325697,
+      21.37186292732618,
+      21.36388543666397
+     ],
+     "null_mean": 21.263145618043552,
+     "null_sd": 0.1137933774303652,
+     "K": 10,
+     "effect": 0.9448837507100407,
+     "se": 0.11934750111213266,
+     "df": 9,
+     "lo": 0.7261063029411857,
+     "hi": 1.1636611984788958,
+     "below_every_null": true,
+     "pct": 4.443762779427273,
+     "pct_lo": 3.4148583468526126,
+     "pct_hi": 5.4726672120019355,
+     "rel_se_null_mean": 0.0016923472273913834
+    },
+    "MET_PP_vs_POOL_PP_short": {
+     "real_mean": 5.178986490603774,
+     "null_means": [
+      0.486190883965127,
+      0.7529404940780461,
+      0.697874875812599,
+      0.4787867575476417,
+      0.6600748856568155,
+      0.5189363541145002,
+      0.5708956627250327,
+      0.5265716149065836,
+      0.48817183940446346,
+      0.610106791893014
+     ],
+     "null_mean": 0.5790550160103825,
+     "null_sd": 0.09732837261359069,
+     "K": 10,
+     "effect": 4.599931474593391,
+     "se": 0.10207885837513538,
+     "df": 9,
+     "lo": 4.412809399155146,
+     "hi": 4.7870535500316365
+    },
+    "MET_vs_POOL_mae": {
+     "real_mean": 20.90652943158018,
+     "null_means": [
+      21.423897716617056,
+      21.055626577830445,
+      21.315101409880494,
+      21.30457887307056,
+      21.216985539968498,
+      21.45992209740107,
+      21.421591886235866,
+      21.34395684589997,
+      21.342430484624195,
+      21.17656071568062
+     ],
+     "null_mean": 21.306065214720878,
+     "null_sd": 0.12524244748075405,
+     "K": 10,
+     "effect": 0.39953578314069915,
+     "se": 0.13135538708430036,
+     "df": 9,
+     "lo": 0.15874652430240213,
+     "hi": 0.6403250419789962,
+     "below_every_null": true,
+     "pct": 1.8752208777839006,
+     "pct_lo": 0.7450766845147939,
+     "pct_hi": 3.0053650710530078,
+     "rel_se_null_mean": 0.0018588668990816687
+    },
+    "MET_vs_POOL_short": {
+     "real_mean": 4.493624405270582,
+     "null_means": [
+      0.46997099059135544,
+      0.7949792889803645,
+      0.6352896147657464,
+      0.4932813765930937,
+      0.6347793300433444,
+      0.5700149681951787,
+      0.5594107470383458,
+      0.5388298117880063,
+      0.6000081865139608,
+      0.587955476014103
+     ],
+     "null_mean": 0.5884519790523499,
+     "null_sd": 0.09059566703566266,
+     "K": 10,
+     "effect": 3.905172426218232,
+     "se": 0.09501753719287993,
+     "df": 9,
+     "lo": 3.730994549960819,
+     "hi": 4.079350302475645
+    }
+   },
+   "Talcher": {
+    "MET_PP_vs_POOL_PP_mae": {
+     "real_mean": 18.930234061587942,
+     "null_means": [
+      19.438474054047557,
+      19.39758720036709,
+      19.69324636820591,
+      19.501779997710024,
+      19.653127467993535,
+      19.5467174688975,
+      19.6000970211896,
+      19.5687711650675,
+      19.750245253245033,
+      19.655410651004676
+     ],
+     "null_mean": 19.580545664772842,
+     "null_sd": 0.11249676390459902,
+     "K": 10,
+     "effect": 0.6503116031848997,
+     "se": 0.11798760137365198,
+     "df": 9,
+     "lo": 0.43402700521376947,
+     "hi": 0.8665962011560299,
+     "below_every_null": true,
+     "pct": 3.3212128728101207,
+     "pct_lo": 2.21662364596214,
+     "pct_hi": 4.425802099658102,
+     "rel_se_null_mean": 0.0018168339607448681
+    },
+    "MET_PP_vs_POOL_PP_short": {
+     "real_mean": 4.357915941118901,
+     "null_means": [
+      0.5117241627848237,
+      0.7211614823139476,
+      0.7537717911254419,
+      0.5612554756948189,
+      0.5971443738682609,
+      0.5193261131809405,
+      0.5992110791703844,
+      0.46020759431335956,
+      0.5171737017527749,
+      0.5956805406967407
+     ],
+     "null_mean": 0.5836656314901493,
+     "null_sd": 0.09302887085010031,
+     "K": 10,
+     "effect": 3.774250309628752,
+     "se": 0.0975695028828635,
+     "df": 9,
+     "lo": 3.5953943920613347,
+     "hi": 3.953106227196169
+    },
+    "MET_vs_POOL_mae": {
+     "real_mean": 19.286801196228375,
+     "null_means": [
+      19.66556093114795,
+      19.56603010423256,
+      19.6721438480146,
+      19.685450506210326,
+      19.593358082482307,
+      19.59425899548964,
+      19.63117742177212,
+      19.70645962483955,
+      19.616621285496333,
+      19.531920873757564
+     ],
+     "null_mean": 19.626298167344295,
+     "null_sd": 0.05611156484542859,
+     "K": 10,
+     "effect": 0.3394969711159206,
+     "se": 0.058850305694558736,
+     "df": 9,
+     "lo": 0.23161771465645198,
+     "hi": 0.4473762275753892,
+     "below_every_null": true,
+     "pct": 1.7298064475592299,
+     "pct_lo": 1.1801395896544304,
+     "pct_hi": 2.2794733054640295,
+     "rel_se_null_mean": 0.000904094834771372
+    },
+    "MET_vs_POOL_short": {
+     "real_mean": 4.199011677829479,
+     "null_means": [
+      0.4989048226629035,
+      0.6762101389070119,
+      0.6045680195727006,
+      0.4869050576330881,
+      0.590518217192123,
+      0.5581812653212472,
+      0.589570186936521,
+      0.48063313731637114,
+      0.5798308307790864,
+      0.5699017649130763
+     ],
+     "null_mean": 0.563522344123413,
+     "null_sd": 0.06059152671561183,
+     "K": 10,
+     "effect": 3.635489333706066,
+     "se": 0.06354892934347182,
+     "df": 9,
+     "lo": 3.5189969694700904,
+     "hi": 3.7519816979420417
+    }
+   },
+   "Thiruvananthapuram": {
+    "MET_PP_vs_POOL_PP_mae": {
+     "real_mean": 12.573470866287147,
+     "null_means": [
+      13.599022380336299,
+      13.714661479258274,
+      14.530557414463587,
+      13.434126223312632,
+      14.24209728581565,
+      14.419465087796306,
+      14.09507919170044,
+      14.041861211860573,
+      14.97924323474968,
+      14.173213677353914
+     ],
+     "null_mean": 14.122932718664737,
+     "null_sd": 0.462728100045987,
+     "K": 10,
+     "effect": 1.5494618523775898,
+     "se": 0.48531332562519436,
+     "df": 9,
+     "lo": 0.6598277187836386,
+     "hi": 2.439095985971541,
+     "below_every_null": true,
+     "pct": 10.971247142810752,
+     "pct_lo": 4.672030462282216,
+     "pct_hi": 17.270463823339284,
+     "rel_se_null_mean": 0.010360983534062534
+    },
+    "MET_PP_vs_POOL_PP_short": {
+     "real_mean": 2.4795906297171824,
+     "null_means": [
+      0.2673643014919882,
+      0.39236417275575847,
+      0.33499207392665287,
+      0.22551904756794466,
+      0.30432459283148405,
+      0.23733092738390246,
+      0.29944773072231545,
+      0.2650427448175576,
+      0.24494618620516934,
+      0.27049800657458645
+     ],
+     "null_mean": 0.284182978427736,
+     "null_sd": 0.05048214702144769,
+     "K": 10,
+     "effect": 2.1954076512894463,
+     "se": 0.0529461224707208,
+     "df": 9,
+     "lo": 2.098351429454367,
+     "hi": 2.2924638731245257
+    },
+    "MET_vs_POOL_mae": {
+     "real_mean": 12.969319343566895,
+     "null_means": [
+      14.690370614450057,
+      13.476456869041527,
+      14.60187936772357,
+      14.787875408392685,
+      13.921711778902743,
+      15.057099645478388,
+      14.476737617136356,
+      14.251370294015487,
+      14.85344783473801,
+      13.416600210588058
+     ],
+     "null_mean": 14.353354964046687,
+     "null_sd": 0.5742532473464159,
+     "K": 10,
+     "effect": 1.3840356204797928,
+     "se": 0.6022818869073636,
+     "df": 9,
+     "lo": 0.27998490448530333,
+     "hi": 2.4880863364742822,
+     "below_every_null": true,
+     "pct": 9.642593135518661,
+     "pct_lo": 1.9506582620344135,
+     "pct_hi": 17.33452800900291,
+     "rel_se_null_mean": 0.01265173347911645
+    },
+    "MET_vs_POOL_short": {
+     "real_mean": 2.687305211844322,
+     "null_means": [
+      0.28548295633978693,
+      0.2964019120627914,
+      0.24732137057382433,
+      0.23949171085990356,
+      0.2699890953737934,
+      0.2983892866834659,
+      0.3051919216567278,
+      0.269178480829953,
+      0.34022159128902846,
+      0.3163403513546424
+     ],
+     "null_mean": 0.28680086770239177,
+     "null_sd": 0.031060452326866515,
+     "K": 10,
+     "effect": 2.4005043441419303,
+     "se": 0.032576477228584776,
+     "df": 9,
+     "lo": 2.34078798243383,
+     "hi": 2.4602207058500305
+    }
+   },
+   "Visakhapatnam": {
+    "MET_PP_vs_POOL_PP_mae": {
+     "real_mean": 18.141328726496017,
+     "null_means": [
+      18.350833237171173,
+      18.66107562127568,
+      18.738655158735458,
+      18.576506100665956,
+      18.727944489887783,
+      18.79517438667161,
+      18.70117935708591,
+      18.60597986664091,
+      18.96276785447484,
+      18.711698421410155
+     ],
+     "null_mean": 18.683181449401946,
+     "null_sd": 0.1581886696016423,
+     "K": 10,
+     "effect": 0.5418527229059293,
+     "se": 0.16590967635846712,
+     "df": 9,
+     "lo": 0.23772154952041252,
+     "hi": 0.8459838962914461,
+     "below_every_null": true,
+     "pct": 2.90021656308045,
+     "pct_lo": 1.2723825980292134,
+     "pct_hi": 4.528050528131686,
+     "rel_se_null_mean": 0.002677469559067216
+    },
+    "MET_PP_vs_POOL_PP_short": {
+     "real_mean": 3.397508516863583,
+     "null_means": [
+      0.34883660332019933,
+      0.5178272453722838,
+      0.4518230218688376,
+      0.30251046680164806,
+      0.3801482138892605,
+      0.32833029812562087,
+      0.4156885000315499,
+      0.35120271027505845,
+      0.3432995152177448,
+      0.35192431908508914
+     ],
+     "null_mean": 0.3791590893987292,
+     "null_sd": 0.06500556575320457,
+     "K": 10,
+     "effect": 3.0183494274648535,
+     "se": 0.06817841254226754,
+     "df": 9,
+     "lo": 2.8933706977056506,
+     "hi": 3.1433281572240563
+    },
+    "MET_vs_POOL_mae": {
+     "real_mean": 18.297036968242555,
+     "null_means": [
+      18.623842558122817,
+      18.524328488395327,
+      18.77759525350162,
+      19.00120148119472,
+      18.65008242527644,
+      19.08364999918711,
+      18.876360590684982,
+      18.707569461777098,
+      18.946740815469195,
+      18.44462350748834
+     ],
+     "null_mean": 18.763599458109763,
+     "null_sd": 0.2107901812627181,
+     "K": 10,
+     "effect": 0.46656248986720783,
+     "se": 0.22107860721572883,
+     "df": 9,
+     "lo": 0.06130043584642686,
+     "hi": 0.8718245438879888,
+     "below_every_null": true,
+     "pct": 2.486529788214788,
+     "pct_lo": 0.3266987018310731,
+     "pct_hi": 4.6463608745985026,
+     "rel_se_null_mean": 0.003552501121536344
+    },
+    "MET_vs_POOL_short": {
+     "real_mean": 3.122273897016909,
+     "null_means": [
+      0.38616583622764344,
+      0.4466067376629936,
+      0.378242741492523,
+      0.3111382759286746,
+      0.35264123403053393,
+      0.3824660081600399,
+      0.43428326137822265,
+      0.3409649669421603,
+      0.4637173332103311,
+      0.3742123382381229
+     ],
+     "null_mean": 0.38704387332712453,
+     "null_sd": 0.0482935663708769,
+     "K": 10,
+     "effect": 2.7352300236897844,
+     "se": 0.050650719719468176,
+     "df": 9,
+     "lo": 2.642381534323681,
+     "hi": 2.8280785130558876
+    }
+   }
+  },
+  "bands_and_variable_groups": {
+   "met": {
+    "real_mean": 5.645439311336957,
+    "null_means": [
+     2.295744773636187,
+     2.238058843931597,
+     2.4384885977818556,
+     2.500641907700131,
+     2.2615278216632433,
+     2.278311458479668,
+     2.1827920720814262,
+     2.0949355276782295,
+     2.096672378666463,
+     2.1756029104575645
+    ],
+    "null_mean": 2.2562776292076365,
+    "null_sd": 0.13280353849418566,
+    "K": 10,
+    "effect": 3.3891616821293202,
+    "se": 0.13928552624100726,
+    "df": 9,
+    "lo": 3.1338355826451,
+    "hi": 3.6444877816135404
+   },
+   "met_syn": {
+    "real_mean": 3.088775323846259,
+    "null_means": [
+     0.2543286107826267,
+     0.4866714864717725,
+     0.3643250361884826,
+     0.25191020423001576,
+     0.2563980096212046,
+     0.20891917497442175,
+     0.27652027662615647,
+     0.24237112138777675,
+     0.2439619453691483,
+     0.35283108246794503
+    ],
+    "null_mean": 0.2938236948119551,
+    "null_sd": 0.08366707376289266,
+    "K": 10,
+    "effect": 2.794951629034304,
+    "se": 0.08775076726302657,
+    "df": 9,
+    "lo": 2.6340945627139423,
+    "hi": 2.9558086953546656
+   },
+   "met_intra": {
+    "real_mean": 0.9791293798218227,
+    "null_means": [
+     0.26291474293864026,
+     0.25582109384002527,
+     0.32087958413796824,
+     0.3087413103490403,
+     0.3523340115101575,
+     0.32689175447954544,
+     0.363715654318033,
+     0.26314579961796253,
+     0.31086714952348593,
+     0.2353393437136133
+    ],
+    "null_mean": 0.30006504444284715,
+    "null_sd": 0.04348492023967261,
+    "K": 10,
+    "effect": 0.6790643353789756,
+    "se": 0.04560736910934195,
+    "df": 9,
+    "lo": 0.5954608772402143,
+    "hi": 0.7626677935177368
+   },
+   "met_subs": {
+    "real_mean": 0.8416796142898513,
+    "null_means": [
+     0.7355416204648917,
+     0.9108593637330287,
+     0.9369682334202736,
+     1.0520198864121197,
+     0.8260658669292683,
+     0.9760352657340505,
+     0.7363563509627719,
+     0.6410694770224378,
+     0.6849912279101265,
+     0.804310259874865
+    ],
+    "null_mean": 0.8304217552463834,
+    "null_sd": 0.1348608479572187,
+    "K": 10,
+    "effect": 0.011257859043467877,
+    "se": 0.1414432506092605,
+    "df": 9,
+    "lo": -0.24802359288530473,
+    "hi": 0.2705393109722405
+   },
+   "met_seas": {
+    "real_mean": 0.7358549933790238,
+    "null_means": [
+     1.0429597994500281,
+     0.5847068998867707,
+     0.8163157440351313,
+     0.8879705067089553,
+     0.8267299336026127,
+     0.7664652632916507,
+     0.8061997901744652,
+     0.9483491296500526,
+     0.8568520558637026,
+     0.7831222244011411
+    ],
+    "null_mean": 0.831967134706451,
+    "null_sd": 0.12044759339579007,
+    "K": 10,
+    "effect": -0.09611214132742718,
+    "se": 0.12632650169430534,
+    "df": 9,
+    "lo": -0.32768288532047835,
+    "hi": 0.13545860266562398
+   },
+   "met_disp": {
+    "real_mean": 2.5758453189113917,
+    "null_means": [
+     0.7593883061607422,
+     0.676934882808123,
+     0.893349292851773,
+     0.8349950974029194,
+     0.810215334016662,
+     0.6953767328674612,
+     0.8258856627549243,
+     0.8455882671659374,
+     0.6983726257797355,
+     0.8705911652486116
+    ],
+    "null_mean": 0.7910697367056889,
+    "null_sd": 0.07820596635034975,
+    "K": 10,
+    "effect": 1.7847755822057028,
+    "se": 0.08202310948794396,
+    "df": 9,
+    "lo": 1.6344179594266741,
+    "hi": 1.9351332049847314
+   },
+   "met_temp": {
+    "real_mean": 0.6899777209411249,
+    "null_means": [
+     0.7134230923731213,
+     0.5371003923625592,
+     0.4295067496261643,
+     0.656380565435619,
+     0.44876859863023916,
+     0.5099756882873694,
+     0.396651835830405,
+     0.42741759498649634,
+     0.4458591111409998,
+     0.5469178066208171
+    ],
+    "null_mean": 0.511200143529379,
+    "null_sd": 0.10482861077727679,
+    "K": 10,
+    "effect": 0.17877757741174582,
+    "se": 0.1099451745245928,
+    "df": 9,
+    "lo": -0.022764343892432287,
+    "hi": 0.38031949871592396
+   },
+   "met_hum": {
+    "real_mean": 0.8130118142804511,
+    "null_means": [
+     0.37395373378724067,
+     0.4516442300020003,
+     0.5190792198984301,
+     0.5044012897951766,
+     0.5635373536048929,
+     0.5617995614116335,
+     0.36479379866732364,
+     0.3818256243628449,
+     0.42886125477781156,
+     0.5092429097503648
+    ],
+    "null_mean": 0.46591389760577184,
+    "null_sd": 0.07618613129846383,
+    "K": 10,
+    "effect": 0.34709791667467926,
+    "se": 0.07990468861368179,
+    "df": 9,
+    "lo": 0.2006235985970696,
+    "hi": 0.49357223475228895
+   },
+   "met_rain": {
+    "real_mean": 1.5666044572039894,
+    "null_means": [
+     0.44897964131508294,
+     0.5723793387589147,
+     0.5965533354054883,
+     0.5048649550664159,
+     0.4390065354114491,
+     0.5111594759132044,
+     0.5954607748287737,
+     0.44010404116295093,
+     0.5235793869679164,
+     0.24885102883777116
+    ],
+    "null_mean": 0.4880938513667967,
+    "null_sd": 0.103251210129685,
+    "K": 10,
+    "effect": 1.0785106058371927,
+    "se": 0.10829078276828921,
+    "df": 9,
+    "lo": 0.8800013714571746,
+    "hi": 1.2770198402172108
+   }
+  },
+  "arm_means_all": {
+   "BASE": {
+    "n": 6171.0,
+    "best_iter": 99.45,
+    "mae": 23.0059,
+    "rmse": 42.033974,
+    "r2": 0.860613,
+    "pol": 45.608392,
+    "dec_osc": 3.798752,
+    "dec_slow": 50.287261,
+    "city": 0.305596,
+    "met": 0.0,
+    "met_syn": 0.0,
+    "met_intra": 0.0,
+    "met_subs": 0.0,
+    "met_seas": 0.0,
+    "met_disp": 0.0,
+    "met_temp": 0.0,
+    "met_hum": 0.0,
+    "met_rain": 0.0
+   },
+   "MET": {
+    "n": 6171.0,
+    "best_iter": 114.05,
+    "mae": 22.428114,
+    "rmse": 41.614151,
+    "r2": 0.863386,
+    "pol": 42.718865,
+    "dec_osc": 3.359106,
+    "dec_slow": 48.639601,
+    "city": 0.262129,
+    "met": 5.020299,
+    "met_syn": 3.177466,
+    "met_intra": 0.446735,
+    "met_subs": 0.723876,
+    "met_seas": 0.672222,
+    "met_disp": 1.549321,
+    "met_temp": 0.556469,
+    "met_hum": 0.679963,
+    "met_rain": 2.234546
+   },
+   "MET_PP": {
+    "n": 6171.0,
+    "best_iter": 120.225,
+    "mae": 21.989458,
+    "rmse": 40.640924,
+    "r2": 0.869696,
+    "pol": 42.717864,
+    "dec_osc": 3.334675,
+    "dec_slow": 48.055835,
+    "city": 0.246187,
+    "met": 5.645439,
+    "met_syn": 3.088775,
+    "met_intra": 0.979129,
+    "met_subs": 0.84168,
+    "met_seas": 0.735855,
+    "met_disp": 2.575845,
+    "met_temp": 0.689978,
+    "met_hum": 0.813012,
+    "met_rain": 1.566604
+   },
+   "MET_PP_LONG": {
+    "n": 6171.0,
+    "best_iter": 109.725,
+    "mae": 22.857666,
+    "rmse": 41.907957,
+    "r2": 0.861453,
+    "pol": 44.730095,
+    "dec_osc": 3.625996,
+    "dec_slow": 49.45309,
+    "city": 0.272292,
+    "met": 1.918527,
+    "met_syn": 0.0,
+    "met_intra": 0.0,
+    "met_subs": 1.191478,
+    "met_seas": 0.727049,
+    "met_disp": 0.438964,
+    "met_temp": 0.34824,
+    "met_hum": 0.326008,
+    "met_rain": 0.805316
+   },
+   "POOL_0": {
+    "n": 6171.0,
+    "best_iter": 94.975,
+    "mae": 23.41174,
+    "rmse": 42.057285,
+    "r2": 0.860463,
+    "pol": 44.27039,
+    "dec_osc": 3.378154,
+    "dec_slow": 49.921187,
+    "city": 0.266316,
+    "met": 2.163953,
+    "met_syn": 0.287341,
+    "met_intra": 0.213814,
+    "met_subs": 0.680443,
+    "met_seas": 0.982355,
+    "met_disp": 0.769276,
+    "met_temp": 0.589743,
+    "met_hum": 0.34015,
+    "met_rain": 0.464783
+   },
+   "POOL_1": {
+    "n": 6171.0,
+    "best_iter": 103.95,
+    "mae": 22.842711,
+    "rmse": 41.723601,
+    "r2": 0.862664,
+    "pol": 44.669279,
+    "dec_osc": 3.451046,
+    "dec_slow": 49.434986,
+    "city": 0.274587,
+    "met": 2.170102,
+    "met_syn": 0.397464,
+    "met_intra": 0.252236,
+    "met_subs": 0.915756,
+    "met_seas": 0.604646,
+    "met_disp": 0.726893,
+    "met_temp": 0.479976,
+    "met_hum": 0.373803,
+    "met_rain": 0.58943
+   },
+   "POOL_2": {
+    "n": 6171.0,
+    "best_iter": 96.625,
+    "mae": 23.339823,
+    "rmse": 42.077362,
+    "r2": 0.860326,
+    "pol": 43.991884,
+    "dec_osc": 3.400975,
+    "dec_slow": 50.114047,
+    "city": 0.25426,
+    "met": 2.238833,
+    "met_syn": 0.274175,
+    "met_intra": 0.293105,
+    "met_subs": 0.882413,
+    "met_seas": 0.789141,
+    "met_disp": 0.778792,
+    "met_temp": 0.398334,
+    "met_hum": 0.488321,
+    "met_rain": 0.573386
+   },
+   "POOL_3": {
+    "n": 6171.0,
+    "best_iter": 94.8,
+    "mae": 23.420268,
+    "rmse": 42.38348,
+    "r2": 0.858284,
+    "pol": 44.040562,
+    "dec_osc": 3.338934,
+    "dec_slow": 49.965616,
+    "city": 0.277174,
+    "met": 2.377713,
+    "met_syn": 0.322784,
+    "met_intra": 0.247185,
+    "met_subs": 0.916273,
+    "met_seas": 0.891472,
+    "met_disp": 0.856102,
+    "met_temp": 0.63912,
+    "met_hum": 0.41825,
+    "met_rain": 0.464242
+   },
+   "POOL_4": {
+    "n": 6171.0,
+    "best_iter": 106.675,
+    "mae": 22.99228,
+    "rmse": 42.066838,
+    "r2": 0.860399,
+    "pol": 44.666508,
+    "dec_osc": 3.452749,
+    "dec_slow": 49.343334,
+    "city": 0.265278,
+    "met": 2.272132,
+    "met_syn": 0.202973,
+    "met_intra": 0.402069,
+    "met_subs": 0.8212,
+    "met_seas": 0.84589,
+    "met_disp": 0.847079,
+    "met_temp": 0.465671,
+    "met_hum": 0.532696,
+    "met_rain": 0.426686
+   },
+   "POOL_5": {
+    "n": 6171.0,
+    "best_iter": 95.075,
+    "mae": 23.466522,
+    "rmse": 41.898819,
+    "r2": 0.86151,
+    "pol": 43.827367,
+    "dec_osc": 3.344663,
+    "dec_slow": 50.268828,
+    "city": 0.273212,
+    "met": 2.28593,
+    "met_syn": 0.272174,
+    "met_intra": 0.318271,
+    "met_subs": 0.914202,
+    "met_seas": 0.781284,
+    "met_disp": 0.752607,
+    "met_temp": 0.446629,
+    "met_hum": 0.569817,
+    "met_rain": 0.516878
+   },
+   "POOL_6": {
+    "n": 6171.0,
+    "best_iter": 97.375,
+    "mae": 23.303583,
+    "rmse": 42.487588,
+    "r2": 0.857591,
+    "pol": 44.262733,
+    "dec_osc": 3.406864,
+    "dec_slow": 49.94763,
+    "city": 0.268919,
+    "met": 2.113854,
+    "met_syn": 0.233004,
+    "met_intra": 0.381054,
+    "met_subs": 0.686947,
+    "met_seas": 0.812849,
+    "met_disp": 0.856917,
+    "met_temp": 0.35687,
+    "met_hum": 0.384009,
+    "met_rain": 0.516058
+   },
+   "POOL_7": {
+    "n": 6171.0,
+    "best_iter": 99.175,
+    "mae": 23.20122,
+    "rmse": 42.000731,
+    "r2": 0.860831,
+    "pol": 44.381602,
+    "dec_osc": 3.405486,
+    "dec_slow": 49.848283,
+    "city": 0.24915,
+    "met": 2.115479,
+    "met_syn": 0.244459,
+    "met_intra": 0.258411,
+    "met_subs": 0.591957,
+    "met_seas": 1.020653,
+    "met_disp": 0.954684,
+    "met_temp": 0.421301,
+    "met_hum": 0.328507,
+    "met_rain": 0.410988
+   },
+   "POOL_8": {
+    "n": 6171.0,
+    "best_iter": 95.375,
+    "mae": 23.298994,
+    "rmse": 41.724307,
+    "r2": 0.862656,
+    "pol": 44.105096,
+    "dec_osc": 3.33822,
+    "dec_slow": 50.020561,
+    "city": 0.267979,
+    "met": 2.268144,
+    "met_syn": 0.453299,
+    "met_intra": 0.271542,
+    "met_subs": 0.662784,
+    "met_seas": 0.88052,
+    "met_disp": 0.910504,
+    "met_temp": 0.403205,
+    "met_hum": 0.436869,
+    "met_rain": 0.517566
+   },
+   "POOL_9": {
+    "n": 6171.0,
+    "best_iter": 110.25,
+    "mae": 22.855496,
+    "rmse": 41.808325,
+    "r2": 0.862103,
+    "pol": 44.846996,
+    "dec_osc": 3.466753,
+    "dec_slow": 49.154713,
+    "city": 0.253174,
+    "met": 2.278365,
+    "met_syn": 0.273159,
+    "met_intra": 0.323244,
+    "met_subs": 0.820765,
+    "met_seas": 0.861198,
+    "met_disp": 0.917918,
+    "met_temp": 0.518245,
+    "met_hum": 0.572761,
+    "met_rain": 0.269441
+   },
+   "POOL_PP_0": {
+    "n": 6171.0,
+    "best_iter": 107.1,
+    "mae": 22.983,
+    "rmse": 42.080626,
+    "r2": 0.860306,
+    "pol": 44.773547,
+    "dec_osc": 3.441817,
+    "dec_slow": 49.221192,
+    "city": 0.267699,
+    "met": 2.295745,
+    "met_syn": 0.254329,
+    "met_intra": 0.262915,
+    "met_subs": 0.735542,
+    "met_seas": 1.04296,
+    "met_disp": 0.759388,
+    "met_temp": 0.713423,
+    "met_hum": 0.373954,
+    "met_rain": 0.44898
+   },
+   "POOL_PP_1": {
+    "n": 6171.0,
+    "best_iter": 103.175,
+    "mae": 22.970712,
+    "rmse": 41.935147,
+    "r2": 0.861268,
+    "pol": 44.578333,
+    "dec_osc": 3.427172,
+    "dec_slow": 49.487006,
+    "city": 0.26943,
+    "met": 2.238059,
+    "met_syn": 0.486671,
+    "met_intra": 0.255821,
+    "met_subs": 0.910859,
+    "met_seas": 0.584707,
+    "met_disp": 0.676935,
+    "met_temp": 0.5371,
+    "met_hum": 0.451644,
+    "met_rain": 0.572379
+   },
+   "POOL_PP_2": {
+    "n": 6171.0,
+    "best_iter": 101.825,
+    "mae": 23.254862,
+    "rmse": 41.849481,
+    "r2": 0.861829,
+    "pol": 44.174718,
+    "dec_osc": 3.401681,
+    "dec_slow": 49.723449,
+    "city": 0.261664,
+    "met": 2.438489,
+    "met_syn": 0.364325,
+    "met_intra": 0.32088,
+    "met_subs": 0.936968,
+    "met_seas": 0.816316,
+    "met_disp": 0.893349,
+    "met_temp": 0.429507,
+    "met_hum": 0.519079,
+    "met_rain": 0.596553
+   },
+   "POOL_PP_3": {
+    "n": 6171.0,
+    "best_iter": 107.725,
+    "mae": 22.89828,
+    "rmse": 42.157262,
+    "r2": 0.859792,
+    "pol": 44.683733,
+    "dec_osc": 3.411807,
+    "dec_slow": 49.138537,
+    "city": 0.265281,
+    "met": 2.500642,
+    "met_syn": 0.25191,
+    "met_intra": 0.308741,
+    "met_subs": 1.05202,
+    "met_seas": 0.887971,
+    "met_disp": 0.834995,
+    "met_temp": 0.656381,
+    "met_hum": 0.504401,
+    "met_rain": 0.504865
+   },
+   "POOL_PP_4": {
+    "n": 6171.0,
+    "best_iter": 103.2,
+    "mae": 23.078757,
+    "rmse": 41.726744,
+    "r2": 0.862648,
+    "pol": 44.58114,
+    "dec_osc": 3.40791,
+    "dec_slow": 49.492305,
+    "city": 0.257117,
+    "met": 2.261528,
+    "met_syn": 0.256398,
+    "met_intra": 0.352334,
+    "met_subs": 0.826066,
+    "met_seas": 0.82673,
+    "met_disp": 0.810215,
+    "met_temp": 0.448769,
+    "met_hum": 0.563537,
+    "met_rain": 0.439007
+   },
+   "POOL_PP_5": {
+    "n": 6171.0,
+    "best_iter": 99.675,
+    "mae": 23.245551,
+    "rmse": 42.042189,
+    "r2": 0.860561,
+    "pol": 44.198629,
+    "dec_osc": 3.405894,
+    "dec_slow": 49.852443,
+    "city": 0.264722,
+    "met": 2.278311,
+    "met_syn": 0.208919,
+    "met_intra": 0.326892,
+    "met_subs": 0.976035,
+    "met_seas": 0.766465,
+    "met_disp": 0.695377,
+    "met_temp": 0.509976,
+    "met_hum": 0.5618,
+    "met_rain": 0.511159
+   },
+   "POOL_PP_6": {
+    "n": 6171.0,
+    "best_iter": 100.025,
+    "mae": 23.129949,
+    "rmse": 42.36615,
+    "r2": 0.858399,
+    "pol": 44.420159,
+    "dec_osc": 3.361344,
+    "dec_slow": 49.759728,
+    "city": 0.275977,
+    "met": 2.182792,
+    "met_syn": 0.27652,
+    "met_intra": 0.363716,
+    "met_subs": 0.736356,
+    "met_seas": 0.8062,
+    "met_disp": 0.825886,
+    "met_temp": 0.396652,
+    "met_hum": 0.364794,
+    "met_rain": 0.595461
+   },
+   "POOL_PP_7": {
+    "n": 6171.0,
+    "best_iter": 100.025,
+    "mae": 23.102211,
+    "rmse": 41.96514,
+    "r2": 0.86107,
+    "pol": 44.398262,
+    "dec_osc": 3.433799,
+    "dec_slow": 49.815864,
+    "city": 0.25714,
+    "met": 2.094936,
+    "met_syn": 0.242371,
+    "met_intra": 0.263146,
+    "met_subs": 0.641069,
+    "met_seas": 0.948349,
+    "met_disp": 0.845588,
+    "met_temp": 0.427418,
+    "met_hum": 0.381826,
+    "met_rain": 0.440104
+   },
+   "POOL_PP_8": {
+    "n": 6171.0,
+    "best_iter": 94.875,
+    "mae": 23.398868,
+    "rmse": 42.193131,
+    "r2": 0.859556,
+    "pol": 44.131625,
+    "dec_osc": 3.372873,
+    "dec_slow": 50.125695,
+    "city": 0.273135,
+    "met": 2.096672,
+    "met_syn": 0.243962,
+    "met_intra": 0.310867,
+    "met_subs": 0.684991,
+    "met_seas": 0.856852,
+    "met_disp": 0.698373,
+    "met_temp": 0.445859,
+    "met_hum": 0.428861,
+    "met_rain": 0.523579
+   },
+   "POOL_PP_9": {
+    "n": 6171.0,
+    "best_iter": 100.05,
+    "mae": 23.218165,
+    "rmse": 42.506078,
+    "r2": 0.857462,
+    "pol": 44.384979,
+    "dec_osc": 3.436058,
+    "dec_slow": 49.75077,
+    "city": 0.252589,
+    "met": 2.175603,
+    "met_syn": 0.352831,
+    "met_intra": 0.235339,
+    "met_subs": 0.80431,
+    "met_seas": 0.783122,
+    "met_disp": 0.870591,
+    "met_temp": 0.546918,
+    "met_hum": 0.509243,
+    "met_rain": 0.248851
+   },
+   "E5NULL_1": {
+    "n": 6171.0,
+    "best_iter": 92.775,
+    "mae": 23.600552,
+    "rmse": 42.402917,
+    "r2": 0.858155,
+    "pol": 44.018302,
+    "dec_osc": 3.335882,
+    "dec_slow": 50.295008,
+    "city": 0.274828,
+    "met": 2.075979,
+    "met_syn": 0.228794,
+    "met_intra": 0.252407,
+    "met_subs": 0.757783,
+    "met_seas": 0.836996,
+    "met_disp": 0.882037,
+    "met_temp": 0.466874,
+    "met_hum": 0.387118,
+    "met_rain": 0.33995
+   },
+   "E5NULL_2": {
+    "n": 6171.0,
+    "best_iter": 100.1,
+    "mae": 23.103335,
+    "rmse": 41.897517,
+    "r2": 0.861521,
+    "pol": 44.452324,
+    "dec_osc": 3.419633,
+    "dec_slow": 49.769784,
+    "city": 0.271584,
+    "met": 2.086675,
+    "met_syn": 0.288581,
+    "met_intra": 0.304304,
+    "met_subs": 0.716715,
+    "met_seas": 0.777074,
+    "met_disp": 0.845493,
+    "met_temp": 0.462128,
+    "met_hum": 0.364417,
+    "met_rain": 0.414636
+   },
+   "E5NULL_3": {
+    "n": 6171.0,
+    "best_iter": 103.7,
+    "mae": 23.031064,
+    "rmse": 41.66983,
+    "r2": 0.863021,
+    "pol": 44.477755,
+    "dec_osc": 3.441986,
+    "dec_slow": 49.245898,
+    "city": 0.276376,
+    "met": 2.557985,
+    "met_syn": 0.267203,
+    "met_intra": 0.28985,
+    "met_subs": 0.90568,
+    "met_seas": 1.095253,
+    "met_disp": 1.233677,
+    "met_temp": 0.468125,
+    "met_hum": 0.439875,
+    "met_rain": 0.416308
+   },
+   "E5NULL_4": {
+    "n": 6171.0,
+    "best_iter": 97.75,
+    "mae": 23.12108,
+    "rmse": 41.842271,
+    "r2": 0.861878,
+    "pol": 44.513871,
+    "dec_osc": 3.443015,
+    "dec_slow": 49.915808,
+    "city": 0.270912,
+    "met": 1.856395,
+    "met_syn": 0.206824,
+    "met_intra": 0.33393,
+    "met_subs": 0.543406,
+    "met_seas": 0.772234,
+    "met_disp": 0.746319,
+    "met_temp": 0.387177,
+    "met_hum": 0.311583,
+    "met_rain": 0.411315
+   },
+   "E5NULL_PP_1": {
+    "n": 6171.0,
+    "best_iter": 93.7,
+    "mae": 23.590313,
+    "rmse": 42.326106,
+    "r2": 0.858667,
+    "pol": 44.048164,
+    "dec_osc": 3.347085,
+    "dec_slow": 50.206796,
+    "city": 0.273542,
+    "met": 2.124413,
+    "met_syn": 0.176823,
+    "met_intra": 0.345105,
+    "met_subs": 0.806842,
+    "met_seas": 0.795643,
+    "met_disp": 0.9863,
+    "met_temp": 0.451381,
+    "met_hum": 0.35166,
+    "met_rain": 0.335072
+   },
+   "E5NULL_PP_2": {
+    "n": 6171.0,
+    "best_iter": 102.85,
+    "mae": 23.003511,
+    "rmse": 42.053742,
+    "r2": 0.860486,
+    "pol": 44.641079,
+    "dec_osc": 3.408929,
+    "dec_slow": 49.560864,
+    "city": 0.270805,
+    "met": 2.118323,
+    "met_syn": 0.307743,
+    "met_intra": 0.313834,
+    "met_subs": 0.758872,
+    "met_seas": 0.737875,
+    "met_disp": 0.836543,
+    "met_temp": 0.479799,
+    "met_hum": 0.36078,
+    "met_rain": 0.441202
+   },
+   "E5NULL_PP_3": {
+    "n": 6171.0,
+    "best_iter": 102.25,
+    "mae": 23.150186,
+    "rmse": 42.079005,
+    "r2": 0.860315,
+    "pol": 44.401689,
+    "dec_osc": 3.455597,
+    "dec_slow": 49.365301,
+    "city": 0.277666,
+    "met": 2.499747,
+    "met_syn": 0.221187,
+    "met_intra": 0.275394,
+    "met_subs": 0.942047,
+    "met_seas": 1.061119,
+    "met_disp": 1.209375,
+    "met_temp": 0.440483,
+    "met_hum": 0.45952,
+    "met_rain": 0.39037
+   },
+   "E5NULL_PP_4": {
+    "n": 6171.0,
+    "best_iter": 94.6,
+    "mae": 23.279898,
+    "rmse": 41.877985,
+    "r2": 0.861644,
+    "pol": 44.15815,
+    "dec_osc": 3.396759,
+    "dec_slow": 50.184412,
+    "city": 0.259645,
+    "met": 2.001034,
+    "met_syn": 0.280217,
+    "met_intra": 0.440183,
+    "met_subs": 0.511098,
+    "met_seas": 0.769537,
+    "met_disp": 0.777892,
+    "met_temp": 0.384605,
+    "met_hum": 0.374284,
+    "met_rain": 0.464253
+   }
+  }
+ },
+ "gate": {
+  "g_pct": 4.92293128094363,
+  "threshold_pct": 13.0,
+  "plan_option_A": false
+ },
+ "wording": {
+  "row": 1,
+  "sentences": [
+   "In a diagnostic setting where the forecast day's weather is known, short-timescale weather explains part of the day-to-day variation in AQI beyond seasonal climatology (MAE 4.9% lower, 90% interval 3.6 to 6.2), and it adds to the weather of the forecast origin.",
+   "Weather known at the forecast origin also lowers the error beyond seasonal climatology (MAE 3.4% lower, 90% interval 1.4 to 5.3)."
+  ],
+  "addendum_A1_applied": false
+ }
+}

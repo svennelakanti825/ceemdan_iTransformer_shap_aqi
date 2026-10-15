@@ -1,0 +1,32 @@
+\begin{table}[!htbp]
+\centering
+\caption{Raw record coverage and AQI completeness for the 20 originally included cities. 18 are modelled under the revised protocol.}\label{tab:coverage}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lllrrr}
+\toprule
+City & First raw date & First AQI date & Valid AQI & Missing (\%) & Max gap \\
+\midrule
+Ahmedabad & 2015-01-01 & 2015-01-29 & 1334 & 32.7 & 340 \\
+Amaravati & 2017-11-24 & 2017-11-25 & 841 & 11.5 & 38 \\
+Amritsar & 2017-02-27 & 2017-02-28 & 1126 & 7.7 & 18 \\
+Bengaluru & 2015-01-01 & 2015-03-21 & 1910 & 1.0 & 7 \\
+Brajrajnagar & 2017-12-07 & 2017-12-08 & 713 & 22.3 & 48 \\
+Chennai & 2015-01-01 & 2015-03-24 & 1884 & 2.2 & 17 \\
+Coimbatore & 2019-06-12 & 2019-06-13 & 344 & 10.4 & 10 \\
+Delhi & 2015-01-01 & 2015-01-01 & 1999 & 0.5 & 4 \\
+Gurugram & 2015-11-27 & 2016-01-23 & 1453 & 10.4 & 22 \\
+Guwahati & 2019-02-16 & 2019-02-17 & 495 & 1.2 & 2 \\
+Hyderabad & 2015-01-04 & 2015-03-31 & 1880 & 2.1 & 20 \\
+Jaipur & 2017-06-14 & 2017-06-20 & 1094 & 1.3 & 4 \\
+Jorapokhar & 2017-04-20 & 2017-04-21 & 771 & 34.0 & 124 \\
+Kolkata & 2018-04-10 & 2018-04-11 & 754 & 7.3 & 59 \\
+Lucknow & 2015-01-01 & 2015-03-21 & 1893 & 1.9 & 17 \\
+Mumbai & 2015-01-01 & 2018-05-07 & 775 & 1.5 & 4 \\
+Patna & 2015-06-01 & 2015-10-03 & 1459 & 15.9 & 171 \\
+Talcher & 2017-12-20 & 2018-02-08 & 698 & 20.2 & 28 \\
+Thiruvananthapuram & 2017-06-16 & 2017-06-23 & 1052 & 4.8 & 29 \\
+Visakhapatnam & 2016-07-01 & 2016-07-07 & 1171 & 19.6 & 202 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\begin{minipage}{0.98\linewidth}\footnotesize All raw records end on 1 July 2020. Last valid AQI is 1 July 2020 except Brajrajnagar (12 June 2020) and Coimbatore (30 June 2020). Coimbatore and Guwahati have no training windows and are excluded from model fitting and forecast evaluation. Missing percentages and maximum gaps refer to the daily calendar between first and last valid AQI, excluding leading/trailing missingness. Full raw-row missing pollutant percentages are in Tables S3--S4.\end{minipage}
+\end{table}

@@ -32,7 +32,7 @@ scripts and results of the analyses that ran outside the notebooks (see `analyse
 │   ├── 02_r1_ext/                                  # reports/ and plots/ of notebook 02 _r1_ext (main results)
 │   ├── 03_bg_check/                                # files written by notebook 03
 │   ├── 04_followups/                               # reports/ and plots/ of notebook 04
-│   └── models/                                     # trained models are not included (see README there)
+│   └── models/                                     # main model, scalers, digests of the stored inputs (see README there)
 ├── requirements.txt
 └── README.md
 ```

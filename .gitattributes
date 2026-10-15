@@ -2,3 +2,6 @@
 analyses/e1_verification/c2_colab_run.ipynb -text
 analyses/e1_verification/outputs/era5_daily.csv -text
 analyses/e1_verification/outputs/era5_daily_pool.csv -text
+*.npz binary
+*.pt binary
+*.pkl binary

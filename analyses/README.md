@@ -132,12 +132,12 @@ pre-specification. Its rules are verbatim and its header lists the edits.
 
 ## Inputs
 
-- **Past-only CEEMDAN decompositions** of the 18 cities (`c5_decompositions_ext_ar/c5_<city>.npz`, about 35 MB, not
-  included). Most
-  scripts load them through `e1_verification/common.py` from `phase4_v2_results_r1/models/c5_decompositions_ext_ar/`
-  in this folder. They are written by Section 19 of notebook 02 _r1 to
-  `MyDrive/phase4_v2_results_r1/models/c5_decompositions_ext_ar/`. Copy that folder here. `common.py` checks each
-  file against a fingerprint of the rebuilt calendar before use.
+- **Past-only CEEMDAN decompositions** of the 18 cities (`c5_decompositions_ext_ar/c5_<city>.npz`, 31 MB,
+  included). Most scripts load them through `e1_verification/common.py` from
+  `phase4_v2_results_r1/models/c5_decompositions_ext_ar/` in this folder, where they are stored. They were written by
+  Section 19 of notebook 02 _r1 and match the digests in Appendix A of the pre-registration (also listed in
+  `results/models/SHA256SUMS.txt`). `common.py` checks each file against a fingerprint of the rebuilt calendar before
+  use.
 - **Official bulletins** (not included). `python dataset_check/data_bulletins/fetch_bulletins.py` downloads the file at a fixed
   commit of the urbanemissions.info repository (GPL-3.0) and checks its SHA-256. `dataset_check/e7_decompose.py` then
   writes the bulletin decompositions to `dataset_check/outputs/decomp/` (several CPU-hours).

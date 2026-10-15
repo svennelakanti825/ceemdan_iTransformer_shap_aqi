@@ -1,4 +1,4 @@
-# How past data representation shapes timescale explanations of air quality forecasts
+# Timescale explanations of air quality forecasts depend on how past data are represented
 
 Implementation of the study. The framework decomposes each city's daily Air Quality Index (AQI) history into temporal
 channels with a **past-only CEEMDAN** (each day decomposed from data available up to that day only), forecasts

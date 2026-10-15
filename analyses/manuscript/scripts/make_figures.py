@@ -284,8 +284,8 @@ def fig3_dependence() -> None:
     g2 = pd.read_csv(SRC['g2_shap'])
     g2 = g2[g2.period == 'all']
 
-    fig, axes = plt.subplots(1, 2, figsize=(TEXTWIDTH, 2.75), gridspec_kw={'width_ratios': [1, 1.75]})
-    fig.subplots_adjust(left=0.085, right=0.995, top=0.92, bottom=0.265, wspace=0.27)
+    fig, axes = plt.subplots(1, 2, figsize=(TEXTWIDTH, 2.85), gridspec_kw={'width_ratios': [1, 1.75]})
+    fig.subplots_adjust(left=0.085, right=0.995, top=0.926, bottom=0.295, wspace=0.27)
     ax = axes[0]
     x = np.arange(len(FOCUS))
     for k, (vals, lab, col, mk) in enumerate([
@@ -297,7 +297,8 @@ def fig3_dependence() -> None:
     ax.set_ylim(0, 100), ax.set_yticks(range(0, 101, 20))
     ax.set_ylabel('Target-history share\nof attribution (%)')
     ax.tick_params(axis='x', length=0, pad=4)
-    ax.legend(loc='upper left', bbox_to_anchor=(-0.22, -0.115), handlelength=1.0, borderaxespad=0)
+    ax.set_xlabel('City')
+    ax.legend(loc='upper left', bbox_to_anchor=(-0.22, -0.2), handlelength=1.0, borderaxespad=0)
 
     ax = axes[1]
     bases = [123, 42, 2024, 7]
@@ -315,6 +316,7 @@ def fig3_dependence() -> None:
     ax.tick_params(axis='x', length=0, pad=4)
     ax.set_xlabel('Decomposition realisation (seed base), five model seeds each')
     ax.set_ylabel('Decomposition share\nof attribution (%)'), ax.set_ylim(0, 40)
+    fig.align_xlabels(axes)
     panel_letters(fig, axes, 'ab')
     save(fig, 'Figure3')
 
@@ -338,6 +340,7 @@ def fig4_leakage_skill() -> None:
                        edgecolor='white', label=lab if ci == 0 else None)
     ax.set_xticks(range(3), FOCUS), ax.set_xlim(-0.6, 2.6)
     ax.tick_params(axis='x', length=0, pad=4)
+    ax.set_xlabel('City')
     ax.set_ylabel('IMF1 to IMF4 share\nof attribution (%)')
     ax.set_ylim(0, 40)
     ax.legend(loc='upper right', title='Decomposition of', title_fontsize=7, handlelength=0.8,
@@ -367,6 +370,7 @@ def fig4_leakage_skill() -> None:
     axes[1].set_ylabel('MAE reduction when IMF1\nto IMF4 are added (%)')
     axes[1].legend(loc='upper right', handlelength=0.8, bbox_to_anchor=(1.02, 1.02))
     axes[2].set_ylabel('IMF1 to IMF4 share\nof attribution (%)'), axes[2].set_ylim(0, 30)
+    fig.align_xlabels(axes)
     panel_letters(fig, axes, 'abc')
     save(fig, 'Figure4')
 

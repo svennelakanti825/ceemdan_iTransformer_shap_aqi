@@ -1,0 +1,22 @@
+# Environment 1: notebooks 01 to 04, run on Google Colab with an NVIDIA Tesla T4 GPU, Python 3.13.15 and CUDA 13.0.
+# Versions as the runs printed them: notebook 02 (r1) prints all of the packages below except tensorflow and
+# xgboost, notebook 01 prints torch, tensorflow, xgboost, pandas and numpy, and notebook 04 writes its versions to
+# results/04_followups/reports/g_sessions.json. Where two notebooks print the same package, the versions agree.
+# The Colab runtime supplied everything except EMD-signal and shap, which notebooks 02 to 04 install themselves.
+# Only the packages the notebooks import are pinned: the runtime's other packages were not recorded.
+#
+# torch was the CUDA 13.0 build, 2.11.0+cu130. To install that build rather than the default wheel:
+#   python -m pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu130
+#   python -m pip install -r requirements/notebooks_colab_gpu.txt
+numpy==2.1.3
+pandas==2.2.3
+scipy==1.16.3
+scikit-learn==1.6.1
+matplotlib==3.10.0
+seaborn==0.13.2
+torch==2.11.0
+EMD-signal==1.9.0
+shap==0.51.0
+# notebook 01 only
+tensorflow==2.20.0
+xgboost==3.4.1

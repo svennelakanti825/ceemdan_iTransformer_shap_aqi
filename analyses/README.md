@@ -156,8 +156,9 @@ pre-specification. Its rules are verbatim and its header lists the edits.
 
 ## How to run
 
-Python 3.13 with numpy, pandas, scipy, xgboost and EMD-signal 1.9.0 (the weather diagnostic pins its environment in
-`e1_verification/c2_requirements.txt`: XGBoost 3.2.0, NumPy 2.4.2, pandas 3.0.1, SciPy 1.17.1). From this folder:
+Python 3.13.0 with the versions pinned in `../requirements/analyses_local_cpu.txt`
+(`python -m pip install -r ../requirements/analyses_local_cpu.txt`). The weather diagnostic pins its runner in
+`e1_verification/c2_requirements.txt`, frozen with its code, at the same versions. From this folder:
 
 ```
 python baselines/baselines.py

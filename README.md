@@ -33,7 +33,7 @@ scripts and results of the analyses that ran outside the notebooks (see `analyse
 │   ├── 03_bg_check/                                # files written by notebook 03
 │   ├── 04_followups/                               # reports/ and plots/ of notebook 04
 │   └── models/                                     # main model, scalers, digests of the stored inputs (see README there)
-├── requirements.txt
+├── requirements/                                   # one pinned file per environment (see "Environments")
 └── README.md
 ```
 
@@ -82,6 +82,19 @@ Compute: each full decomposition of the 18 cities takes about 18 CPU-hours (para
 Notebook 02 computes up to four of them (AQI, PM2.5 target, observed days only, second seed), and notebook 04 two
 more (decomposition seed bases 2024 and 7). KernelSHAP takes about 14 minutes per city at
 lookback 7 on a T4.
+
+### Environments
+
+Each environment has one file with exact versions, taken from what the runs recorded.
+
+| Environment | Runs | Pinned file |
+|---|---|---|
+| Google Colab, Tesla T4 GPU, Python 3.13.15, CUDA 13.0 | notebooks 01 to 04 | `requirements/notebooks_colab_gpu.txt` |
+| Windows 11 laptop CPU, Python 3.13.0 | scripts in `analyses/` | `requirements/analyses_local_cpu.txt` |
+| Colab CPU runtime under Linux, Python 3.13.0 | weather diagnostic | `analyses/e1_verification/c2_requirements.txt` (frozen with its code) |
+
+On Colab the notebooks install EMD-signal and shap themselves and use the runtime's other packages, so a current
+runtime may differ from the recorded one. The first file restores the recorded versions.
 
 **Comments in the notebooks.** Code comments, docstrings and markdown were edited for this repository (internal
 document references removed). Code and outputs are exactly as run.

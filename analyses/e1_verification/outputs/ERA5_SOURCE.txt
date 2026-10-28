@@ -1,0 +1,40 @@
+era5_daily.csv: daily weather for the 18 modelled cities, 2015-01-01 to 2020-07-01 (18 x 2,009 rows)
+era5_daily_pool.csv: the same cities, grid cells and processing, 2004-09-01 to 2014-12-31 (18 x 3,774 rows),
+  the null-year pool of the C2 test (10 Oct 2026)
+
+Source
+  ERA5 reanalysis (ECMWF, Copernicus Climate Change Service), served by the Open-Meteo historical weather API
+  (https://open-meteo.com), model "era5". Open-Meteo data are licensed CC BY 4.0.
+  H. Hersbach et al., "The ERA5 global reanalysis," Q. J. R. Meteorol. Soc., vol. 146, no. 730, pp. 1999-2049, 2020,
+  doi: 10.1002/qj.3803.
+  ERA5 hourly data on single levels: doi: 10.24381/cds.adbb2d47.
+
+How it was made
+  fetch_era5.py (this folder), run on 2026-10-08. One request per city centre:
+  hourly boundary-layer height, 10 m wind speed (m/s), 2 m temperature, 2 m relative humidity and precipitation,
+  timezone Asia/Kolkata. Daily means (precipitation: daily sum) over Indian-time days. Ventilation = daily mean of
+  hourly (boundary-layer height x wind speed). Open-Meteo applies its default grid-cell selection (land) and
+  elevation downscaling. grid_lat and grid_lon give the ERA5 cell used.
+
+Why this file is included (10 Oct 2026)
+  Open-Meteo has no version or snapshot parameter, and the ERA5 DOI names the whole, growing dataset, not a frozen
+  copy. A re-download of Delhi on 2026-10-10 (c2_t1_era5_redownload_check.py) gave the same values to about 14
+  decimal places but was not byte-identical, so its hash would not match. This file is therefore the pinned input.
+  .gitattributes marks it -text, so git keeps its exact bytes (Windows line endings) on every operating system.
+
+SHA-256
+  raw bytes:            1e2886f34e3e56f779e07a244f2447f2a03bfb700abbfd2b7fe2af2b5b2bae65
+  CRLF converted to LF: c757a0875981429d3fbd4049fecb6e4dda92a06470a45a7f712929a408c69c99
+
+era5_daily_pool.csv
+  Made by fetch_era5_pool.py on 2026-10-10. It calls fetch_era5.fetch unchanged, and only the request dates differ.
+  No retries were needed.
+  Checked 2026-10-10:
+    - the grid cells are identical to era5_daily.csv for all 18 cities;
+    - every city has all 3,774 days;
+    - all values are finite, boundary-layer height and ventilation are > 0, precipitation is >= 0, and RH is
+      within 0-100;
+    - the E5 band bank is finite from 2005-01-01.
+  SHA-256
+    raw bytes:            a45a76ee31ae917ad73519f98b4d4e30034285c293f3ef632d9e55aa28e8c8cc
+    CRLF converted to LF: c8d72b276b28e3c5e5c15c86807f67eb7a9233f838d3ba5feee63af3237de5d1

@@ -1,0 +1,24 @@
+{
+  "run_utc": "2026-10-13T11:30:05+00:00",
+  "years": [
+    2015,
+    2025
+  ],
+  "queries": {
+    "openalex": "(\"empirical mode decomposition\" OR CEEMDAN OR EEMD OR \"variational mode decomposition\" OR VMD OR wavelet OR \"singular spectrum analysis\") AND (\"air quality\" OR AQI OR \"PM2.5\" OR PM10 OR \"particulate matter\" OR NO2 OR ozone) AND (forecast OR forecasting OR prediction)",
+    "scopus": "TITLE-ABS-KEY((\"empirical mode decomposition\" OR CEEMDAN OR EEMD OR \"variational mode decomposition\" OR VMD OR wavelet OR \"singular spectrum analysis\") AND (\"air quality\" OR AQI OR \"PM2.5\" OR PM10 OR \"particulate matter\" OR NO2 OR ozone) AND (forecast* OR predict*)) AND PUBYEAR > 2014 AND PUBYEAR < 2026 AND (DOCTYPE(ar) OR DOCTYPE(cp))",
+    "sciencedirect": "(\"empirical mode decomposition\" OR CEEMDAN OR EEMD OR \"variational mode decomposition\" OR VMD OR wavelet OR \"singular spectrum analysis\") AND (\"air quality\" OR AQI OR \"PM2.5\" OR PM10 OR \"particulate matter\" OR NO2 OR ozone) AND (forecast OR forecasting OR prediction)"
+  },
+  "sources": {
+    "openalex": {
+      "records": 371,
+      "raw_sha256": "b661fb34dc3f67b71d41524b27f7a32c949db7a0f7509b3e608d91f2c858f4af",
+      "csv_sha256": "5e5c4eeb8d0523d90acb87a6cf618245505814749eb33838552e59efeccd538e"
+    },
+    "scopus": {
+      "records": 520,
+      "raw_sha256": "d0b57518d37bc823941e17827808f22a982fbcc93d329dbc4f8f89c860cda7d0",
+      "csv_sha256": "3c24ca45e0e7ad0df6d3b4fb91e5565c6afe1c5c3b4cd7f091c4c58285f75877"
+    }
+  }
+}

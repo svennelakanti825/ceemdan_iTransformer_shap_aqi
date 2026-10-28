@@ -1,0 +1,29 @@
+\begin{table}[!htbp]
+\centering
+\footnotesize
+\caption{Next-day AQI forecasts on the 6,171 test windows of 18 cities (lookback 7 days).}\label{tab:performance}
+\setlength{\tabcolsep}{4pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrrr}
+\toprule
+Forecast & $R^2$ & RMSE & MAE & MAE before & MAE after & $R^2$ after \\
+\midrule
+Persistence & 0.790 & 51.62 & 23.86 & 27.89 & 12.98 & 0.651 \\
+Seasonal climatology & 0.212 & 99.94 & 64.92 & 63.58 & 68.56 & $-$4.974 \\
+\midrule
+XGBoost & 0.855 & 42.92 & 23.24 & 25.68 & 16.68 & 0.630 \\
+LSTM (Keras) & 0.844 & 44.48 & 24.47 & 26.61 & 18.72 & 0.539 \\
+LSTM (PyTorch) & 0.840 & 44.99 & 27.65 & 29.45 & 22.79 & 0.447 \\
+Augmented model & 0.833 & 46.06 & 27.98 & 28.25 & 27.25 & $-$0.088 \\
+DLinear & 0.833 & 46.07 & 25.91 & 28.70 & 18.39 & 0.515 \\
+Plain iTransformer & 0.829 & 46.51 & 27.43 & 29.24 & 22.54 & 0.248 \\
+NLinear & 0.828 & 46.65 & 26.41 & 29.48 & 18.13 & 0.511 \\
+CEEMDAN+LSTM & 0.824 & 47.29 & 26.96 & 29.31 & 20.64 & 0.399 \\
+\midrule
+Augmented model (5 seeds) & 0.821 $\pm$ 0.014 & 47.60 $\pm$ 1.87 & 28.71 $\pm$ 2.62 & 29.22 $\pm$ 2.11 & 27.32 $\pm$ 4.07 & $-$0.151 $\pm$ 0.259 \\
+Plain iTransformer (5 seeds) & 0.819 $\pm$ 0.017 & 47.90 $\pm$ 2.21 & 30.28 $\pm$ 3.37 & 32.06 $\pm$ 3.33 & 25.47 $\pm$ 3.50 & 0.149 $\pm$ 0.181 \\
+Raw-history ablation (5 seeds) & 0.821 $\pm$ 0.034 & 47.46 $\pm$ 4.44 & 28.61 $\pm$ 5.40 & 29.30 $\pm$ 4.69 & 26.75 $\pm$ 7.49 & $-$0.124 $\pm$ 0.404 \\
+\bottomrule
+\end{tabular}}
+\par\smallskip\begin{minipage}{0.98\linewidth}\footnotesize RMSE and MAE are in AQI units. Before and after refer to target dates before and from 25 March 2020 (4,502 and 1,669 windows). Persistence repeats the AQI of the forecast origin day. Seasonal climatology is the city mean over training days within 15 days of the target day of year. The middle block gives single runs (model seed 123 for the neural models). The last block gives the mean and standard deviation over model seeds 7, 42, 123, 2024 and 2025. The implementations differ in capacity and tuning.\end{minipage}
+\end{table}

@@ -1,0 +1,3 @@
+exports/paper_draft_v1/revision_1/LITERATURE_COUNT_PROTOCOL_13Oct2026.md
+7a8dc7c1bddd74b2ca388b0fd35f6ff3174dc9d33e0083adea25d53fdbbecf1f
+fixed 2026-10-13 11:30 UTC, before the searches ran and before any record was screened

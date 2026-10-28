@@ -1,0 +1,3 @@
+4 realisations x 5 model seeds, F(3, 16), critical value 3.239 at 5%
+detected with probability 50%: realisation s.d. = 0.77 x model-seed s.d.
+detected with probability 80%: realisation s.d. = 1.32 x model-seed s.d.

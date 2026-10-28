@@ -1,0 +1,32 @@
+\begin{table}[!htbp]
+\centering
+\footnotesize
+\caption{Persistence, seasonal climatology and the augmented model by city on the test year.}\label{tab:s_baselines_city}
+\setlength{\tabcolsep}{4pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrrrr}
+\toprule
+City & Windows & Pers. MAE & Pers. $R^2$ & Clim. MAE & Clim. $R^2$ & Model MAE & Model $R^2$ \\
+\midrule
+Ahmedabad & 348 & 97.06 & 0.537 & 267.27 & $-$0.476 & 121.63 $\pm$ 6.91 & 0.627 \\
+Amaravati & 305 & 13.19 & 0.701 & 43.93 & $-$1.328 & 24.78 $\pm$ 4.29 & 0.401 \\
+Amritsar & 350 & 26.27 & 0.492 & 45.72 & 0.190 & 28.42 $\pm$ 3.23 & 0.609 \\
+Bengaluru & 367 & 8.05 & 0.666 & 23.92 & $-$0.944 & 11.14 $\pm$ 2.14 & 0.489 \\
+Brajrajnagar & 251 & 21.63 & 0.337 & 60.91 & $-$2.201 & 21.93 $\pm$ 2.87 & 0.382 \\
+Chennai & 367 & 16.09 & 0.446 & 43.37 & $-$0.944 & 20.39 $\pm$ 1.97 & 0.397 \\
+Delhi & 367 & 31.66 & 0.850 & 90.60 & 0.158 & 27.02 $\pm$ 2.90 & 0.899 \\
+Gurugram & 367 & 30.02 & 0.811 & 88.56 & 0.001 & 30.48 $\pm$ 2.64 & 0.850 \\
+Hyderabad & 367 & 9.99 & 0.838 & 41.81 & $-$0.692 & 19.67 $\pm$ 5.89 & 0.572 \\
+Jaipur & 367 & 15.16 & 0.616 & 46.34 & $-$0.786 & 16.93 $\pm$ 2.38 & 0.670 \\
+Jorapokhar & 288 & 25.08 & 0.498 & 62.60 & $-$1.766 & 25.95 $\pm$ 2.43 & 0.569 \\
+Kolkata & 367 & 20.71 & 0.833 & 72.76 & $-$0.374 & 25.71 $\pm$ 4.44 & 0.840 \\
+Lucknow & 367 & 27.84 & 0.842 & 66.03 & 0.314 & 27.90 $\pm$ 3.15 & 0.886 \\
+Mumbai & 367 & 13.35 & 0.840 & 29.09 & 0.545 & 19.81 $\pm$ 6.44 & 0.797 \\
+Patna & 362 & 23.48 & 0.878 & 64.73 & 0.420 & 24.47 $\pm$ 2.39 & 0.899 \\
+Talcher & 264 & 21.08 & 0.839 & 66.02 & $-$0.034 & 37.47 $\pm$ 5.35 & 0.734 \\
+Thiruvananthapuram & 364 & 8.66 & 0.325 & 18.52 & $-$0.415 & 14.42 $\pm$ 3.40 & 0.086 \\
+Visakhapatnam & 336 & 20.59 & 0.489 & 38.41 & $-$0.361 & 21.68 $\pm$ 1.97 & 0.607 \\
+\bottomrule
+\end{tabular}}
+\par\smallskip\begin{minipage}{0.98\linewidth}\footnotesize Augmented model: mean (and standard deviation of MAE) over five model seeds. MAE in AQI units.\end{minipage}
+\end{table}

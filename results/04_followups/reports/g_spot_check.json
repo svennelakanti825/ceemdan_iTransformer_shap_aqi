@@ -1,0 +1,26 @@
+{
+ "123": {
+  "days": 54,
+  "exact": 54,
+  "max_abs_diff": 0.0,
+  "max_rel_diff": 0.0
+ },
+ "42": {
+  "days": 54,
+  "exact": 54,
+  "max_abs_diff": 0.0,
+  "max_rel_diff": 0.0
+ },
+ "2024": {
+  "days": 54,
+  "exact": 54,
+  "max_abs_diff": 0.0,
+  "max_rel_diff": 0.0
+ },
+ "7": {
+  "days": 54,
+  "exact": 54,
+  "max_abs_diff": 0.0,
+  "max_rel_diff": 0.0
+ }
+}

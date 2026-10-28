@@ -1,0 +1,18 @@
+{
+ "decomposition_share": {
+  "Delhi": "Delhi: differences between CEEMDAN realisations are within training variability (realisation s.d. 0.0 pp, model-seed s.d. 5.9 pp, F(3, 16) = 0.46, p = 0.712)",
+  "Mumbai": "Mumbai: differences between CEEMDAN realisations are within training variability (realisation s.d. 0.0 pp, model-seed s.d. 7.0 pp, F(3, 16) = 0.67, p = 0.582)",
+  "Bengaluru": "Bengaluru: differences between CEEMDAN realisations are within training variability (realisation s.d. 0.0 pp, model-seed s.d. 6.7 pp, F(3, 16) = 0.82, p = 0.503)"
+ },
+ "pm25_leads_in_every_model": {
+  "Delhi": true,
+  "Mumbai": false,
+  "Bengaluru": true
+ },
+ "min_spearman_rho_pollutants_vs_main": {
+  "Delhi": 0.8041958041958043,
+  "Mumbai": 0.9157894736842105,
+  "Bengaluru": 0.7832167832167832
+ },
+ "section17_single_comparison_reproduced": true
+}

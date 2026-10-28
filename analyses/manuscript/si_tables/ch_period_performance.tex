@@ -1,0 +1,20 @@
+\begin{table}[!htbp]
+\centering
+\caption{Forecast performance before restrictions and during lockdown/Unlock. Single runs at lookback 7, model seed 123.}\label{tab:periodperformance}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+Model & Pre $R^2$ & Pre MAE & Later $R^2$ & Later MAE \\
+\midrule
+XGBoost & 0.854 & 25.68 & 0.630 & 16.68 \\
+LSTM (Keras) & 0.846 & 26.61 & 0.539 & 18.72 \\
+LSTM (PyTorch) & 0.845 & 29.45 & 0.447 & 22.79 \\
+CEEMDAN+iTransformer & 0.857 & 28.25 & -0.088 & 27.25 \\
+DLinear & 0.834 & 28.70 & 0.515 & 18.39 \\
+Plain iTransformer & 0.840 & 29.24 & 0.248 & 22.54 \\
+NLinear & 0.830 & 29.48 & 0.511 & 18.13 \\
+CEEMDAN+LSTM & 0.829 & 29.31 & 0.399 & 20.64 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\begin{minipage}{0.98\linewidth}\footnotesize Pre: 1 July 2019--24 March 2020 ($n=4,502$). Later: 25 March--1 July 2020 ($n=1,669$). This calendar contrast does not estimate a causal lockdown effect.\end{minipage}
+\end{table}

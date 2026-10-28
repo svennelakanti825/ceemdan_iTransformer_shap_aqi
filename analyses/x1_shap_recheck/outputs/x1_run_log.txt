@@ -1,0 +1,17 @@
+2026-10-10 13:04 E1 (e1_leakage_contrast), 108 s. SHAP calls switched: 12; trees used 78-1273 of 178-1373 kept; largest additivity gap 2.81e-03. Originals restored from git.
+  e1_accuracy.csv: whole file identical: True
+2026-10-10 13:08 E5 (e5_driver_band_precheck), 263 s. SHAP calls switched: 66; trees used 129-352 of 229-452 kept; largest additivity gap 9.77e-04. Originals restored from git.
+  e5_pooled.csv: 66 rows, error columns ['fold', 'arm', 'seed', 'n_eval', 'best_iter', 'mae', 'rmse', 'r2'] identical: True
+  e5_city.csv: 759 rows, error columns ['fold', 'arm', 'seed', 'city', 'n', 'mae'] identical: True
+2026-10-10 13:09 E3 (e3_met_forecast), 83 s. SHAP calls switched: 18; trees used 84-244 of 184-344 kept; largest additivity gap 8.54e-04. Originals restored from git.
+  e3_met_forecast.csv: 18 rows, error columns ['arm', 'seed', 'val_r2', 'test_r2', 'test_mae'] identical: True
+2026-10-10 13:23 E6 (e6_horizon_lookback_osc), 813 s. SHAP calls switched: 108; trees used 44-1064 of 144-1164 kept; largest additivity gap 1.16e-03. Originals restored from git.
+  e6_pooled.csv: 108 rows, error columns ['L', 'h', 'fold', 'arm', 'seed', 'n_eval', 'best_iter', 'mae', 'r2'] identical: True
+  e6_city.csv: 1080 rows, error columns ['L', 'h', 'fold', 'arm', 'seed', 'city', 'n', 'mae'] identical: True
+2026-10-10 13:26 V3 (v3_controlled_compare), 181 s. SHAP calls switched: 21; trees used 82-1561 of 182-1661 kept; largest additivity gap 1.40e-03. Originals restored from git.
+  v3_accuracy.csv: whole file identical: True
+2026-10-10 13:27 V5 (v5_moving_average), 43 s. SHAP calls switched: 9; trees used 81-231 of 181-331 kept; largest additivity gap 3.36e-04. Originals restored from git.
+  v5_moving_average.csv: 9 rows, error columns ['arm', 'seed', 'r2', 'mae'] identical: True
+2026-10-13 15:23 E7 (e7_d2_models), 462 s. SHAP calls switched: 372; trees used 68-678 of 168-778 kept; largest additivity gap 5.80e-04. Originals restored from git.
+  e7_d2_pooled.csv: 372 rows, error columns ['h', 'year', 'hist', 'arm', 'seed', 'n', 'mae'] identical: True
+  e7_d2_city.csv: 5160 rows, error columns ['h', 'year', 'hist', 'arm', 'seed', 'city', 'n', 'mae'] identical: True

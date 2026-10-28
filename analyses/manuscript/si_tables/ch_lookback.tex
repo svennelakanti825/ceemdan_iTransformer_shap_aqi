@@ -1,0 +1,16 @@
+\begin{table}[!htbp]
+\centering
+\caption{Lookback selection and test performance of the augmented model. The 7-day lookback is selected by validation $R^2$, and 30 days is the second-best validation configuration.}\label{tab:lookback}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrr}
+\toprule
+Lookback & Validation $R^2$ & Test $n$ & Test $R^2$ & RMSE & MAE \\
+\midrule
+7 & 0.8036 & 6171 & 0.8326 & 46.06 & 27.98 \\
+14 & 0.7794 & 6040 & 0.7841 & 52.49 & 36.17 \\
+21 & 0.7716 & 5921 & 0.7852 & 52.33 & 29.74 \\
+30 & 0.7817 & 5792 & 0.7940 & 50.34 & 32.40 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\begin{minipage}{0.98\linewidth}\footnotesize Each row is a single run. Eligible target sets differ with lookback, so these rows are not a matched-target significance test.\end{minipage}
+\end{table}

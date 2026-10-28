@@ -1,0 +1,30 @@
+\begin{table}[!htbp]
+\centering
+\caption{Eligible AQI windows and decomposition-history gaps at lookback 7.}\label{tab:windows}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrr}
+\toprule
+City & Train & Val. & Test & Gap-ended & Compressed \\
+\midrule
+Ahmedabad & 696 & 76 & 348 & 6 & 348 \\
+Amaravati & 264 & 87 & 305 & 2 & 305 \\
+Amritsar & 482 & 91 & 350 & 3 & 132 \\
+Bengaluru & 1265 & 91 & 367 & 0 & 0 \\
+Brajrajnagar & 168 & 58 & 251 & 14 & 251 \\
+Chennai & 1236 & 91 & 367 & 0 & 0 \\
+Delhi & 1354 & 91 & 367 & 0 & 0 \\
+Gurugram & 807 & 90 & 367 & 0 & 0 \\
+Hyderabad & 1229 & 91 & 367 & 0 & 0 \\
+Jaipur & 466 & 91 & 367 & 0 & 0 \\
+Jorapokhar & 193 & 56 & 288 & 3 & 288 \\
+Kolkata & 116 & 91 & 367 & 0 & 0 \\
+Lucknow & 1243 & 91 & 367 & 0 & 0 \\
+Mumbai & 134 & 91 & 367 & 0 & 146 \\
+Patna & 811 & 90 & 362 & 3 & 0 \\
+Talcher & 125 & 74 & 264 & 12 & 264 \\
+Thiruvananthapuram & 434 & 71 & 364 & 1 & 357 \\
+Visakhapatnam & 546 & 89 & 336 & 15 & 336 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\begin{minipage}{0.98\linewidth}\footnotesize Gap-ended: test windows whose last input day has filled AQI (59 total). Compressed: test windows for which the decomposition history skips at least one unavailable calendar day (2,427 total). These diagnostics were calculated from the archived data and published window rules. No model was retrained.\end{minipage}
+\end{table}

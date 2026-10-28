@@ -1,0 +1,21 @@
+\begin{table}[!htbp]
+\centering
+\caption{Sensitivity to the SHAP training-background sample.}\label{tab:background}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llrrr}
+\toprule
+City & Sample & Decomp. (\%) & IMF1--4 (\%) & $\rho$ \\
+\midrule
+Delhi & original & 23.98 & 3.27 & 1.000 \\
+Delhi & draw1 & 23.92 & 3.31 & 0.978 \\
+Delhi & draw2 & 23.11 & 3.34 & 0.983 \\
+Mumbai & original & 17.66 & 2.54 & 1.000 \\
+Mumbai & draw1 & 18.69 & 2.65 & 1.000 \\
+Mumbai & draw2 & 18.67 & 2.69 & 0.995 \\
+Bengaluru & original & 14.53 & 3.22 & 1.000 \\
+Bengaluru & draw1 & 14.63 & 3.97 & 0.990 \\
+Bengaluru & draw2 & 14.24 & 3.98 & 0.988 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\begin{minipage}{0.98\linewidth}\footnotesize Each background has 50 windows and each city has the same 100 explained test windows. Both new draws exclude the original background. The two new draws need not be mutually disjoint. $\rho$ compares all 17 channel ranks with the original background.\end{minipage}
+\end{table}

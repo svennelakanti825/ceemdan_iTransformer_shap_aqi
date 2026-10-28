@@ -1,0 +1,18 @@
+\begin{table}[!htbp]
+\centering
+\footnotesize
+\caption{Leakage contrast with XGBoost: only the source of the five decomposition channels changes.}\label{tab:s_e1}
+\setlength{\tabcolsep}{4pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrr}
+\toprule
+Arm & Test $R^2$ & Test RMSE & Delhi & Mumbai & Bengaluru \\
+\midrule
+Pollutants only & 0.858 $\pm$ 0.005 & 42.5 &  &  &  \\
+Pollutants and raw AQI history & 0.865 $\pm$ 0.003 & 41.4 &  &  &  \\
+Pollutants and past-only decomposition & 0.861 $\pm$ 0.001 & 42.0 & 4.77 & 2.75 & 1.91 \\
+Pollutants and whole-record decomposition & 0.943 $\pm$ 0.003 & 26.9 & 33.56 & 21.78 & 12.23 \\
+\bottomrule
+\end{tabular}}
+\par\smallskip\begin{minipage}{0.98\linewidth}\footnotesize Mean over model seeds 0, 1 and 2 (standard deviation for $R^2$) on the recorded windows. The last three columns give the IMF1 to IMF4 share of the summed mean absolute TreeSHAP value (\%), computed on the early-stopped model. Pooled over the test windows the share is 3.91\% with past-only and 26.44\% with whole-record decomposition.\end{minipage}
+\end{table}

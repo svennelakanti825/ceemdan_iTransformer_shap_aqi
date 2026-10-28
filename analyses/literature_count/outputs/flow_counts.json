@@ -1,0 +1,26 @@
+{
+  "identified": {
+    "OpenAlex": 371,
+    "Scopus": 520,
+    "total": 891
+  },
+  "duplicates_removed": 333,
+  "unique_records": 558,
+  "by_sources": {
+    "OpenAlex+Scopus": 331,
+    "Scopus": 189,
+    "OpenAlex": 38
+  },
+  "abstract_source": {
+    "none": 263,
+    "OpenAlex": 190,
+    "OpenAlex (by DOI)": 105
+  },
+  "retracted_flag": 0,
+  "abstract_source_after_D1": {
+    "OpenAlex": 190,
+    "none": 186,
+    "OpenAlex (by DOI)": 105,
+    "Semantic Scholar (D1)": 77
+  }
+}
